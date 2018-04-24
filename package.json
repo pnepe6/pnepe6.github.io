@@ -2,7 +2,7 @@
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pnepe6.github.io",
+  "homepage": "http://pnepe6.github.io/public",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
