@@ -1,0 +1,30 @@
+.logo-lg {
+ 	position: absolute;
+}
+
+.logo-lg img {
+ 	width: 150px;
+ 	float: left;
+}
+
+.logo-lg div {
+ 	float: right;
+ 	margin: 20px 0 0 0;
+}
+
+.logo-lg div p:first-child {
+ 	font-size: 30px;
+ 	color: #34b8c8 !important;
+}
+
+.logo-lg div p:nth-child(2) {
+ 	font-size: 30px;
+ 	color: white;
+ 	padding: 0 0 15px 0;
+}
+
+.logo-lg div small {
+
+ 	font-size: 18px;
+ 	color: white;
+}
