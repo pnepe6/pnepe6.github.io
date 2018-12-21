@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logoAgd from '../../static/logo-agd-colored.svg';
 import './Logo.css';
 
-
 class Logo extends Component {
 	render() {
 		return (

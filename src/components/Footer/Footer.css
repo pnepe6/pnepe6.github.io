@@ -1,6 +1,5 @@
 .footer-ft {
 	width: 100%;
-	height: 150px;
 	background-color: #a5c7cc;
 	text-align: center;
 }
@@ -27,7 +26,6 @@
 	background-color: #2d3638;
 	text-align: center;
 	padding: 15px 0;
-	margin: 20px 0 0 0;
 }
 
 .footer-bt p {

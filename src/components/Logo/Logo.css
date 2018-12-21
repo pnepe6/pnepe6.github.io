@@ -1,15 +1,17 @@
 .logo-lg {
- 	position: absolute;
+ 	width: 70%;
 }
 
 .logo-lg img {
- 	width: 150px;
+	margin: 25px 0 0 -30px;
+ 	width: 120px;
  	float: left;
 }
 
 .logo-lg div {
  	float: right;
- 	margin: 20px 0 0 0;
+ 	position: absolute;
+ 	margin: 30px 0 0 60px;
 }
 
 .logo-lg div p:first-child {
@@ -24,7 +26,6 @@
 }
 
 .logo-lg div small {
-
  	font-size: 18px;
  	color: white;
 }

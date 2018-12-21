@@ -1,30 +1,81 @@
-.home-hm {
-	margin: 100px 0;
-	display: inline-block;
+.intro {
+	background: linear-gradient(to bottom right, #265d63, #34B8C8, #FFF);
+	height: 50vh;
+	padding: 50vh 0 0 0;
 }
-.hm-intro {
-	margin: 0 auto;
-	width: 70%;
-}
-
-.home-hm img {
-	margin: 50px 0px;
+.intro > p {
+	position: absolute;
+	bottom: 80px;
+	left: 50%;
 	width: 200px;
-	border-radius: 50%;
-}
-
-.hm-content {
-	float: right;
-	margin: 0 auto;
-	width: 60%;
-	padding: 0 30px 15px 0;
-}
-
-.hm-content p {
-	font-size: 18px;
-	margin: 0 0 20px 0;
-}
-
-.hm-skills h1 {
+	margin-left: -100px;
 	text-align: center;
 }
+.skills {
+	background-color: #FFF;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 150px 0;
+}
+
+.skills > p {
+	margin: 50px 0 0 0;
+}
+
+.about {
+	background-color: #FFF;
+	width: 100%;
+	text-align: center;
+	padding: 150px 0;
+}
+
+.about-content {
+	padding: 20px 15%;
+}
+
+.about-content > p {
+	padding: 10px 0;
+}
+
+.action-call {
+	background-color: #34B8C8;
+	width: 100%;
+	text-align: center;
+	padding: 100px 0;
+	color: #18373a;
+}
+
+.action-call > h2 {
+	padding: 0 0 15px 0;
+}
+.action-call-content > a {
+	background-color: #FFF;
+	border: 1px solid #265d63;
+	border-radius: 50px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #265d63;
+	display: block;
+	width: 35%;
+	margin: 40px auto 0 auto;
+	transition: color 500ms, background-color 1s; 
+}
+
+.action-call-content > a:hover {
+	background-color: #265d63;
+	border: 1px solid #265d63;
+	border-radius: 50px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	width: 35%;
+	margin: 40px auto 0 auto;
+	transition: color 500ms, background-color 1s; 
+}
+
+.action-call-content {
+	padding: 20px 10%;
+}
+

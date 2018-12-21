@@ -6,7 +6,7 @@ import seoInvitation from '../../../static/02_web_marketing-invitation.jpg';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
 
-class Seo extends Component {
+class Digital extends Component {
 	state = {
 		tabs: 'SEO',
 	}
@@ -21,10 +21,12 @@ class Seo extends Component {
 		return (
 			<div>
 				<SectionTop>
-					<h1>DIGITAL MARKETING</h1>
+					<h1>DIGITAL MARKET­­­­ING</h1>
+				</SectionTop>
+				<div className="content-section">
 					<p><strong>Une vrai passion depuis la mise en ligne de on premier site internet que je me suis empréssé de vouloir faire apparaitre en première position des moteurs de recherches Google, Bing, Yahoo et maintenant Alexa d'Amazon!</strong></p>
 					<small>En plus de ma spécialisation en marketing digital suivi lors de mes études j'ai très vite élargi mes compétences afin de pouvoir mettre en place de véritables stratégies digitales à la fois pour le référencement, l'animation des médias sociaux et la création d'e-Réputation.</small>
-				</SectionTop>
+				</div>
 				<Tabs>
 					<div className="tab">
 					  <button className="tablinks" onClick={() => this.onTabClick('SEO')}>SEO</button>
@@ -82,4 +84,4 @@ class Seo extends Component {
 	};
 };
 
-export default Seo;
+export default Digital;

@@ -22,9 +22,11 @@ class Art extends Component {
 			<div>
 				<SectionTop>
 					<h1>ARTS GRAPHIQUES</h1>
+				</SectionTop>
+				<div className="content-section">
 					<p><strong>Dès l'age de 11 ans j'ai commencé à suivre des cours de dessin.</strong></p>
 					<small>Je me passionne pour l'art en général, depuis les oeuvres européenes jusqu'aux illustrations asiatiques en passant par le grand Salvador Dali!</small>
-				</SectionTop>
+				</div>
 				<div id="columns">
 					<figure>
 						<img src={paintThahiti} alt="Plage de Tahiti, peinture aquarelle" />

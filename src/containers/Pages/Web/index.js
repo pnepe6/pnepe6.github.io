@@ -14,10 +14,11 @@ class Web extends Component {
 			<div>
 				<SectionTop>
 					<h1>DEVELOPPEMENT WEB</h1>
-					<p><strong>J'ai débuté mon apprentissage des languages HTML et CSS lors de mes études supérieur.</strong></p>
-					<small>Pris de passion pour les infinis possibilités j'ai ensuite commencé par developper des sites internet utilisant Wordpress (CMS) afin de sublimer mes projets étudiants d'abord, puis en tant que freelance.</small>
 				</SectionTop>
-				<h2>HTML, CSS, JS</h2>
+				<div className="content-section">
+					<p><strong>J'ai débuté mon apprentissage des languages HTML et CSS lors de mes études supérieures.</strong></p>
+					<small>Pris de passion pour les infinies possibilités de la programmation j'ai commencé par developper des sites internet utilisant Wordpress (CMS) afin de sublimer mes projets étudiants d'abord, puis en tant que freelance. J'ai ensuite utiliser de plus en plus le language Javascript autant pour le front-end que pour automatiser un maximum de taches répétitives.</small>
+				</div>
 				<div id="columns">
 				   	<figure>
 						<img src={siteYeutech} alt="Site internet yeutech.vn" />

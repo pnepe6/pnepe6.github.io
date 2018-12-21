@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from '../../logo.svg';
 import Navigation from '../Navigation';
 import Footer from '../../components/Footer';
 import './App.css';
@@ -9,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
       	<Navigation />
-        <Footer />
+		<Footer />
       </div>
     );
   }

@@ -1,60 +1,93 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Logo from '../../components/Logo';
 import Home from '../Pages/Home';
 import Art from '../Pages/Art';
 import Contact from '../Pages/Contact';
 import Cv from '../Pages/Cv';
 import Design from '../Pages/Design';
+import Digital from '../Pages/Digital';
 import Projects from '../Pages/Projects';
-import Seo from '../Pages/Seo';
 import Web from '../Pages/Web';
-import Footer from '../../components/Footer';
-import Logo from '../../components/Logo';
 import './Navigation.css';
 
+const bodyOverflowDelay = 1000; //1 second
+
 class Navigation extends Component {
+  state = {
+    isMenuHidden: true,
+  };
+
+  onClickMenu = () => {
+    if(window.innerWidth < 900) {
+        const { isMenuHidden } = this.state;
+        this.setState({
+          isMenuHidden: !isMenuHidden,
+        });
+        if(isMenuHidden) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          setTimeout(function() {
+            document.body.style.overflow = 'auto';
+          }, bodyOverflowDelay);
+        }
+    }
+
+  };
+
+  onClickLogo = () => {
+    if(!this.state.isMenuHidden) {
+      this.onClickMenu();
+    }
+  };
+
   render() {
+    const { isMenuHidden } = this.state;
     return (
       <Router>
         <div>
           <header>
-            <nav className="header-hd">
-              <div className="hd-logo">
-                <Link to="/">
+            <nav className={isMenuHidden ? 'hide' : 'show'}>
+              <div className="menu-logo">
+                <Link onMouseDown={() => this.onClickLogo()} to="/">
                   <Logo />
                 </Link>
               </div>
-              <ul className="hd-menu">
+              <div onMouseDown={() => this.onClickMenu()} className={isMenuHidden ? 'hamburger' : 'hamburger is-active'} id="hamburger-9">
+                <span className="line"></span>
+                <span className="line"></span>
+                <span className="line"></span>
+              </div>
+
+              <ul className={isMenuHidden ? 'hide' : 'show'}>
                 <li>
-                  <Link to="/cv">Cv</Link>
+                  <Link onMouseDown={() => this.onClickMenu()} to="/cv">Cv</Link>
                 </li>
-                <div className="dropdown">
-                  <p>Graphic Design</p>
-                  <div className="dropdown-content">
-                    <Link to="/design">Design</Link>
-                    <Link to="/art">Art</Link>
-                  </div>
-                </div>
-                <div className="dropdown">
+                <li className="menu-sub">
+                  <p>Design Graphique</p>
+                  <ul className="menu-sub-content">
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/art">Arts Graphiques</Link></li>
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/design">PAO</Link></li>
+                  </ul>
+                </li>
+                <li className="menu-sub">
                   <p>Digital</p>
-                  <div className="dropdown-content">
-                    <Link to="/web">Web</Link>
-                    <Link to="/digital-marketing">Digital Marketing</Link>
-                  </div>
-                </div>
-                <div className="dropdown">
-                  <Link to="/projects">Projets</Link>
-                </div>
-                <li><Link to="/contact">Contact</Link></li>
+                  <ul className="menu-sub-content">
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/web">Developpement Web</Link></li>
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/digital-marketing">Digital Marketing</Link></li>
+                  </ul>
+                </li>
+                <li><Link onMouseDown={() => this.onClickMenu()} to="/projects">Mes Projets</Link></li>
+                <li><Link onMouseDown={() => this.onClickMenu()} to="/contact">Contact</Link></li>
               </ul>
             </nav>
           </header>
-          <section>
+          <section className={isMenuHidden ? 'hide' : 'show'}>
             <Route path="/" exact component={Home} />
             <Route path="/cv/" component={Cv} />
             <Route path="/design/" component={Design} />
             <Route path="/art/" component={Art} />
-            <Route path="/digital-marketing/" component={Seo} />
+            <Route path="/digital-marketing/" component={Digital} />
             <Route path="/web/" component={Web} />
             <Route path="/projects/" component={Projects} />
             <Route path="/contact/" component={Contact} />

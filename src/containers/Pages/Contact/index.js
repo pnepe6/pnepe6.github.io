@@ -8,18 +8,18 @@ class Contact extends Component {
 			<div className="contact-ct">
 				<SectionTop>
 					<h1>Contactez-moi</h1>
+				</SectionTop>
+				<div className="ct-form">
 					<p><strong>Je suis disponible pour un CDI, je suis en recherche active d'une équipe dynamique et pourquoi pas bilingue!</strong></p>
 					<small>Je suis également ouvert pour collaborer sur de nombreux types de projets qui me passionnent:</small>
 					<div>
 						<small>Projets évenementiels lié au digital, à l'entreprenariat ou encore à la musique et au sport.</small>
 					</div>
 					<small>Projets digitaux Open Source, creation de blog, media internet ou tout projet lié au monde passionnant des jeux vidéo.</small>
-				</SectionTop>
-				<div className="ct-form">
 					<form action="https://formspree.io/adrien.gadaud@gmail.com" method="POST">
 					    
 					    <label for="email">Email</label>
-					    <input size="30" type="email" id="email" name="email" placeholder="Entrez votre adresse Email..." />
+					    <input type="email" id="email" name="email" placeholder="Votre Email..." />
 						
 						<select size="0.1" name="object">
 						    <option value="employment">Offre d'emploi</option>
