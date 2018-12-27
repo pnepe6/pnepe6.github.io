@@ -54,6 +54,7 @@
 	}
 
 	nav > ul > li:hover,
+	nav > ul > li:focus,
 	nav > ul > li:active {
 		opacity: 0.7;
 		transition: opacity 1s;
@@ -80,7 +81,9 @@
 		transition: font-weight 0.4s ease-out;
 	}
 
-	nav > ul > li a:hover {
+	nav > ul > li a:hover,
+	nav > ul > li a:focus
+	 {
 		font-weight: 900;
 		transition: font-weight 0.4s ease-out;
 	}
@@ -105,7 +108,8 @@
 	  transition: all 0.3s ease-in-out;
 	}
 
-	.hamburger:hover{
+	.hamburger:hover,
+	.hamburger:focus {
 	  cursor: pointer;
 	}
 
@@ -231,16 +235,20 @@
 	    display: block;
 	}
 
-	.menu-sub-content a:hover {
+	.menu-sub-content a:hover,
+	.menu-sub-content a:focus
+	 {
 		background-color: #ddd;
 	}
 
 	.menu-sub:hover .menu-sub-content,
+	.menu-sub:focus .menu-sub-content,
 	.menu-sub:active .menu-sub-content {
 		display: block;
 	}
 
 	.menu-sub:hover .dropbtn,
+	.menu-sub:focus .dropbtn,
 	.menu-sub:active .dropbtn {
 		background-color: #3e8e41;
 	}

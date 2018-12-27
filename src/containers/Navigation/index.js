@@ -53,7 +53,11 @@ class Navigation extends Component {
                   <Logo />
                 </Link>
               </div>
-              <div onMouseDown={() => this.onClickMenu()} className={isMenuHidden ? 'hamburger' : 'hamburger is-active'} id="hamburger-9">
+              <div
+                onMouseDown={() => this.onClickMenu()} className={isMenuHidden ? 'hamburger' : 'hamburger is-active'}
+                onTap={() => this.onClickMenu()} className={isMenuHidden ? 'hamburger' : 'hamburger is-active'}
+                id="hamburger-9"
+              >
                 <span className="line"></span>
                 <span className="line"></span>
                 <span className="line"></span>
