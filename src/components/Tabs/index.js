@@ -5,7 +5,7 @@ class Tabs extends Component {
 	render() {
 		const { children } = this.props;
 		return (
-			<div className="tabs-tb">
+			<div>
 				{children}
 			</div>
 		);

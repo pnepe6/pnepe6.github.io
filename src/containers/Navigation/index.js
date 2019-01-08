@@ -64,9 +64,6 @@ class Navigation extends Component {
               </div>
 
               <ul className={isMenuHidden ? 'hide' : 'show'}>
-                <li>
-                  <Link onMouseDown={() => this.onClickMenu()} to="/cv">Cv</Link>
-                </li>
                 <li className="menu-sub">
                   <p>Design Graphique</p>
                   <ul className="menu-sub-content">
@@ -81,8 +78,15 @@ class Navigation extends Component {
                     <li><Link onMouseDown={() => this.onClickMenu()} to="/digital-marketing">Digital Marketing</Link></li>
                   </ul>
                 </li>
-                <li><Link onMouseDown={() => this.onClickMenu()} to="/projects">Mes Projets</Link></li>
-                <li><Link onMouseDown={() => this.onClickMenu()} to="/contact">Contact</Link></li>
+                <li className="menu-sub">
+                  <p>A propos</p>
+                  <ul className="menu-sub-content">
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/cv">Cv</Link></li>
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/projects">Mes Projets</Link></li>
+                    <li><Link onMouseDown={() => this.onClickMenu()} to="/contact">Contact</Link></li>
+                  </ul>
+                </li>
+                
               </ul>
             </nav>
           </header>

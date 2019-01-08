@@ -1,31 +1,39 @@
 .footer-ft {
 	width: 100%;
-	background-color: #a5c7cc;
+	background-color: #dedee2;
 	text-align: center;
 }
 
 .footer-ft h3 {
-	color: white;
-	font-size: 20px;
-	padding: 20px 0 0 0;
+	color: #2d3638;
+	padding: 100px 10% 50px 10%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 35px;
+	color: #2D3638;
+	letter-spacing: 6px;
 }
 
 .footer-ft img {
-	width: 50px;
-	margin: 15px 15px 0 15px;
-	opacity: 0.5;
+	width: 70px;
+	margin: 30px;
+	opacity: 0.7;
+	transition: transform .5s ease-out, opacity .5s ease-out;
 }
 
 .footer-ft img:hover {
 	opacity: 1;
+	transform: scale(2);
+	transition: transform .5s ease-in, opacity .5s ease-in;
 }
 
 .footer-bt {
+	margin: 100px 0 0 0;
 	width: 100%;
-	height: auto;
 	background-color: #2d3638;
 	text-align: center;
-	padding: 15px 0;
+	padding: 30px 0;
+	cursor: default;
 }
 
 .footer-bt p {

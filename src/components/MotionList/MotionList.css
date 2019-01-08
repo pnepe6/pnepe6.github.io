@@ -66,3 +66,13 @@
 .midnight {
   color: #2c3e50;
 }
+
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .progress-container {
+    width: 100px;
+    display: inline-block;
+    margin: 30px 35px;
+    vertical-align: top;
+  }
+}

@@ -11,6 +11,7 @@ import logoKopaxgroup from '../../../static/01_design-logo_kopaxgroup.png';
 import logoYeutech from '../../../static/01_design-logo_yeutech.png';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
+import SectionContent from '../../../components/SectionContent';
 
 class Projects extends Component {
 	state = {
@@ -30,10 +31,10 @@ class Projects extends Component {
 				<SectionTop>
 					<h1>MES PROJETS</h1>
 				</SectionTop>
-				<div className="content-section">
+				<SectionContent>
 					<p><strong>Grâce à ma formation en Alternance et en tant qu'étudiant j'ai eu la chance de participer à de nombreux projets.</strong></p>
 					<small>A un rythme d'un projet par année j'arrive ainsi à occuper mes weekend et mes temps libres tout en rencontrant de nouvelles personnes, futurs amis, collaborateur ou simple connaissance.</small>
-				</div>
+				</SectionContent>
 				<Tabs>
 					<div className="tab">
 					  <button className="tablinks" onClick={() => this.onTabClick('EVENT')}>EVENEMENTIELS</button>

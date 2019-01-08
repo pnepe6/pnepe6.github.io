@@ -1,0 +1,138 @@
+  	.action-call {
+		background-color: #34B8C8;
+		width: 100%;
+		padding: 60px 0 100px 0;
+		color: #18373a;
+	}
+
+	.action-call-content h2 {
+		text-align: right;
+		font-size: 50px;
+		color: #FFF;
+		margin: 0 0 80px 0;
+		letter-spacing: 6px;
+	}
+
+	.action-call-content p {
+		font-size: 24px;
+		line-height: 35px;
+		color: #def9fc;
+		display: inline-block;
+		margin: 0 0 60px 0;
+	}
+	.action-call-content a {
+		line-height: 30px;
+		text-align: center;
+		font-size: 26px;
+		background-color: #FFF;
+		border: 1px solid #265d63;
+		border-radius: 50px;
+		padding: 25px 40px;
+		text-decoration: none;
+		color: #265d63;
+		display: block;
+		width: 50%;
+		margin: 120px auto 0 auto;
+		transition: color 500ms, background-color 1s;
+		z-index: 0;
+	}
+
+	.action-call-content a:hover {
+		position: relative;
+		background-color: #265d63;
+		color: #FFF;
+		transition: color 500ms, background-color 1s; 
+	}
+
+	.action-call-content {
+		padding: 20px 10%;
+	}
+
+	.action-call span:after {
+		content: "";
+		width: 0;
+		height: 0;
+		position: absolute;
+		margin: 99px 0 0 0;
+		border-top: 0px solid transparent;
+		border-bottom: 20vw solid transparent;
+	}
+
+@media screen and (max-width: 400px) {
+	.action-call span:after {
+		border-left: 95vw solid #34B8C8;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+	.action-call span:after {
+		border-left: 97vw solid #34B8C8;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+	.action-call span:after {
+		border-left: 98vw solid #34B8C8;
+	}
+	.action-call-content h2 {
+		padding: 0 0 0 100px;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+	.action-call-content {
+		padding: 8% 20%;
+	}
+	.action-call span:after {
+		border-left: 98.7vw solid #34B8C8;
+		border-bottom: 10vw solid transparent;
+	}
+	.action-call-content h2 {
+		padding: 0 0 0 20%;
+		font-size: 60px;
+		color: #FFF;
+		margin: 0 0 200px 0;
+		letter-spacing: 6px;
+	}
+	.action-call-content p {
+		font-size: 27px;
+		line-height: 40px;
+	}
+	.action-call-content a {
+		width: 40%;
+	}
+
+	.action-call-content p {
+		padding: 0 200px 0 0;
+		font-size: 27px;
+	}
+}
+
+@media screen and (min-width: 2001px) {
+	.action-call-content {
+		padding: 8% 30%;
+	}
+	.action-call span:after {
+		border-left: 99.3vw solid #34B8C8;
+		border-bottom: 7vw solid transparent;
+	}
+	.action-call-content h2 {
+		padding: 0 0 0 20%;
+		font-size: 60px;
+		color: #FFF;
+		margin: 0 0 250px 0;
+		letter-spacing: 10px;
+	}
+	.action-call-content p {
+		font-size: 30px !important;
+		line-height: 50px;
+	}
+	.action-call-content a {
+		width: 45%;
+	}
+
+	.action-call-content p {
+		padding: 0 200px 0 0;
+		font-size: 27px;
+	}
+}

@@ -16,13 +16,37 @@
 	width: 100%;
 	display: inline-block;
 	text-align: center;
-	padding: 150px 0;
+	padding: 250px 0;
+	color: #34B8C8;
 }
 
-.skills > p {
-	margin: 50px 0 0 0;
+.skills p {
+	margin: 100px 0 0 0;
+	font-size: 20px;
 }
-
+@media screen and (min-width: 401px) {
+	.skills p {
+		padding: 0 10vw;
+		font-size: 30px;
+		line-height: 50px;
+	}
+}
+.skills h2 {
+	padding: 0 10%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 40px;
+	color: #34B8C8;
+	letter-spacing: 6px;
+}
+/*.skills:after {
+	content: "";
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	margin: 80px 0 0 -150px;
+	background-color: #34B8C8;
+}*/
 .about {
 	background-color: #FFF;
 	width: 100%;
@@ -36,46 +60,5 @@
 
 .about-content > p {
 	padding: 10px 0;
-}
-
-.action-call {
-	background-color: #34B8C8;
-	width: 100%;
-	text-align: center;
-	padding: 100px 0;
-	color: #18373a;
-}
-
-.action-call > h2 {
-	padding: 0 0 15px 0;
-}
-.action-call-content > a {
-	background-color: #FFF;
-	border: 1px solid #265d63;
-	border-radius: 50px;
-	padding: 10px 20px;
-	text-decoration: none;
-	color: #265d63;
-	display: block;
-	width: 35%;
-	margin: 40px auto 0 auto;
-	transition: color 500ms, background-color 1s; 
-}
-
-.action-call-content > a:hover {
-	background-color: #265d63;
-	border: 1px solid #265d63;
-	border-radius: 50px;
-	padding: 10px 20px;
-	text-decoration: none;
-	color: #FFF;
-	display: block;
-	width: 35%;
-	margin: 40px auto 0 auto;
-	transition: color 500ms, background-color 1s; 
-}
-
-.action-call-content {
-	padding: 20px 10%;
 }
 

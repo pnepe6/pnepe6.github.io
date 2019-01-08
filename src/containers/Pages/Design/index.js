@@ -54,6 +54,7 @@ import identityTbdWeb1 from '../../../static/identity-tbd-web-2.jpg';
 import identityTbdWeb from '../../../static/identity-tbd-web.jpg';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
+import SectionContent from '../../../components/SectionContent';
 
 class Design extends Component {
 	state = {
@@ -73,15 +74,30 @@ class Design extends Component {
 				<SectionTop>
 					<h1>DESIGN GRAPHIQUE</h1>					
 				</SectionTop>
-				<div className="content-section">
+				<SectionContent>
 					<p><strong>J'ai découvert le monde du design graphiques dans un agence de communication en 2011.</strong></p>
 					<small>J'y ai travaillé en Alternance pendant 5 années en tant que commercial puis chef de publicité et j'ai suivi des formations afin de maîtriser la suite logicielle Adobe dédiée au Design graphique: Photoshop, InDesign et Illustrator.</small>
-				</div>
+				</SectionContent>
 				<Tabs>
 					<div className="tab">
-					  <button className="tablinks" onClick={() => this.onTabClick('LOGO')}>LOGOTYPE</button>
-					  <button className="tablinks" onClick={() => this.onTabClick('PRINT')}>PRINT</button>
-					  <button className="tablinks" onClick={() => this.onTabClick('IDENTITY')}>IDENTITE VISUELLE</button>
+					  <button
+					  	className={`tablinks ${tabs === "LOGO" ? 'active' : ''}`}
+					  	onClick={() => this.onTabClick('LOGO')}
+					  >
+					  	LOGOTYPE
+					  </button>
+					  <button
+					  	className={`tablinks ${tabs === "PRINT" ? 'active' : ''}`}
+					  	onClick={() => this.onTabClick('PRINT')}
+					  >
+					  	PRINT
+					  </button>
+					  <button
+					  	className={`tablinks ${tabs === "IDENTITY" ? 'active' : ''}`}
+					  	onClick={() => this.onTabClick('IDENTITY')}
+					  >
+					  	IDENTITE VISUELLE
+					  </button>
 					</div>
 
 					<div id="LOGO" className={`tabcontent ${tabs === "LOGO" ? 'show' : ''}`}>

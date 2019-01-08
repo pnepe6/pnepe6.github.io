@@ -1,18 +1,56 @@
 .progress-container {
 	width: 100px;
 	display: inline-block;
-	margin: 15px 15px;
+	margin: 30px 20px;
 	vertical-align: top;
 }
 
-.progress-container > h3 {
+.progress-container h3 {
+  padding: 20px 0 0 0;
   overflow-wrap: break-word;
   display: flex;
   hyphens: auto;
 }
+.progress-container small {
+  color: #2D3638;
+}
 
-.progress-container > small {
-  margin: 50px 0 !important;
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .progress-container {
+    width: 100px;
+    display: inline-block;
+    margin: 30px 35px;
+    vertical-align: top;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .progress-container {
+    width: 100px;
+    display: inline-block;
+    margin: 30px 55px;
+    vertical-align: top;
+  }
+}
+@media screen and (min-width: 800px) {
+  .progress-container {
+    width: 200px;
+    display: inline-block;
+    margin: 30px 60px;
+    vertical-align: top;
+  }
+  .CircularProgressbar {
+     width: 150px !important; 
+  }
+  .progress-container h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+  .progress-container small {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 /*
  * react-circular-progressbar styles
@@ -31,9 +69,8 @@
    */
    width: 100px; 
 }
-
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: #3e98c7;
+  stroke: #34B8C8;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
@@ -43,10 +80,11 @@
 }
 
 .CircularProgressbar .CircularProgressbar-text {
-  fill: #3e98c7;
+  fill: #34B8C8;
   font-size: 20px;
   dominant-baseline: middle;
   text-anchor: middle;
+  font-family: 'Varela', sans-serif;
 }
 
 .CircularProgressbar .CircularProgressbar-background {
@@ -63,7 +101,7 @@
  *   />
  */
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
-  fill: #3e98c7;
+  fill: #34B8C8;
 }
 
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {

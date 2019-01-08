@@ -7,7 +7,7 @@ import './Cv.css';
 class Cv extends Component {
 	render() {
 		return (
-			<div className="page-pg">
+			<div>
 				<SectionTop>
 					<h1>CURRICULUM VITAE</h1>
 					<a href={cvPdf} target="_blank">

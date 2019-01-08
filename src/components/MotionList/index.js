@@ -13,7 +13,10 @@ class MotionList extends Component {
 		const words = document.getElementsByClassName('word');
 		this.launchMotion(words);
 	};
-
+	componentWillUnmount() {
+		const words = document.getElementsByClassName('word');
+		this.stopMotion(words);
+	};
 	launchMotion = (words) => {
 		const { currentWord } = this.state;
 		words[currentWord].style.opacity = 1;
@@ -25,6 +28,10 @@ class MotionList extends Component {
 		this.changeWord(words);
 		setInterval(() => this.changeWord(words), TIME_WORD_TRANSITION);
 	}
+
+	stopMotion = (words) => {
+		clearInterval(this.changeWord(words));
+	};
 
 	changeWord(wordList) {
 	  const { wordArray, currentWord } = this.state;

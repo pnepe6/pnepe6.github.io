@@ -15,6 +15,7 @@ import paintSainteGenevieve from '../../../static/00_paint_catelin-sainte-genevi
 import paintToscana from '../../../static/00_paint_catelin-toscana.jpg';
 import paintVigud from '../../../static/00_paint_vigud-toscana.jpg';
 import SectionTop from '../../../components/SectionTop';
+import SectionContent from '../../../components/SectionContent';
 
 class Art extends Component {
 	render() {
@@ -23,10 +24,10 @@ class Art extends Component {
 				<SectionTop>
 					<h1>ARTS GRAPHIQUES</h1>
 				</SectionTop>
-				<div className="content-section">
+				<SectionContent>
 					<p><strong>Dès l'age de 11 ans j'ai commencé à suivre des cours de dessin.</strong></p>
 					<small>Je me passionne pour l'art en général, depuis les oeuvres européenes jusqu'aux illustrations asiatiques en passant par le grand Salvador Dali!</small>
-				</div>
+				</SectionContent>
 				<div id="columns">
 					<figure>
 						<img src={paintThahiti} alt="Plage de Tahiti, peinture aquarelle" />

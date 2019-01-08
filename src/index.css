@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, b, strong {
     font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, b, strong, p, a {
+h1, h2, h3, h4, h5, h6, b, strong, p, a, small {
 	font-family: 'Varela', sans-serif;
 }
 
@@ -167,16 +167,4 @@ div#columns:hover figure:not(:hover) {
 h2 {
   padding: 40px 0 0 0;
   text-align: center;
-}
-
-/* CONTENT SECTION  */
-
-.content-section {
-	padding: 50px 20px 50px 20px;
-    text-align: justify;
-    text-align-last: center;
-}
-
-.content-section > p {
-	margin: 0 0 10px 0;
 }

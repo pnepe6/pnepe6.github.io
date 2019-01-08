@@ -7,6 +7,7 @@ import siteYeutech from '../../../static/02_web_website-yeutech.png';
 import siteBs from '../../../static/02_web_website-bs.png';
 import siteYeutechDoc from '../../../static/02_web_website-yeutech-doc.png';
 import SectionTop from '../../../components/SectionTop';
+import SectionContent from '../../../components/SectionContent';
 
 class Web extends Component {
 	render() {
@@ -15,10 +16,10 @@ class Web extends Component {
 				<SectionTop>
 					<h1>DEVELOPPEMENT WEB</h1>
 				</SectionTop>
-				<div className="content-section">
+				<SectionContent>
 					<p><strong>J'ai débuté mon apprentissage des languages HTML et CSS lors de mes études supérieures.</strong></p>
 					<small>Pris de passion pour les infinies possibilités de la programmation j'ai commencé par developper des sites internet utilisant Wordpress (CMS) afin de sublimer mes projets étudiants d'abord, puis en tant que freelance. J'ai ensuite utiliser de plus en plus le language Javascript autant pour le front-end que pour automatiser un maximum de taches répétitives.</small>
-				</div>
+				</SectionContent>
 				<div id="columns">
 				   	<figure>
 						<img src={siteYeutech} alt="Site internet yeutech.vn" />
