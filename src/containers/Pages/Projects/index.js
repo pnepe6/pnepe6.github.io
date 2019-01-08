@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logoAgd from '../../../static/logo-agd-colored.svg';
 import logoBs from '../../../static/01_design-logo_bs.png';
 import logoSb from '../../../static/01_design_agd-sb-logo.jpg';
 import logoAbstraack from '../../../static/01_design_agd-abstrack-logo.jpg';

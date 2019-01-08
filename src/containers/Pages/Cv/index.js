@@ -14,7 +14,7 @@ class Cv extends Component {
 						Téléchargez mon CV en pdf
 					</a>
 				</SectionTop>
-				<img className="cv" src={cvImg} />
+				<img className="cv" src={cvImg} alt="Curriculum Vitae de Mr. Adrien Gadaud." />
 			</div>
 		);
 	};

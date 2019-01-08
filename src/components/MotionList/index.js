@@ -75,7 +75,7 @@ class MotionList extends Component {
 	    word.appendChild(letter);
 	    letters.push(letter);
 	  }
-	  wordArray[wordArray.push(letters)]
+	  return wordArray[wordArray.push(letters)];
 	}
 
 	render() {

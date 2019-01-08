@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import siteSb from '../../../static/02_web_website-sb.jpg';
+// import siteSb from '../../../static/02_web_website-sb.jpg';
 import siteComptoir from '../../../static/02_web_website-comptoir.jpg';
 import siteSymbol from '../../../static/02_web_website-symbol.jpg';
-import siteTbd from '../../../static/02_web_website-tbd.jpg';
+// import siteTbd from '../../../static/02_web_website-tbd.jpg';
 import siteYeutech from '../../../static/02_web_website-yeutech.png';
 import siteBs from '../../../static/02_web_website-bs.png';
 import siteYeutechDoc from '../../../static/02_web_website-yeutech-doc.png';
