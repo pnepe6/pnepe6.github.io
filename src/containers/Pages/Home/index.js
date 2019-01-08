@@ -89,11 +89,9 @@ class Home extends Component {
 				</SectionActionCall>
 				<SectionContent>
 					<h2>A propos de moi</h2>
-					<div className="about-content">
-						<p><strong>Riche en expériences culturelles j'ai eu la chance de découvrir de nouvelles façons d'agir et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
-						<p>Fort d'un mental positif, je met mon empathie au service de mes clients comme de mes collaborateurs.</p>
-						<p>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'interessent, autant personnellement que professionnellement.</p>
-					</div>
+					<p><strong>Riche en expériences culturelles j'ai eu la chance de découvrir de nouvelles façons d'agir et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
+					<p>Fort d'un mental positif, je met mon empathie au service de mes clients comme de mes collaborateurs.</p>
+					<p>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'interessent, autant personnellement que professionnellement.</p>
 					<img src={logoAgd} alt="logo Adrien Gadaud" />
 				</SectionContent>
 			</div>

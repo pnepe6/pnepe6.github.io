@@ -1,0 +1,16 @@
+.section-intro {
+	padding: 100px 10% 50px 10%;
+}
+
+.section-intro p {
+	font-size: 22px;
+	color: #34b8c8;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+.section-intro strong {
+	font-size: 23px;
+	letter-spacing: 4px;
+	line-height: 30px;
+}

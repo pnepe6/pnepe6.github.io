@@ -55,6 +55,7 @@ import identityTbdWeb from '../../../static/identity-tbd-web.jpg';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
 import SectionContent from '../../../components/SectionContent';
+import SectionIntro from '../../../components/SectionIntro';
 
 class Design extends Component {
 	state = {
@@ -74,10 +75,10 @@ class Design extends Component {
 				<SectionTop>
 					<h1>DESIGN GRAPHIQUE</h1>					
 				</SectionTop>
-				<SectionContent>
+				<SectionIntro>
 					<p><strong>J'ai découvert le monde du design graphiques dans un agence de communication en 2011.</strong></p>
-					<small>J'y ai travaillé en Alternance pendant 5 années en tant que commercial puis chef de publicité et j'ai suivi des formations afin de maîtriser la suite logicielle Adobe dédiée au Design graphique: Photoshop, InDesign et Illustrator.</small>
-				</SectionContent>
+					<p>J'y ai travaillé en Alternance pendant 5 années en tant que commercial puis chef de publicité et j'ai suivi des formations afin de maîtriser la suite logicielle Adobe dédiée au Design graphique: Photoshop, InDesign et Illustrator.</p>
+				</SectionIntro>
 				<Tabs>
 					<div className="tab">
 					  <button
