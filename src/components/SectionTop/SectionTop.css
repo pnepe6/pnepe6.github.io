@@ -10,7 +10,7 @@
 	font-weight: bold;
 	font-size: 20px;
 	padding: 0 0 40px 0;
-	letter-spacing: 3vw;
+	letter-spacing: 2vw;
 	line-height: 40px;
     word-wrap: break-word;
    -webkit-hyphens: auto;
@@ -46,4 +46,33 @@
 	border: 1px solid white;
 	color: white;
 	transition: color 1s, background-color 1s;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+	.section-top {
+		padding: 300px 7% 100px 7%;
+	}
+	.section-top h1 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+	.section-top {
+		padding: 300px 20% 100px 20%;
+	}
+	.section-top h1 {
+		font-size: 40px;
+		line-height: 80px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.section-top {
+		padding: 300px 23% 100px 23%;
+	}
+	.section-top h1 {
+		font-size: 40px;
+		line-height: 80px;
+	}
 }
