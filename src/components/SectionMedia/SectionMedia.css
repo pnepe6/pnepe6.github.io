@@ -1,25 +1,24 @@
 .section-media {
-	padding: 10vh 0 20vh 0;
+	padding: 5vh 5vw;
 }
 
 .section-media h2 {
-	padding: 0 10vw 0 30vw;
 	text-align: right;
 	font-size: 30px;
 	line-height: 50px;
 	color: #34b8c8;
+	text-transform: uppercase;
 }
 
 .section-media h3 {
-	padding: 50px 0 0 10vw;
 	font-size: 30px;
-	line-height: 40px;
+	line-height: 60px !important;
 	color: #2d3638;
 }
 .section-media p {
-	padding: 50px 10vw 0 10vw;
 	font-size: 20px;
 	line-height: 30px;
+	margin: 0 0 1vw 0;
 }
 .section-media p a {
 	color: #34b8c8;
@@ -29,27 +28,24 @@
 	color: #265d63;
 }
 .section-media ul {
-	padding: 50px 10vw 0 12vw;
 	list-style: square;
 	line-height: 30px;
+	margin: 0 0 2vw 1vw;
 }
 .section-media li {
-	padding: 10px 0;
 }
 
 @media screen and (min-width: 401px) and (max-width: 800px) {
 	.section-media {
-		padding: 20vh 0 30vh 0;
+		padding: 10vh 10vw;
 	}
 
 	.section-media h2 {
-		padding: 0 10vw 10vh 30vw;
 		font-size: 50px;
 		line-height: 60px;
 	}
 
 	.section-media h3 {
-		padding: 0 0 0 10vw;
 		font-size: 40px;
 		line-height: 40px;
 	}
@@ -57,17 +53,15 @@
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
 	.section-media {
-		padding: 20vh 0 30vh 0;
+		padding: 5vh 15vw;
 	}
 
 	.section-media h2 {
-		padding: 0 10vw 10vh 30vw;
 		font-size: 60px;
 		line-height: 70px;
 	}
 
 	.section-media h3 {
-		padding: 50px 0 0 10vw;
 		font-size: 50px;
 		line-height: 40px;
 	}
@@ -75,17 +69,17 @@
 
 @media screen and (min-width: 1025px) {
 	.section-media {
-		padding: 20vh 0 30vh 0;
+		padding: 5vh 20vw;
 	}
 
 	.section-media h2 {
-		padding: 0 20% 10vh 30%;
+		margin: 10vh 0 20vh 10vw;
 		font-size: 60px;
 		line-height: 70px;
 	}
 
 	.section-media h3 {
-		padding: 100px 0 5% 20%;
+		margin: 0 15vw 7vh 0;
 		font-size: 50px;
 		line-height: 40px;
 	}

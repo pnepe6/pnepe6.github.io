@@ -92,14 +92,14 @@ class Design extends Component {
 					  <button
 					  	className={`tablinks ${tabs === "LOGO" ? 'active' : ''}`}
 					  	onClick={() => this.onTabClick('LOGO')}
-                        onTouchEnd={() => this.onTabClick('LOGO')}
+                        onTouch={() => this.onTabClick('LOGO')}
 					  >
 					  	LOGOTYPE
 					  </button>
 					  <button
 					  	className={`tablinks ${tabs === "PRINT" ? 'active' : ''}`}
 					  	onClick={() => this.onTabClick('PRINT')}
-                        onTouchEnd={() => this.onTabClick('PRINT')}
+                        onTouch={() => this.onTabClick('PRINT')}
 					  >
 					  	PRINT
 					  </button>
@@ -110,7 +110,7 @@ class Design extends Component {
 							<h3>Black & White</h3>
 							<MediaBoard>
 								<figure>
-									<img className="img-sm" src={logoAbstraack} alt="Logo Abstraack" />
+									<img src={logoAbstraack} alt="Logo Abstraack" />
 									<figcaption>ABSTRAACK, agence évènementielle. Saigon.</figcaption>
 								</figure>
 								<figure>
@@ -122,11 +122,11 @@ class Design extends Component {
 									<figcaption>Have a Dream, Evènementiel Sportif. Paris</figcaption>
 								</figure>
 							   	<figure>
-									<img className="img-sm" src={logoPap} alt="Logo Plug & Play" />
+									<img src={logoPap} alt="Logo Plug & Play" />
 									<figcaption>Plug & Play. Enceinte à plugguer sur tout instrument éléctronic et electro-acoustique. Paris.</figcaption>
 								</figure>
 								<figure>
-									<img className="img-sm" src={logoSb} alt="Logo Social Buster" />
+									<img src={logoSb} alt="Logo Social Buster" />
 									<figcaption>Social Buster, Blog sur les Médias Sociaux. Paris.</figcaption>
 								</figure>
 								<figure>
@@ -154,7 +154,7 @@ class Design extends Component {
 									<figcaption>Comptoir des Passages, Bijouterie. Meudon.</figcaption>
 								</figure>
 								<figure>
-									<img className="img-sm" src={logoFbi} alt="Logo Food & Baverage Investigation" />
+									<img src={logoFbi} alt="Logo Food & Baverage Investigation" />
 									<figcaption>Food & Baverage Investigation, Blog étudiant. Paris.</figcaption>
 								</figure>
 							   	<figure>
@@ -234,7 +234,7 @@ class Design extends Component {
 									<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
 								</figure>
 								<figure>
-									<img className="img-sm" src={identityYeutechFavicon} alt="Favicon Yeutech" />
+									<img src={identityYeutechFavicon} alt="Favicon Yeutech" />
 									<figcaption>Favicon Yeutech.</figcaption>
 								</figure>
 								<figure>

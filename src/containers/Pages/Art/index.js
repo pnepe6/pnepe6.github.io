@@ -31,7 +31,7 @@ class Art extends Component {
 					<p>Je me passionne pour l'art en général, depuis les oeuvres européenes jusqu'aux illustrations asiatiques en passant par le grand Salvador Dali!</p>
 				</SectionIntro>
 				<SectionMedia>
-					<h2>PEINTURES & DESSINS</h2>
+					<h2>Découvrez mes peintures</h2>
 					<h3>Peinture à l'huile</h3>
 					<MediaBoard>
 					  	<figure>

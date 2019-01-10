@@ -41,21 +41,21 @@ class Projects extends Component {
 					  <button
 					  	className={`tablinks ${tabs === "EVENT" ? 'active' : ''}`}
 					  	onClick={() => this.onTabClick('EVENT')}
-                        onTouchEnd={() => this.onTabClick('EVENT')}
+                        onTouch={() => this.onTabClick('EVENT')}
 					  >
 					  	EVENEMENTIELS
 					  </button>
 					  <button
 					  	className={`tablinks ${tabs === "DIGITAL" ? 'active' : ''}`}
 					  	onClick={() => this.onTabClick('DIGITAL')}
-                        onTouchEnd={() => this.onTabClick('DIGITAL')}
+                        onTouch={() => this.onTabClick('DIGITAL')}
 					  >
 					  	WEB
 					  </button>
 					  <button
 					  	className={`tablinks ${tabs === "STARTUP" ? 'active' : ''}`}
 					  	onClick={() => this.onTabClick('STARTUP')}
-                        onTouchEnd={() => this.onTabClick('STARTUP')}
+                        onTouch={() => this.onTabClick('STARTUP')}
 					  >
 					  	ENTREPRENARIAT
 					  </button>
