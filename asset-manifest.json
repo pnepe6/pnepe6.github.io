@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.ef79cf36.css",
-  "main.css.map": "static/css/main.ef79cf36.css.map",
-  "main.js": "static/js/main.60129226.js",
-  "main.js.map": "static/js/main.60129226.js.map",
+  "main.css": "static/css/main.7ebccd8e.css",
+  "main.css.map": "static/css/main.7ebccd8e.css.map",
+  "main.js": "static/js/main.22546bcf.js",
+  "main.js.map": "static/js/main.22546bcf.js.map",
   "static/media/00_paint_agd-clown-fish.jpg": "static/media/00_paint_agd-clown-fish.710503a3.jpg",
   "static/media/00_paint_agd-comedia.jpg": "static/media/00_paint_agd-comedia.0b5cbc2a.jpg",
   "static/media/00_paint_agd-final-fantasy.jpg": "static/media/00_paint_agd-final-fantasy.27c65cbd.jpg",
@@ -42,11 +42,13 @@
   "static/media/02_web_marketing-linvitation.jpg": "static/media/02_web_marketing-linvitation.60d09df1.jpg",
   "static/media/02_web_website-bs.png": "static/media/02_web_website-bs.681b8e8d.png",
   "static/media/02_web_website-comptoir.jpg": "static/media/02_web_website-comptoir.a40fc293.jpg",
+  "static/media/02_web_website-sb.jpg": "static/media/02_web_website-sb.9dc84d0c.jpg",
   "static/media/02_web_website-symbol.jpg": "static/media/02_web_website-symbol.f5678206.jpg",
   "static/media/02_web_website-yeutech-doc.png": "static/media/02_web_website-yeutech-doc.81dc6a23.png",
   "static/media/02_web_website-yeutech.png": "static/media/02_web_website-yeutech.ae0ba0c7.png",
   "static/media/cv-adrien-gadaud-2018.pdf": "static/media/cv-adrien-gadaud-2018.119a4229.pdf",
   "static/media/cv-agd.jpg": "static/media/cv-agd.d95970e9.jpg",
+  "static/media/facebook-symbol.png": "static/media/facebook-symbol.1660cdb3.png",
   "static/media/identity-abstraack-flower-3.png": "static/media/identity-abstraack-flower-3.11d6b80d.png",
   "static/media/identity-abstraack-flower-poster.png": "static/media/identity-abstraack-flower-poster.b82b2f24.png",
   "static/media/identity-abstraack-flower-social.jpg": "static/media/identity-abstraack-flower-social.3d4e66f3.jpg",
@@ -72,8 +74,10 @@
   "static/media/identity-yeutech-google.jpg": "static/media/identity-yeutech-google.d652788b.jpg",
   "static/media/identity-yeutech-guideline.jpg": "static/media/identity-yeutech-guideline.17449a6c.jpg",
   "static/media/identity-yeutech-visit-card.png": "static/media/identity-yeutech-visit-card.c0e17ca7.png",
+  "static/media/linkedin-symbol.png": "static/media/linkedin-symbol.5b000c96.png",
   "static/media/logo-agd-colored.svg": "static/media/logo-agd-colored.181da82b.svg",
   "static/media/logo-newmanity.png": "static/media/logo-newmanity.9a46e18b.png",
   "static/media/logo-scalibri.png": "static/media/logo-scalibri.10ceddfe.png",
-  "static/media/logo-start-impulse.png": "static/media/logo-start-impulse.890ef84c.png"
+  "static/media/logo-start-impulse.png": "static/media/logo-start-impulse.890ef84c.png",
+  "static/media/twitter_symbol.png": "static/media/twitter_symbol.6cdafb3a.png"
 }
