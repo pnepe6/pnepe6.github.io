@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './MotionList.css';
 
-const TIME_WORD_TRANSITION = 4000;
+const TIME_WORD_TRANSITION = 2000;
 
 class MotionList extends Component {
 	state = {
