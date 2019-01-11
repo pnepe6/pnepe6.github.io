@@ -2,6 +2,8 @@
 	background: linear-gradient(to bottom right, #265d63, #34B8C8, #FFF);
 	height: 50vh;
 	padding: 50vh 0 0 0;
+	box-shadow: 1px 4px 29px -10px rgba(136,157,158,0.53);
+	z-index: 0;
 }
 .intro > p {
 	position: absolute;
@@ -10,6 +12,8 @@
 	width: 200px;
 	margin-left: -100px;
 	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 2px #265d63;
 }
 .skills {
 	background-color: #FFF;
@@ -18,6 +22,7 @@
 	text-align: center;
 	padding: 250px 0;
 	color: #34B8C8;
+	z-index: 20;
 }
 
 .skills p {
@@ -39,20 +44,3 @@
 	color: #34B8C8;
 	letter-spacing: 6px;
 }
-/*.skills:after {
-	content: "";
-	width: 300px;
-	height: 200px;
-	position: absolute;
-	margin: 80px 0 0 -150px;
-	background-color: #34B8C8;
-}*/
-
-.about-content {
-	padding: 20px 15%;
-}
-
-.about-content > p {
-	padding: 10px 0;
-}
-

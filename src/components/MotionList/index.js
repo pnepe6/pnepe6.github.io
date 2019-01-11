@@ -80,8 +80,8 @@ class MotionList extends Component {
 
 	render() {
 		return (
-			<div className="text">
-			  <p>Chef de projet</p>
+			<div className="motion-list-text">
+			  <p className="motion-list-title">Chef de projet</p>
 			  <p>
 			    <span ref="word" className="word wisteria">Digital</span>
 			    <span ref="word" className="word belize">SEM</span>

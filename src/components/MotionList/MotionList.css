@@ -1,26 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
-.text {
+.motion-list-text {
   position: relative;
   text-align: center;
 }
 
-.text > p {
+.motion-list-text > p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   vertical-align: top;
   margin: 0;
   color: #FFF;
 }
 
-.text > p > span {
+.motion-list-title {
+  text-shadow: 1px 1px 2px #265d63; 
 }
+
 .word {
-  width: 250px;
+  width: 200px;
   position: absolute;
   margin: auto;
-  left: -20px;
+  left: -2px;
   right: 0;
   opacity: 0;
 }
@@ -68,11 +70,22 @@
 }
 
 
-@media screen and (min-width: 401px) and (max-width: 800px) {
+@media screen and (min-width: 501px) {
   .progress-container {
     width: 100px;
     display: inline-block;
     margin: 30px 35px;
     vertical-align: top;
+  }
+  .motion-list-text > p {
+    font-size: 60px;
+  }
+  .word {
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    left: -7px;
+    right: 0;
+    opacity: 0;
   }
 }
