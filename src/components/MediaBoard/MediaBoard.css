@@ -64,7 +64,7 @@ div.columns figure figcaption {
   line-height: 1.5;
   float: left;
   text-align: left;
-  padding: 0 0 10px 10px;
+  padding: 15px 0 10px 10px;
   display: block;
   width: 97%;
 }
@@ -84,8 +84,9 @@ div.columns figure small {
 div.columns figure ul {
   font-size: .9rem;
   color: #444;
-  line-height: 1.5;
   display: block;
   text-align: left;
-  padding: 0 10px 0 30px;
+  padding: 0 10px 0 25px;
+  list-style: square;
+  line-height: 30px;
 }

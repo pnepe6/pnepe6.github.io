@@ -1,5 +1,5 @@
 .section-media {
-	padding: 5vh 5vw;
+	padding: 15vh 5vw;
 }
 
 .section-media h2 {
@@ -32,12 +32,10 @@
 	line-height: 30px;
 	margin: 0 0 2vw 5vw;
 }
-.section-media li {
-}
 
 @media screen and (min-width: 401px) and (max-width: 800px) {
 	.section-media {
-		padding: 10vh 10vw;
+		padding: 17vh 10vw;
 	}
 
 	.section-media h2 {
@@ -49,11 +47,14 @@
 		font-size: 40px;
 		line-height: 40px;
 	}
+	.section-media ul {
+		margin: 0 0 2vw 3vw;
+	}
 }
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
 	.section-media {
-		padding: 5vh 15vw;
+		padding: 20vh 15vw;
 	}
 
 	.section-media h2 {
@@ -65,11 +66,14 @@
 		font-size: 50px;
 		line-height: 40px;
 	}
+	.section-media ul {
+		margin: 0 0 2vw 2vw;
+	}
 }
 
 @media screen and (min-width: 1025px) {
 	.section-media {
-		padding: 5vh 20vw;
+		padding: 20vh 20vw;
 	}
 
 	.section-media h2 {
@@ -82,5 +86,8 @@
 		margin: 0 15vw 7vh 0;
 		font-size: 50px;
 		line-height: 40px;
+	}
+	.section-media ul {
+		margin: 0 0 2vw 1.5vw;
 	}
 }

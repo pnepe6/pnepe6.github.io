@@ -61,6 +61,7 @@ class Digital extends Component {
 								   		<h4>Référencement Agence Symbol</h4>
 							   		</div>
 									<img src={siteSymbol} alt="Strategie SEO du site internet symbol-com.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
 									<figcaption>Stratégie SEO et référencement naturel du site internet www.symbol-com.fr specialisé dans la communication des franchises et réseaux.</figcaption>
 									<figcaption><strong>Mots clés référencés:</strong></figcaption>
 									<ul>

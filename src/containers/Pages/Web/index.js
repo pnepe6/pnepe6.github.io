@@ -27,6 +27,15 @@ class Web extends Component {
 					<h2>Découvrez mes réalisations</h2>
 					<h3>Site internet CMS ou "from scratch"</h3>
 					<MediaBoard>
+						<figure>
+					   		<div>
+								<h4>Symbol - Agence de Communication</h4>
+								<small>Wordpress, HTML5, CSS3</small>
+					   		</div>
+							<img src={siteSymbol} alt="Site internet symbol.fr" />
+							<figcaption>Site internet de l'Agence Symbol est spécialisée dans la communication des franchises et des réseaux.</figcaption>
+							<p><a href="http://www.symbol-com.fr/" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">www.symbol-com.fr</a></p>
+						</figure>
 					   	<figure>
 					   		<div>
 						   		<h4>Yeutech - Software Factory</h4>
@@ -62,15 +71,6 @@ class Web extends Component {
 							<img src={siteComptoir} alt="Site comptoir-des-passages.fr" />
 							<figcaption>Site internet d'une bijouterie, vente et rachat d'or à Boulogne Billancourt.</figcaption>
 							<p>Site fermé.</p>
-						</figure>
-						<figure>
-					   		<div>
-								<h4>Symbol - Agence de Communication</h4>
-								<small>Wordpress, HTML5, CSS3</small>
-					   		</div>
-							<img src={siteSymbol} alt="Site internet symbol.fr" />
-							<figcaption>Site internet de l'Agence Symbol est spécialisée dans la communication des franchises et des réseaux.</figcaption>
-							<p><a href="http://www.symbol-com.fr/" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">www.symbol-com.fr</a></p>
 						</figure>
 					</MediaBoard>
 				</SectionMedia>
