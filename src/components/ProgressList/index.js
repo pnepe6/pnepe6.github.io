@@ -10,16 +10,23 @@ class ProgressList extends Component {
 	  	text: PropTypes.string,
 	  	title: PropTypes.string,
 	  	content: PropTypes.string,
+	  	break: PropTypes.bool,
 	};
 
 	static defaultProps = {
 		isActive: false,
+		break: false,
 	}
 
 	state = {
 		count: 0,
+		isTitleTooLong: false,
 	};
-
+	componentWillMount() {
+		if(this.props.break) {
+			this.breakTitle(this.props.title);
+		}
+	}
 	componentWillReceiveProps(nextProps){
 		if(nextProps.isActive) {
 			this.count();
@@ -28,7 +35,11 @@ class ProgressList extends Component {
 			this.resetCounter();
 		}
 	};	
-
+	breakTitle = (text) => {
+		this.setState({
+			isTitleTooLong: true,
+		});
+	};
 	count = () => {
 		let number = this.state.count
 		for (var i = number; i < this.props.percentage; i++) {
@@ -48,7 +59,9 @@ class ProgressList extends Component {
 				  percentage={this.state.count}
 				  text={this.props.text}
 				/>
-				<h3>{this.props.title}</h3>
+				<h3 className={this.state.isTitleTooLong ? 'long-progress-title' : ''}>
+					{this.props.title}
+				</h3>
 				<small>{this.props.content}</small>
 			</div>
 		);

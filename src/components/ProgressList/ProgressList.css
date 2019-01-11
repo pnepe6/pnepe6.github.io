@@ -7,15 +7,15 @@
 
 .progress-container h3 {
   padding: 20px 0 0 0;
-  overflow-wrap: break-word;
   display: flex;
-  hyphens: auto;
 }
 .progress-container small {
   color: #2D3638;
+  font-size: 13px;
 }
-
-
+.long-progress-title {
+  hyphens: auto;
+}
 @media screen and (min-width: 401px) and (max-width: 500px) {
   .progress-container {
     width: 100px;
@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 500px) and (max-width: 800px) {
   .progress-container {
-    width: 100px;
+    width: 150px;
     display: inline-block;
     margin: 30px 55px;
     vertical-align: top;

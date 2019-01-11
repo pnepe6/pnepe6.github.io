@@ -75,6 +75,7 @@ class Home extends Component {
 							percentage={60}
 							text="WEB"
 							title="Développement"
+							break
 							content="HTML, CSS, JS, MySQL..."
 						/>
 						<p>Mes compétences sont variées, toutes orientées vers le monde du digital.</p>
