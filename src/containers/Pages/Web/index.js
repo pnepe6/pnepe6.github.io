@@ -71,7 +71,7 @@ class Web extends Component {
 					   	<figure>
 					   		<div>
 								<h4>Bootstrap-styled - Framework Open Source</h4>
-								<small>Projet mené entre 2017 et 2018</small>
+								<small>Projet mené entre 2016 et 2017</small>
 					   		</div>
 							<img src={siteBs} alt="Site internet bootstrap-styled.com" />
 					   		<div>

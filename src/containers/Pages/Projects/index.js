@@ -282,30 +282,6 @@ class Projects extends Component {
 								</figure>
 							</MediaBoard>
 						</SectionMedia>
-						<SectionMedia>
-							<MediaBoard>
-							   	<figure>
-									<img src={logoYeutech} alt="Usine Digitale - Yeutech" />
-									<figcaption>Usine Digitale - Yeutech (basée au Vietnam).</figcaption>
-								</figure>
-							   	<figure>
-									<img src={logoKopaxgroup} alt="Développement logiciel - Kopaxgroup" />
-									<figcaption>Développement logiciel - Kopaxgroup (basée à Hong-Kong).</figcaption>
-								</figure>
-								<figure>
-									<img src={logoSlm} alt="Agence Digitale SLM" />
-									<figcaption>Agence Digitale SLM (Sans les Mains).</figcaption>
-								</figure>
-							  	<figure>
-									<img src={logoSb} alt="Blog Social Buster" />
-									<figcaption>Blog: social-buster.fr</figcaption>
-								</figure>
-							  	<figure>
-									<img src={logoBs} alt="Bootstrap-Styled" />
-									<figcaption>Technologie Open Source, Bootstrap-styled.</figcaption>
-								</figure>
-							</MediaBoard>
-						</SectionMedia>
 					</div>
 					{/*
 					<div id="STARTUP" className={`tabcontent ${tabs === "STARTUP" ? 'show' : ''}`}>

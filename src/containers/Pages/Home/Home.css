@@ -28,6 +28,7 @@
 .skills p {
 	margin: 100px 0 0 0;
 	font-size: 20px;
+	color: #34B8C8;
 }
 @media screen and (min-width: 401px) {
 	.skills p {
@@ -37,7 +38,7 @@
 	}
 }
 .skills h2 {
-	padding: 0 10%;
+	padding: 0 10% 100px 10%;
 	line-height: 60px;
 	text-align: center;
 	font-size: 40px;
