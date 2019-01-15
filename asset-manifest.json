@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.abfeb967.css",
-  "main.css.map": "static/css/main.abfeb967.css.map",
-  "main.js": "static/js/main.315868c2.js",
-  "main.js.map": "static/js/main.315868c2.js.map",
+  "main.css": "static/css/main.b672bddc.css",
+  "main.css.map": "static/css/main.b672bddc.css.map",
+  "main.js": "static/js/main.1de8fd53.js",
+  "main.js.map": "static/js/main.1de8fd53.js.map",
   "static/media/00_paint_agd-clown-fish.jpg": "static/media/00_paint_agd-clown-fish.710503a3.jpg",
   "static/media/00_paint_agd-comedia.jpg": "static/media/00_paint_agd-comedia.0b5cbc2a.jpg",
   "static/media/00_paint_agd-final-fantasy.jpg": "static/media/00_paint_agd-final-fantasy.27c65cbd.jpg",
@@ -44,6 +44,7 @@
   "static/media/02_web_website-comptoir.jpg": "static/media/02_web_website-comptoir.a40fc293.jpg",
   "static/media/02_web_website-sb.jpg": "static/media/02_web_website-sb.9dc84d0c.jpg",
   "static/media/02_web_website-symbol.jpg": "static/media/02_web_website-symbol.f5678206.jpg",
+  "static/media/02_web_website-tbd.jpg": "static/media/02_web_website-tbd.69f836cf.jpg",
   "static/media/02_web_website-yeutech-doc.png": "static/media/02_web_website-yeutech-doc.81dc6a23.png",
   "static/media/02_web_website-yeutech.png": "static/media/02_web_website-yeutech.ae0ba0c7.png",
   "static/media/cv-adrien-gadaud-2018.pdf": "static/media/cv-adrien-gadaud-2018.119a4229.pdf",
@@ -76,8 +77,11 @@
   "static/media/identity-yeutech-visit-card.png": "static/media/identity-yeutech-visit-card.c0e17ca7.png",
   "static/media/linkedin-symbol.png": "static/media/linkedin-symbol.5b000c96.png",
   "static/media/logo-agd-colored.svg": "static/media/logo-agd-colored.181da82b.svg",
+  "static/media/logo-axenergie.jpg": "static/media/logo-axenergie.2caf2b86.jpg",
   "static/media/logo-newmanity.png": "static/media/logo-newmanity.9a46e18b.png",
   "static/media/logo-scalibri.png": "static/media/logo-scalibri.10ceddfe.png",
   "static/media/logo-start-impulse.png": "static/media/logo-start-impulse.890ef84c.png",
+  "static/media/logo-symbol.jpg": "static/media/logo-symbol.a0b85ed0.jpg",
+  "static/media/logo-tickner.jpg": "static/media/logo-tickner.7ce25a93.jpg",
   "static/media/twitter_symbol.png": "static/media/twitter_symbol.6cdafb3a.png"
 }
