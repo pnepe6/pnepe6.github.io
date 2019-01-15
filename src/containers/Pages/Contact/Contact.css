@@ -1,47 +1,197 @@
-.ct-form {
+.ct-intro {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 100px 30%;
-  text-align: center;
+  padding: 100px 10%;
 }
 
-.ct-form form input[type=text], select {
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.ct-intro > ul {
+  font-size: 14px;
+  display: block;
+  text-align: justify;
+  padding: 0 0 0 20px;
+  list-style: square;
+  line-height: 20px;
+  hyphens: auto;
+}
+
+.ct-intro > ul > li {
+  margin: 20px 0;
+}
+
+.ct-intro > p {
+  font-size: 17px;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 22px;
+  margin: 0 0 15px 0;
+}
+
+.ct-form {
+  border-radius: 5px;
+  background-color: #FFF;
+  padding: 100px 10%;
+}
+.ct-form form {
+  margin: 0 0;
+  background-color: #f2f2f2 !important;
+  border-radius: 5px;
+  padding: 10%;
+}
+
+.ct-form form label {
+  display: block;
+  float: left;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.ct-form form input, textarea {
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin: 0 0 50px 0;
   box-sizing: border-box;
+}
+
+.ct-form textarea {
+  height: 20vh;
+  float: right;
+  margin: -5px 0 30px 0;
+}
+
+.ct-form form div.form-select {
+  display: inline-block;
+  text-align: left;
+  margin: 5px 0 5px 0;
+}
+
+.ct-form form div.form-select p {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  text-align: left;
+  text-align-last: left;
+}
+
+.ct-form form div.form-select p:before {
+  content: "Vous me contactez ";
+}
+
+.ct-form form div.form-select select {
+  font-size: 13px;
+  width: 100%;
+  margin: 0 0 50px 0;
+  background-color: #FFF;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: #8EA5A7;
+  padding: 10px;
+}
+.ct-form form textarea {
+  font-size: 13px;
 }
 
 .ct-form form input[type=submit] {
   width: 100%;
-  background-color: #c92651;
-  color: white;
+  background-color: #265d63;
+  border: 1px solid #265d63;
+  color: #FFF;
   padding: 14px 20px;
-  margin: 15px 0 0 0;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.ct-form form input[type=email] {
-  width: 90%;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
 }
 
 .ct-form form input[type=submit]:hover {
-  background-color: #c92651;
+  background-color: #34B8C8;
+  border: 1px solid #34B8C8;
+  color: #FFF;
+  transition: color 500ms, background-color 1s; 
 }
 
-.ct-form label {
-	display: block;
-	margin: 30px 0 5px 0;
+@media screen and (min-width: 700px) and (max-width: 900px) { 
+  .ct-form form div.form-select  {
+    width: 100%;
+  }
+  .ct-form form div.form-select select {
+    display: inline-block;
+    float: right;
+    width: auto;
+    font-size: 16px;
+    margin: -3px 0 50px 0;
+  }
+  .ct-form form input, .ct-form form textarea {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .ct-intro p {
+    font-size: 20px;
+  }
+  .ct-intro p small {
+    font-size: 18px;
+  }
+  .ct-intro > ul {
+    font-size: 16px;
+  }
 }
 
-.ct-form select {
-  float: right;
-  margin: 0 0 0 0;
+@media screen and (min-width: 901px) {
+  .ct-form form {
+    background-color: white;
+  }
+  .ct-form {
+    padding: 100px 20%;
+    text-align: center;
+  }
+  .ct-form form div.form-select {
+    display: inline-block;
+    float: right;
+    margin: -10px 0 5px 0;
+  }
+  .ct-form form div.form-select p {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    font-size: 25px;
+    text-align: none;
+    text-align-last: none;
+  }
+  .ct-form form div.form-select p:before {
+    content: "";
+  }
+  .ct-form form div.form-select select {
+    font-size: 16px;
+    width: auto;
+  }
+  .ct-form form input, .ct-form form textarea {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .ct-intro > p {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0 0 30px 0;
+  }
+  .ct-intro p {
+    font-size: 25px;
+  }
+  .ct-intro p small {
+    font-size: 22px;
+  }
+  .ct-intro > ul {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
-.input-message {
-	display: block;
+@media screen and (min-width: 1300px) { 
+  .ct-form {
+    padding: 100px 30%;
+  }
 }
