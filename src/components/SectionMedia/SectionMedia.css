@@ -8,17 +8,33 @@
 	line-height: 50px;
 	color: #34b8c8;
 	text-transform: uppercase;
+	padding: 150px 0 150px 0;
+	hyphens: auto;
 }
-
+.media-date {
+	font-size: 14px !important;
+	letter-spacing: -1.8px;
+	float: right;
+	display: inline-block;
+	text-align: right;
+	margin: 25px 0 0 0;
+}
+.media-title {
+	margin: 40px 0 0 0 !important;
+	font-weight: 600;
+}
 .section-media h3 {
-	font-size: 30px;
-	line-height: 60px !important;
+	display: inline-block;
+	font-size: 21px;
+	line-height: 50px !important;
 	color: #2d3638;
+	margin: 0 0 40px 0;
 }
 .section-media p {
-	font-size: 20px;
-	line-height: 30px;
-	margin: 0 0 1vw 0;
+	margin: 25px 0;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: justify;
 }
 .section-media p a {
 	color: #34b8c8;
@@ -29,23 +45,32 @@
 }
 .section-media ul {
 	list-style: square;
-	line-height: 30px;
+	line-height: 25px;
 	margin: 0 0 2vw 5vw;
 }
-
+.section-media ul li {
+	margin: 20px 0;
+}
 @media screen and (min-width: 401px) and (max-width: 800px) {
 	.section-media {
-		padding: 17vh 10vw;
+		padding: 0 10vw 15vh 10vw;
 	}
-
+	.section-media p {
+		font-size: 20px;
+		line-height: 30px;
+	}
 	.section-media h2 {
 		font-size: 50px;
 		line-height: 60px;
+		hyphens: auto;
 	}
 
 	.section-media h3 {
-		font-size: 40px;
+		font-size: 23px;
 		line-height: 40px;
+	}
+	.media-date {
+		font-size: 18px !important;
 	}
 	.section-media ul {
 		margin: 0 0 2vw 3vw;
@@ -54,17 +79,24 @@
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
 	.section-media {
-		padding: 20vh 15vw;
+		padding: 0 15vw 16vh 15vw;
 	}
-
+	.section-media p {
+		font-size: 20px;
+		line-height: 30px;
+	}
 	.section-media h2 {
 		font-size: 60px;
 		line-height: 70px;
+		hyphens: none;
 	}
 
 	.section-media h3 {
-		font-size: 50px;
+		font-size: 45px;
 		line-height: 40px;
+	}
+	.media-date {
+		font-size: 20px !important;
 	}
 	.section-media ul {
 		margin: 0 0 2vw 2vw;
@@ -73,19 +105,26 @@
 
 @media screen and (min-width: 1025px) {
 	.section-media {
-		padding: 20vh 20vw;
+		padding: 0 20vh 17vw 20vw;
+	}
+	.section-media p {
+		font-size: 20px;
+		line-height: 30px;
 	}
 
 	.section-media h2 {
 		margin: 10vh 0 20vh 10vw;
 		font-size: 60px;
 		line-height: 70px;
+		hyphens: none;
 	}
 
 	.section-media h3 {
-		margin: 0 15vw 7vh 0;
 		font-size: 50px;
 		line-height: 40px;
+	}
+	.media-date {
+		font-size: 23px !important;
 	}
 	.section-media ul {
 		margin: 0 0 2vw 1.5vw;

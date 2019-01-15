@@ -74,7 +74,6 @@ class Web extends Component {
 								<small>Projet mené entre 2017 et 2018</small>
 					   		</div>
 							<img src={siteBs} alt="Site internet bootstrap-styled.com" />
-								<small>Fait avec HTML5, CSS3, Javascript (React.js)</small>
 					   		<div>
 								<figcaption><strong>Description du projet:</strong></figcaption>
 								<figcaption>Site internet de présentation du framework Open Source conçut à partir de Bootstrap, React.js et Styled-Components.</figcaption>

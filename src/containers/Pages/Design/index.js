@@ -43,11 +43,7 @@ import identityTbdLogo from '../../../static/identity-tbd-logo.png';
 import identityTbdPhoto from '../../../static/identity-tbd-photo.jpg';
 import identityTbdPhoto1 from '../../../static/identity-tbd-photo-1.jpg';
 import identityTbdSocial from '../../../static/identity-tbd-social.jpg';
-// import identityTbdSocial2 from '../../../static/identity-tbd-social-2.jpg';
-// import identityTbdSocial3 from '../../../static/identity-tbd-social-3.jpg';
 import identityTbdSocial4 from '../../../static/identity-tbd-social-4.jpg';
-// import identityTbdSocial5 from '../../../static/identity-tbd-social-5.jpg';
-// import identityTbdSocial6 from '../../../static/identity-tbd-social-6.jpg';
 import identityTbdSocial7 from '../../../static/identity-tbd-social-7.jpg';
 import identityTbdWeb2 from '../../../static/identity-tbd-web-1.jpg';
 import identityTbdWeb1 from '../../../static/identity-tbd-web-2.jpg';
@@ -214,15 +210,13 @@ class Design extends Component {
 							<h3>Identité Yeutech</h3>
 							<p>À la tête d'une équipe de deux talentueux designers et d'un développeur j'ai eu la chance de travaillé sur la création d'une marque de A à Z.</p>
 							<ul>
-								<li>Définition marketing (Positionnement, mix marketing, étude de marché, veille...)</li>
 								<li>Direction Artistique pour l'élaboration de l'identité visuel.</li>
-								<li>Définition et mise en place de stratégie de communication online. (Inbound marketing, référencement, réseaux sociaux...)</li>
 								<li>Élaboration et conception du site internet. (Wireframe, spécification technique, développement HTML, CSS, JS...)</li>
 							</ul>
 							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<MediaBoard>
 								<figure>
-									<img src={logoYeutech} alt="Logo Abstraack" />
+									<img src={logoYeutech} alt="Logo Yeutech" />
 									<figcaption>Yeutech, software factory. Saigon.</figcaption>
 								</figure>
 								<figure>
