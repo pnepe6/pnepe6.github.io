@@ -20,7 +20,7 @@ div.columns figure {
   background: #fefefe;
   border: 2px solid #fcfcfc;
   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
-  margin: 0 0 15px 0;
+  margin: 0 0 40px 0;
   transition: opacity .4s ease-in-out;
   display: inline-block;
   column-break-inside: avoid;
@@ -54,7 +54,7 @@ div.columns figure p {
   font-size: .7rem;
   color: #aaa;
   float: right;
-  padding: 0 10px 0 0;
+  padding: 10px 10px 0 0;
   display: block;
 }
 
@@ -62,19 +62,20 @@ div.columns figure figcaption {
   font-size: .9rem;
   color: #444;
   line-height: 1.5;
-  float: left;
   text-align: left;
-  padding: 15px 0 10px 10px;
+  padding: 10px 0 10px 10px;
   display: block;
   width: 97%;
 }
 
-div.columns figure div {
+div.columns figure div:first-child {
   background-color: #f9f9f9;
-  padding: 20px 10px 10px 10px;
-  box-shadow: inset 0px 4px 29px -10px rgba(136,157,158,0.53);
+  padding: 30px 10px 30px 10px;
+  box-shadow: inset 10px 10px 50px -20px white;
 }
-
+div.columns figure div {
+  padding: 10px 10px 0px 10px;
+}
 div.columns figure small {
   font-size: .8rem;
   color: #aaa;
@@ -82,7 +83,7 @@ div.columns figure small {
 }
 
 div.columns figure ul {
-  font-size: .9rem;
+  font-size: .8rem;
   color: #444;
   display: block;
   text-align: left;

@@ -8,6 +8,13 @@ import siteComptoir from '../../../static/02_web_website-comptoir.jpg';
 import symbolFacebook from '../../../static/facebook-symbol.png';
 import symbolLinkedin from '../../../static/linkedin-symbol.png';
 import symbolTwitter from '../../../static/twitter_symbol.png';
+import logoComptoir from '../../../static/01_design_agd-comptoir-logo.jpg';
+import logoSb from '../../../static/01_design_agd-sb-logo.jpg';
+import logoSymbol from '../../../static/logo-symbol.jpg';
+import logoHad from '../../../static/01_design_agd-had-logo.jpg';
+import logoTbd from '../../../static/01_design-logo_tbd.jpg';
+import logoTickner from '../../../static/logo-tickner.jpg';
+import logoAxenergie from '../../../static/logo-axenergie.jpg';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
 import SectionIntro from '../../../components/SectionIntro';
@@ -59,10 +66,11 @@ class Digital extends Component {
 								<figure>
 							   		<div>
 								   		<h4>Référencement Agence Symbol</h4>
+								   		<small>2012 à 2015</small>
 							   		</div>
-									<img src={siteSymbol} alt="Strategie SEO du site internet symbol-com.fr" />
+									<img src={logoSymbol} alt="Strategie SEO du site internet symbol-com.fr" />
 									<figcaption><strong>Description:</strong></figcaption>
-									<figcaption>Stratégie SEO et référencement naturel du site internet www.symbol-com.fr specialisé dans la communication des franchises et réseaux.</figcaption>
+									<figcaption>Stratégie SEO et référencement naturel du site internet www.symbol-com.fr specialisé dans la communication des franchises et réseaux. Le site était en première position des recherches sur Google, Yahoo et Bing entre 2012 et 2015.</figcaption>
 									<figcaption><strong>Mots clés référencés:</strong></figcaption>
 									<ul>
 										<li>agence symbol</li>
@@ -75,9 +83,29 @@ class Digital extends Component {
 								</figure>
 								<figure>
 							   		<div>
-								   		<h4>Référencement Social Buster</h4>
+								   		<h4>Référencement The Bubble Day</h4>
+								   		<small>2014 à 2016</small>
 							   		</div>
-									<img src={siteSb} alt="Strategie SEO du site internet social-buster.fr" />
+									<img src={logoTbd} alt="Strategie SEO du site internet thebubbleday.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
+									<figcaption>Stratégie SEO et référencement naturel du site internet thebubbleday.fr présentant la course solidaire du même nom.</figcaption>
+									<figcaption><strong>Mots clés référencés:</strong></figcaption>
+									<ul>
+										<li>course solidaire Paris / Marseille / etc...</li>
+										<li>The Bubble Day</li>
+										<li>quoi faire à Paris / Marseille / etc...</li>
+										<li>sortir à Paris / Marseille / etc...</li>
+										<li>etc...</li>
+									</ul>
+									<p>site fermé</p>
+								</figure>
+								<figure>
+							   		<div>
+								   		<h4>Référencement Social Buster</h4>
+								   		<small>2013</small>
+							   		</div>
+									<img src={logoSb} alt="Strategie SEO du site internet social-buster.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
 									<figcaption>Stratégie SEO et référencement naturel du site internet social-buster.fr portant sur l'actualité des réseaux sociaux.</figcaption>
 									<figcaption><strong>Mots clés référencés:</strong></figcaption>
 									<ul>
@@ -91,8 +119,10 @@ class Digital extends Component {
 								<figure>
 							   		<div>
 								   		<h4>Référencement Comptoir des passages</h4>
+								   		<small>2013</small>
 							   		</div>
-									<img src={siteComptoir} alt="Référencement naturel du site internet comptoir-des-passages.fr" />
+									<img src={logoComptoir} alt="Référencement naturel du site internet comptoir-des-passages.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
 									<figcaption>Référencement du site internet www.comptoir-des-passages.fr</figcaption>
 									<figcaption><strong>Mots clés référencés:</strong></figcaption>
 									<ul>
@@ -107,6 +137,61 @@ class Digital extends Component {
 									</ul>
 									<p>site fermé</p>
 								</figure>
+								<figure>
+							   		<div>
+								   		<h4>Référencement Have A Dream</h4>
+								   		<small>2014 à 2015</small>
+							   		</div>
+									<img src={logoHad} alt="Strategie SEO du site internet haveadream.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
+									<figcaption>Stratégie SEO et référencement naturel du site internet haveadream.fr de l'agence évènementielle éponyme.</figcaption>
+									<figcaption><strong>Mots clés référencés:</strong></figcaption>
+									<ul>
+										<li>agence évènementielle sportive</li>
+										<li>agence Have A Dream</li>
+										<li>organisation évènements sportifs</li>
+										<li>etc...</li>
+									</ul>
+									<p>site fermé</p>
+								</figure>
+								<figure>
+							   		<div>
+								   		<h4>Référencement Tickner</h4>
+								   		<small>2012</small>
+							   		</div>
+									<img src={logoTickner} alt="Strategie SEO du site internet tickner.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
+									<figcaption>Stratégie SEO et référencement naturel du site internet tickner.fr, societé de construction bois.</figcaption>
+									<figcaption><strong>Mots clés référencés:</strong></figcaption>
+									<ul>
+										<li>construction bois</li>
+										<li>maisons individuelles en bois</li>
+										<li>annexes de jardins en bois</li>
+										<li>cabane de jardins</li>
+										<li>etc...</li>
+									</ul>
+									<p>site fermé</p>
+								</figure>
+								<figure>
+							   		<div>
+								   		<h4>Référencement Axenergie</h4>
+								   		<small>2012</small>
+							   		</div>
+									<img src={logoAxenergie} alt="Strategie SEO du site internet axenergie.fr" />
+									<figcaption><strong>Description:</strong></figcaption>
+									<figcaption>Stratégie SEO et référencement naturel du site internet axenergie.fr, réseau de chauffagistes indépendants.</figcaption>
+									<figcaption><strong>Mots clés référencés:</strong></figcaption>
+									<ul>
+										<li>Chauffagiste Paris / Marseille / etc...</li>
+										<li>Rénovation chauffage</li>
+										<li>Plombier Paris / Marseille / etc...</li>
+										<li>Urgence plomberie</li>
+										<li>Urgence chaudière</li>
+										<li>etc...</li>
+									</ul>
+									<p>site fermé</p>
+								</figure>
+								
 							</MediaBoard>
 						</SectionMedia>
 					</div>
