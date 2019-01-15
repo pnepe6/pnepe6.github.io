@@ -79,29 +79,6 @@ class Navigation extends Component {
                   </Link>
                 </li>
                 <li className="menu-sub">
-                  <p>Design Graphique</p>
-                  <ul className="menu-sub-content">
-                    <li>
-                      <Link
-                        onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
-                        to="/art"
-                      >
-                        Arts Graphiques
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
-                        to="/design"
-                      >
-                        PAO
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="menu-sub">
                   <p>Digital</p>
                   <ul className="menu-sub-content">
                     <li>
@@ -120,6 +97,29 @@ class Navigation extends Component {
                         to="/digital-marketing"
                       >
                         Digital Marketing
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-sub">
+                  <p>Design Graphique</p>
+                  <ul className="menu-sub-content">
+                    <li>
+                      <Link
+                        onClick={() => this.onClickMenu()}
+                        onTouch={() => this.onClickMenu()}
+                        to="/art"
+                      >
+                        Arts Graphiques
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => this.onClickMenu()}
+                        onTouch={() => this.onClickMenu()}
+                        to="/design"
+                      >
+                        PAO
                       </Link>
                     </li>
                   </ul>
