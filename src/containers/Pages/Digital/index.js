@@ -7,9 +7,6 @@ import identityYeutechGoogle from '../../../static/identity-yeutech-google.jpg';
 import smoActuFranchise from '../../../static/02_web_marketing-actu-franchise.jpg';
 import smoInvitation from '../../../static/02_web_marketing-linvitation.jpg';
 import seoInvitation from '../../../static/02_web_marketing-invitation.jpg';
-import siteSymbol from '../../../static/02_web_website-symbol.jpg';
-import siteSb from '../../../static/02_web_website-sb.jpg';
-import siteComptoir from '../../../static/02_web_website-comptoir.jpg';
 import admvLogo from '../../../static/achatdansmaville-logo.jpg';
 import admvSite from '../../../static/achatdansmaville-site.png';
 import admvSite2 from '../../../static/achatdansmaville-site2.jpg';
@@ -47,8 +44,8 @@ class Digital extends Component {
 					<h1>DIGITAL MARKET­­­­ING</h1>
 				</SectionTop>
 				<SectionIntro>
-					<p><strong>Une vrai passion depuis la mise en ligne de on premier site internet que je me suis empréssé de vouloir faire apparaitre en première position des moteurs de recherches Google, Bing, Yahoo et maintenant Alexa d'Amazon!</strong></p>
-					<p>En plus de ma spécialisation en marketing digital suivi lors de mes études j'ai très vite élargi mes compétences afin de pouvoir mettre en place de véritables stratégies digitales à la fois pour le référencement, l'animation des médias sociaux et la création d'e-Réputation.</p>
+					<p><strong>Une vraie passion depuis la mise en ligne de mon premier site internet que je me suis empressé de vouloir faire apparaître en première position des moteurs de recherches Google, Bing, Yahoo et maintenant Alexa d'Amazon!</strong></p>
+					<p>En plus de ma spécialisation en marketing digital suivi lors de mes études, j'ai très vite élargi mes compétences afin de pouvoir mettre en place de véritables stratégies digitales à la fois pour le référencement, l'animation des médias sociaux et la création d'e-Réputation.</p>
 				</SectionIntro>
 				<Tabs>
 					<div className="tab">
@@ -74,13 +71,13 @@ class Digital extends Component {
 							<h2>Search Engine Marketing</h2>
 							<h3 id="yeutech">Stratégie Digitale Yeutech</h3>
 							<p>Définition de la stratégie de communication digitale et mise en place des processus et des outils de gestion du community management.</p>
-							<p>Stratégie basée sur la diffusion de contenus (articles et vidéos) à partir du blog, et relayé sur les réseaux sociaux (Linkedin, Twitter, Github, Facebook) afin de générer du traffic qualifié sur le site.</p>
-							<p><strong>Inbound marketing:</strong></p>
+							<p>Stratégie basée sur la diffusion de contenus (articles et vidéos) à partir du blog, et relayée sur les réseaux sociaux (Linkedin, Twitter, Github, Facebook) afin de générer du traffic qualifié sur le site.</p>
+							<p><strong>Inbound marketing :</strong></p>
 							<ul>
-								<li>Création de contenu texte (rédaction d'articles de fonds, livres blancs).</li>
-								<li>Création de contenu vidéo (rédaction de script et scenario vidéo).</li>
+								<li>Création de contenu texte (rédaction d'articles de fond, livres blancs).</li>
+								<li>Création de contenu vidéo (rédaction de script et scénario vidéo).</li>
 							</ul>
-							<p><strong>Social Media Optimization:</strong></p>
+							<p><strong>Social Media Optimization :</strong></p>
 							<ul>
 								<li>Mise en place des outils de gestion du community management (positionnement, planning excel des publications, registre excel des partenariats).</li>
 								<li>Définition des processus de création et de publication des campagnes.</li>
@@ -88,7 +85,7 @@ class Digital extends Component {
 								<li>Ciblage des ambassadeurs pertinents et partenariat (netlinking).</li>
 								<li>Définition des processus de mesure de l'audience et de la performance des actions engagées.</li>
 							</ul>
-							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
+							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={rsYeutech} alt="Page Facebook Yeutech." />
@@ -102,16 +99,16 @@ class Digital extends Component {
 						</SectionMedia>
 						<SectionMedia>
 							<h3 id="tbd">Stratégie Digitale The Bubble Day</h3>
-							<p>Création des contenus (articles et vidéos) à diffuser sur le blog et les réseaux sociaux (Facebook et Twitter) afin de générer du traffic qualifié sur le site internet de l'évènement.</p>
-							<p><strong>Search Engine Optimization:</strong></p>
+							<p>Création des contenus (articles et vidéos) à diffuser sur le blog et les réseaux sociaux (Facebook et Twitter) afin de générer du trafic qualifié sur le site internet de l'évènement.</p>
+							<p><strong>Search Engine Optimization :</strong></p>
 							<ul>
-								<li>Études des mots clés recherchés et leurs volumes.</li>
+								<li>Étude des mots clé recherchés et leurs volumes.</li>
 								<li>Optimisation des contenus du site internet.</li>
 								<li>Optimisation technique du site internet.</li>
 								<li>Partenariat et stratégie de lien (netlinking).</li>
-								<li>Mesure du traffic et analyse des KPI.</li>
+								<li>Mesure du trafic et analyse des KPI.</li>
 							</ul>
-							<p><strong>Social Media Optimization:</strong></p>
+							<p><strong>Social Media Optimization :</strong></p>
 							<ul>
 								<li>Mise en place des outils de gestion du community management (positionnement, planning excel des publications, registre excel des partenariats).</li>
 								<li>Définition des processus de création et de publication des campagnes.</li>
@@ -119,7 +116,7 @@ class Digital extends Component {
 								<li>Ciblage des ambassadeurs pertinents et partenariat (netlinking).</li>
 								<li>Définition des processus de mesure de l'audience et de la performance des actions engagées.</li>
 							</ul>
-							<p><small>Website: <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
+							<p><small>Website : <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={identityTbdLogo} alt="Logo du site internet The Bubble Day." />
@@ -138,23 +135,23 @@ class Digital extends Component {
 						</SectionMedia>
 						<SectionMedia>
 							<h3 id="symbol">Stratégie Digitale Agence Symbol</h3>
-							<p>J'ai défini et mis en place le référencement du site internet de l'agence Symbol qui est resté positionné en première position des mots clés séléctionnés sur Google, Yaho et Bing.</p>
-							<p>Supervisé par le directeur de l'agence et en étroite relation avec l'équipe artistique j'ai créé et animé les réseaux sociaux de l'Agence avec l'objectif d'augmenter le nombre de prospects qualifiés (lead).</p>
-							<p><strong>Search Engine Optimization:</strong></p>
+							<p>J'ai défini et mis en place le référencement du site internet de l'agence Symbol qui est resté positionné en première position des mots clé sélectionnés sur Google, Yaho et Bing.</p>
+							<p>Supervisé par le directeur de l'agence et en étroite relation avec l'équipe artistique, j'ai créé et animé les réseaux sociaux de l'Agence avec l'objectif d'augmenter le nombre de prospects qualifiés (lead).</p>
+							<p><strong>Search Engine Optimization :</strong></p>
 							<ul>
-								<li>Études des mots clés recherchés et leurs volumes.</li>
+								<li>Étude des mots clé recherchés et leurs volumes.</li>
 								<li>Optimisation des contenus du site internet.</li>
 								<li>Optimisation technique du site internet.</li>
 								<li>Partenariat et stratégie de lien (netlinking).</li>
-								<li>Mesure du traffic et analyse des KPI.</li>
+								<li>Mesure du trafic et analyse des KPI.</li>
 							</ul>
-							<p><strong>Social Media Optimization:</strong></p>
+							<p><strong>Social Media Optimization :</strong></p>
 							<ul>
-								<li>Création et animation des réseaux sociaux de l'agence: Linkedin, Facebook et Twitter</li>
-								<li>Création de la marque blanche: Actu'Franchise.</li>
+								<li>Création et animation des réseaux sociaux de l'agence : Linkedin, Facebook et Twitter</li>
+								<li>Création de la marque blanche : Actu'Franchise.</li>
 								<li>Création et diffusion de contenu pour l'agence Symbol et sa marque blanche Actu'Franchise.</li>
 							</ul>
-							<p><small>Website: <a href="http://www.symbol-com.fr/" rel="noopener noreferrer" target="_blank">www.symbol-com.fr</a></small></p>
+							<p><small>Website : <a href="http://www.symbol-com.fr/" rel="noopener noreferrer" target="_blank">www.symbol-com.fr</a></small></p>
 							<MediaBoard>
 							   	<figure>
 							   		<div>
@@ -192,12 +189,12 @@ class Digital extends Component {
 						</SectionMedia>
 						<SectionMedia>
 							<h3>Stratégie Digitale L'Invitation (Client agence Symbol)</h3>
-							<p>En collaboration avec l'équipe marketing, j'ai mis en place une stratégie de management des réseaux sociaux de la franchise L'Invitation avec l'objectif d'augmenter le nombre de prospects qualifiés (lead) pour la tête de réseau (BtoB) et ses franchisés (BtC).</p>
+							<p>En collaboration avec l'équipe marketing, j'ai mis en place une stratégie de management des réseaux sociaux de la franchise L'Invitation avec l'objectif d'augmenter le nombre de prospects qualifiés (lead) pour la tête de réseau (BtoB) et ses franchisés (BtoC).</p>
 							<ul>
 								<li>Création et animation de la page Facebook de la tête de franchise.</li>
 								<li>Création et animation de la page Facebook des franchisés.</li>
 							</ul>
-							<p><small>Website: <a href="http://www.symbol-com.fr/" rel="noopener noreferrer" target="_blank">www.symbol-com.fr</a></small></p>
+							<p><small>Website : <a href="http://www.symbol-com.fr/" rel="noopener noreferrer" target="_blank">www.symbol-com.fr</a></small></p>
 							<MediaBoard>
 							   	<figure>
 							   		<div>
@@ -220,14 +217,14 @@ class Digital extends Component {
 						<SectionMedia>
 							<h3 id="admv">Stratégie Digitale AchatDansMaVille.com</h3>
 							<p>Supervisé par le chef de projet digital, j'ai participé à la définition et à la mise en place d'une stratégie de communication online et offline.</p>
-							<p><strong>Communication online:</strong></p>
+							<p><strong>Communication online :</strong></p>
 							<ul>
 								<li>Création d'un blog.</li>
 								<li>Mise en place et suivie d'une stratégie d'échange de liens (netlinking).</li>
 								<li>Optimisation technique du site internet.</li>
 								<li>Mesure du traffic et analyse des KPI.</li>
 							</ul>
-							<p><strong>Communication offline:</strong></p>
+							<p><strong>Communication offline :</strong></p>
 							<ul>
 								<li>Définition et mise en place d'une stratégie de street marketing.</li>
 								<li>Relation presse.</li>

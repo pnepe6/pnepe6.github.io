@@ -2,22 +2,17 @@ import React, { Component } from 'react';
 import siteYeutech from '../../../static/02_web_website-yeutech.png';
 import siteYeutechDoc from '../../../static/02_web_website-yeutech-doc.png';
 import identityYeutechGuideline from '../../../static/identity-yeutech-guideline.jpg';
-import siteYeutechSample from '../../../static/02_web_website-yeutech-sample.png';
 import wireframeDesktopYeutech from '../../../static/wireframe_yeutech-home.png';
 import wireframeTabletYeutech from '../../../static/wireframe_yeutech-ipad.png';
 import wireframeMobileYeutech from '../../../static/wireframe_yeutech-iphone.png';
 import siteBs from '../../../static/02_web_website-bs.png';
 import readmeBs from '../../../static/bs_readme-git.png';
 import siteHomeBs from '../../../static/bs_site-home.png';
-import siteMenuBs from '../../../static/bs_site-menu.png';
 import siteTbd from '../../../static/02_web_website-tbd.jpg';
 import identityTbdLogo from '../../../static/identity-tbd-logo.png';
-
 import paoGammeBaie from '../../../static/01_design_agd-gamme-baie-pao.jpg';
 import siteComptoir from '../../../static/02_web_website-comptoir.jpg';
 import siteSymbol from '../../../static/02_web_website-symbol.jpg';
-
-
 import SectionTop from '../../../components/SectionTop';
 import SectionIntro from '../../../components/SectionIntro';
 import MediaBoard from '../../../components/MediaBoard';
@@ -128,7 +123,7 @@ class Web extends Component {
 							</MediaBoard>
 
 							<h3 id="tbd">Site internet The Bubble Day</h3>
-							<p>J'ai conçut à partir de Wordpress et ai administré le site internet de l'évènement The Bubble Day.</p>
+							<p>J'ai conçu à partir de Wordpress et ai administré le site internet de l'évènement The Bubble Day.</p>
 							<p><strong>Technologies utilisées:</strong></p>
 							<ul>
 								<li>Wordpress</li>
@@ -149,7 +144,7 @@ class Web extends Component {
 
 							<h3 id="symbol">Site internet Agence Symbol</h3>
 							
-							<p>J'ai conçut à partir de Wordpress et ai administré le site internet de l'évènement The Bubble Day.</p>
+							<p>J'ai conçu à partir de Wordpress et ai administré le site internet de l'agence Symbol.</p>
 							<p><strong>Technologies utilisées:</strong></p>
 							<ul>
 								<li>Wordpress</li>

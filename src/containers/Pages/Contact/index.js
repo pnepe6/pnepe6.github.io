@@ -10,11 +10,11 @@ class Contact extends Component {
 					<h1>Contactez moi</h1>
 				</SectionTop>
 				<div className="ct-intro">
-					<p><strong>Je suis disponible pour un CDI et en recherche active d'une équipe dynamique et pourquoi pas bilingue!</strong></p>
-					<p><small>Je suis également ouvert pour collaborer sur de nombreux types de projets qui me passionnent:</small></p>
+					<p><strong>Je suis disponible pour un CDI et en recherche active d'une équipe dynamique et pourquoi pas bilingue !</strong></p>
+					<p><small>Je suis également ouvert pour collaborer sur de nombreux types de projets qui me passionnent :</small></p>
 					<ul>
-						<li>Projets évenementiels lié au digital, à l'entreprenariat ou encore à la musique et au sport.</li>
-						<li>Projets digitaux Open Source, creation de blog, media internet ou tout projet lié au monde passionnant des jeux vidéo.</li>
+						<li>Projets évenementiels liés au digital, à l'entreprenariat ou encore à la musique et au sport.</li>
+						<li>Projets digitaux Open Source, création de blog, media internet ou tout projet lié au monde passionnant des jeux vidéo.</li>
 					</ul>
 				</div>
 				<div className="ct-form">

@@ -1,24 +1,18 @@
 import React, { Component } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import logoBs from '../../../static/01_design-logo_bs.png';
-import siteBs from '../../../static/02_web_website-bs.png';
 import badgeBs from '../../../static/bs_badge.png';
 import titleBs from '../../../static/bs_badge-title.png';
 import readmeBs from '../../../static/bs_readme-git.png';
 import siteHomeBs from '../../../static/bs_site-home.png';
-import siteMenuBs from '../../../static/bs_site-menu.png';
-import logoSb from '../../../static/01_design_agd-sb-logo.jpg';
 import logoAbstraack from '../../../static/01_design_agd-abstrack-logo.jpg';
 import identityAbstraackFlower from '../../../static/identity-abstraack-flower.jpg';
-import identityAbstraackFlower1 from '../../../static/identity-abstraack-flower-3.png';
-import identityAbstraackFlowerPoster from '../../../static/identity-abstraack-flower-poster.png';
 import identityAbstraackFlowerSocial from '../../../static/identity-abstraack-flower-social.jpg';
 import eventAbstraackOpenMind from '../../../static/project-abstraack-open-mind.jpg';
 import eventAbstraackOpenMind2 from '../../../static/project-abstraack-open-mind2.jpg';
 import logoHad from '../../../static/01_design_agd-had-logo.jpg';
 import logoEcoTrail from '../../../static/logo_eco-trail.png';
-import logoSlm from '../../../static/01_design_agd-slm-logo.jpg';
 import logoCcg from '../../../static/01_design-logo_citizen-commitment.png';
 import linkedinSymbol from '../../../static/linkedin-symbol.png';
 import twitterSymbol from '../../../static/twitter_symbol.png';
@@ -29,33 +23,20 @@ import paoGammeBaieSymbol from '../../../static/01_design_agd-gamme-baie-pao.jpg
 import siteSymbol from '../../../static/02_web_website-symbol.jpg';
 import logoTbd from '../../../static/01_design-logo_tbd.jpg';
 import identityTbdLogo from '../../../static/identity-tbd-logo.png';
-import identityTbdPhoto from '../../../static/identity-tbd-photo.jpg';
 import identityTbdPhoto1 from '../../../static/identity-tbd-photo-1.jpg';
-import identityTbdSocial from '../../../static/identity-tbd-social.jpg';
-import identityTbdSocial4 from '../../../static/identity-tbd-social-4.jpg';
-import identityTbdSocial7 from '../../../static/identity-tbd-social-7.jpg';
-import identityTbdWeb2 from '../../../static/identity-tbd-web-1.jpg';
 import identityTbdWeb1 from '../../../static/identity-tbd-web-2.jpg';
-import identityTbdWeb from '../../../static/identity-tbd-web.jpg';
 import siteTbd from '../../../static/02_web_website-tbd.jpg';
 import fbTbd from '../../../static/rs-fb_tbd.png';
 import twitterTbd from '../../../static/rs-twitter_tbd.png';
-import logoKopaxgroup from '../../../static/01_design-logo_kopaxgroup.png';
 import logoYeutech from '../../../static/01_design-logo_yeutech.png';
 import rsYeutech from '../../../static/yeutech_rs-fb.png';
 import identityYeutechGuideline from '../../../static/identity-yeutech-guideline.jpg';
 import siteYeutechSample from '../../../static/02_web_website-yeutech-sample.png';
-import siteYeutech from '../../../static/02_web_website-yeutech.png';
 import siteDocYeutech from '../../../static/02_web_website-yeutech-doc.png';
-import wireframeMobileYeutech from '../../../static/wireframe_yeutech-home.png';
 import wireframeTabletYeutech from '../../../static/wireframe_yeutech-ipad.png';
-import wireframeDesktopYeutech from '../../../static/wireframe_yeutech-iphone.png';
-import identityYeutechVisitCard from '../../../static/identity-yeutech-visit-card.png';
 import identityYeutechGoogle from '../../../static/identity-yeutech-google.jpg';
-import billYeutech from '../../../static/yeutech_bill.jpeg';
 import admvLogo from '../../../static/achatdansmaville-logo.jpg';
 import admvSite from '../../../static/achatdansmaville-site.png';
-import admvSite2 from '../../../static/achatdansmaville-site2.jpg';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
 import SectionIntro from '../../../components/SectionIntro';
@@ -123,7 +104,7 @@ class Projects extends Component {
 								<li>Management de l'équipe digital marketing (community management et inbound marketing).</li>
 								<li>Management de l'équipe de vente (prospection pour l'agence et ses clients).</li>
 							</ul>
-							<p><small>Website: <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
+							<p><small>Website : <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={logoAbstraack} alt="Logo Abstraack" />
@@ -159,7 +140,7 @@ class Projects extends Component {
 								<li>Webmaster et développeur des sites internet de l'agence et de ses clients (Wordpress, HTML5, CSS).</li>
 								<li>Participation à l'équipe créative (création des logo pour l'agence et ses clients mais aussi conception des supports de communication digitaux).</li>
 							</ul>
-							<p><small>Website: Site fermé</small></p>
+							<p><small>Website : Site fermé</small></p>
 							<MediaBoard>
 								<figure>
 									<img src={logoHad} alt="Agence Évènementielle Have A Dream" />
@@ -225,14 +206,14 @@ class Projects extends Component {
 								<li>Gestion de projet web pour la conception du site internet de l'entreprise.</li>
 								<li>Responsable de la communication avec la mise en place de la stratégie de communication online.</li>
 							</ul>
-							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
+							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<MediaBoard>
 								<figure>
 									<div>
 										<h4>Gestion de projet web</h4>
 										<ul>
 											<li>Supervision de l'équipe créative pour définir les maquettes du site internet (mobile first, responsive, UX design, etc...).</li>
-											<li>Supervision du developpement du site internet (spécification technique, développement HTML, CSS, JS, etc...).</li>
+											<li>Supervision du développement du site internet (spécification technique, développement HTML, CSS, JS, etc...).</li>
 										</ul>
 									</div>
 									<p><Link to="/web#yeutech">En savoir plus</Link></p>
@@ -302,7 +283,7 @@ class Projects extends Component {
 								<li>Développeur front-end junior (HTML5, CSS, Javscript dont React.js).</li>
 							</ul>
 
-							<p><small>Website: <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
+							<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
 							<MediaBoard>
 								<figure>
 									<div>
@@ -355,7 +336,7 @@ class Projects extends Component {
 								<li>Webmaster et développeur du site internet de l'évènement.</li>
 								<li>Management de l'équipe créative et marketing.</li>
 							</ul>
-							<p><small>Website: Site fermé</small></p>
+							<p><small>Website : Site fermé</small></p>
 							<MediaBoard>
 								<figure>
 									<div>
@@ -433,7 +414,7 @@ class Projects extends Component {
 								<li>Management du community manager.</li>
 								<li>Web designer (participation au travail créatif).</li>
 							</ul>
-							<p><small>Website: <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
+							<p><small>Website : <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
 							<MediaBoard>
 								<figure>
 									<div>
@@ -501,9 +482,9 @@ class Projects extends Component {
 									<div>
 										<h4>Chef de publicité</h4>
 										<ul>
-											<li>Mise en place de processus opérationnnels (engagement Qualité).</li>										
+											<li>Mise en place de processus opérationnels (engagement Qualité).</li>										
 											<li>Prospection de nouveaux clients.</li>
-											<li>Interface entre le client et l'équipe créative (reception des demandes client).</li>
+											<li>Interface entre le client et l'équipe créative (réception des demandes client).</li>
 										</ul>
 									</div>
 								</figure>
@@ -512,13 +493,13 @@ class Projects extends Component {
 						<SectionMedia>
 							<h3>AchatDansMaVille.com</h3>
 							<p className="media-date">2010 - 2011</p>
-							<p>J'ai travaillé en Alternance dans une start-up proposant des bons de reduction pour ses clients BtoC tout en prospectant de nouveaux clients BtoB afin de proposer toujours plus d'offres.</p>
+							<p>J'ai travaillé en Alternance dans une start-up proposant des bons de reductions pour ses clients BtoC tout en prospectant de nouveaux clients BtoB afin de proposer toujours plus d'offres.</p>
 							<p>J'étais conseillé commercial et suis rapidement devenu l'assistant du chef de projet digital afin de superviser les graphistes pour adapter efficacement les contenus (textes, photos, vidéos) sur le blog et les réseaux sociaux dont je partageais la charge avec un chef de projet confirmé.</p>
 							<ul>
 								<li>Responsable commercial</li>
 								<li>Assistant chef de projet digital</li>
 							</ul>
-							<p><small>Website: Site fermé</small></p>
+							<p><small>Website : Site fermé</small></p>
 							<MediaBoard>
 								<figure>
 									<div>
@@ -541,9 +522,9 @@ class Projects extends Component {
 									<div>
 										<h4>Responsable commercial</h4>
 										<ul>
-											<li>Mise en place de processus opérationnnels (engagement Qualité).</li>										
+											<li>Mise en place de processus opérationnels (engagement Qualité).</li>										
 											<li>Prospection de nouveaux clients.</li>
-											<li>Interface entre le client et les équipes créative et technique (reception des demandes client).</li>
+											<li>Interface entre le client et les équipes créative et technique (réception des demandes client).</li>
 										</ul>
 									</div>
 								</figure>

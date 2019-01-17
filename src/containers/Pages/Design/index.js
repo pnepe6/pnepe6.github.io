@@ -79,8 +79,8 @@ class Design extends Component {
 					<h1>DESIGN GRAPHIQUE</h1>					
 				</SectionTop>
 				<SectionIntro>
-					<p><strong>J'ai découvert le monde du design graphiques dans un agence de communication en 2011.</strong></p>
-					<p>J'y ai travaillé en Alternance pendant 5 années en tant que commercial puis chef de publicité et j'ai suivi des formations afin de maîtriser la suite logicielle Adobe dédiée au Design graphique: Photoshop, InDesign et Illustrator.</p>
+					<p><strong>J'ai découvert le monde du design graphique dans une agence de communication en 2011.</strong></p>
+					<p>J'y ai travaillé en Alternance pendant 5 années en tant que commercial puis chef de publicité et j'ai suivi des formations afin de maîtriser la suite logicielle Adobe dédiée au Design graphique : Photoshop, InDesign et Illustrator.</p>
 				</SectionIntro>
 				<Tabs>
 					<div className="tab">
@@ -172,7 +172,7 @@ class Design extends Component {
 					</div>
 					<div id="PRINT" className={`tabcontent ${tabs === "PRINT" ? 'show' : ''}`}>
 						<SectionMedia>
-							<h2>Réalisation d'outils promotionnels:</h2>
+							<h2>Réalisation d'outils promotionnels</h2>
 							<h3>PAO</h3>
 							<MediaBoard>
 								<figure>
@@ -212,14 +212,14 @@ class Design extends Component {
 					</div>
 					<div id="IDENTITY" className={`tabcontent ${tabs === "IDENTITY" ? 'show' : ''}`}>
 						<SectionMedia>
-							<h2>Réalisation d'identitées visuelles:</h2>
+							<h2>Réalisation d'identitées visuelles</h2>
 							<h3 id="yeutech">Identité Yeutech</h3>
 							<p>À la tête d'une équipe de deux talentueux designers j'ai eu la chance de travaillé sur la création d'une marque de A à Z.</p>
 							<ul>
 								<li>Direction Artistique pour l'élaboration de l'identité visuel.</li>
 								<li>Élaboration des documents d'entreprise (cartes de visite, template de lettre, facture et devis, etc...)</li>
 							</ul>
-							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
+							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={logoYeutech} alt="Logo Yeutech" />
@@ -265,7 +265,7 @@ class Design extends Component {
 								<li>Création du logo et de l'identité visuel.</li>
 								<li>Création et intégration des contenus (textes et images) sur le site internet.</li>
 							</ul>
-							<p><small>Website: <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
+							<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={titleBs} alt="Badge d'entête Bootstrap-styled." />
@@ -287,7 +287,7 @@ class Design extends Component {
 								<li>Participation à la création du logo et de l'identité visuel.</li>
 								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux, site internet...)</li>
 							</ul>
-							<p><small>Website: <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
+							<p><small>Website : <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={logoTbd} alt="Logo Abstraack" />
@@ -336,7 +336,7 @@ class Design extends Component {
 								<li>Participation à la création du logo et de l'identité visuel.</li>
 								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux).</li>
 							</ul>
-							<p><small>Website: <a href="http://www.cartelinvitation.net/" rel="noopener noreferrer" target="_blank">cartelinvitation.net</a></small></p>
+							<p><small>Website : <a href="http://www.cartelinvitation.net/" rel="noopener noreferrer" target="_blank">cartelinvitation.net</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={identityLinvitationLogo1} alt="Logo L'Invitation" />
@@ -381,7 +381,7 @@ class Design extends Component {
 								<li>Conception et création du logo et de l'identité visuel.</li>
 								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux...)</li>
 							</ul>
-							<p><small>Website: <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
+							<p><small>Website : <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
 							<MediaBoard>
 								<figure>
 									<img src={identityAbstraackFlowerSocial} alt="Affiche Saigon Flower Power." />
