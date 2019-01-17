@@ -75,7 +75,7 @@ class Navigation extends Component {
                     onTouch={() => this.onClickMenu()}
                     to="/projects"
                   >
-                    Gestion de Projets
+                    Gestion de Projet
                   </Link>
                 </li>
                 <li className="menu-sub">
@@ -102,24 +102,24 @@ class Navigation extends Component {
                   </ul>
                 </li>
                 <li className="menu-sub">
-                  <p>Design Graphique</p>
+                  <p>Graphisme</p>
                   <ul className="menu-sub-content">
-                    <li>
-                      <Link
-                        onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
-                        to="/art"
-                      >
-                        Arts Graphiques
-                      </Link>
-                    </li>
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
                         onTouch={() => this.onClickMenu()}
                         to="/design"
                       >
-                        PAO
+                        Design Graphique
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        onClick={() => this.onClickMenu()}
+                        onTouch={() => this.onClickMenu()}
+                        to="/art"
+                      >
+                        Art
                       </Link>
                     </li>
                   </ul>

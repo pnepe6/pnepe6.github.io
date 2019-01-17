@@ -25,6 +25,9 @@ import identityYeutechBadge from '../../../static/identity-yeutech-badge.png';
 import identityYeutechFavicon from '../../../static/identity-yeutech-favicon.png';
 import identityYeutechGoogle from '../../../static/identity-yeutech-google.jpg';
 import identityYeutechVisitCard from '../../../static/identity-yeutech-visit-card.png';
+import billYeutech from '../../../static/yeutech_bill.jpeg';
+import invoiceYeutech from '../../../static/yeutech-invoice.jpeg';
+import letterYeutech from '../../../static/yeutech_letter-template.jpeg';
 import identityAbstraackFlower from '../../../static/identity-abstraack-flower.jpg';
 import identityAbstraackFlower1 from '../../../static/identity-abstraack-flower-3.png';
 import identityAbstraackFlowerPoster from '../../../static/identity-abstraack-flower-poster.png';
@@ -48,6 +51,9 @@ import identityTbdSocial7 from '../../../static/identity-tbd-social-7.jpg';
 import identityTbdWeb2 from '../../../static/identity-tbd-web-1.jpg';
 import identityTbdWeb1 from '../../../static/identity-tbd-web-2.jpg';
 import identityTbdWeb from '../../../static/identity-tbd-web.jpg';
+import logoBs from '../../../static/01_design-logo_bs.png';
+import badgeBs from '../../../static/bs_badge.png';
+import titleBs from '../../../static/bs_badge-title.png';
 import SectionTop from '../../../components/SectionTop';
 import Tabs from '../../../components/Tabs';
 import SectionIntro from '../../../components/SectionIntro';
@@ -207,11 +213,11 @@ class Design extends Component {
 					<div id="IDENTITY" className={`tabcontent ${tabs === "IDENTITY" ? 'show' : ''}`}>
 						<SectionMedia>
 							<h2>Réalisation d'identitées visuelles:</h2>
-							<h3>Identité Yeutech</h3>
-							<p>À la tête d'une équipe de deux talentueux designers et d'un développeur j'ai eu la chance de travaillé sur la création d'une marque de A à Z.</p>
+							<h3 id="yeutech">Identité Yeutech</h3>
+							<p>À la tête d'une équipe de deux talentueux designers j'ai eu la chance de travaillé sur la création d'une marque de A à Z.</p>
 							<ul>
 								<li>Direction Artistique pour l'élaboration de l'identité visuel.</li>
-								<li>Élaboration et conception du site internet. (Wireframe, spécification technique, développement HTML, CSS, JS...)</li>
+								<li>Élaboration des documents d'entreprise (cartes de visite, template de lettre, facture et devis, etc...)</li>
 							</ul>
 							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<MediaBoard>
@@ -239,9 +245,43 @@ class Design extends Component {
 									<img src={identityYeutechGuideline} alt="Charte graphique web Yeutech" />
 									<figcaption>Charte graphique web Yeutech.</figcaption>
 								</figure>
+								<figure>
+									<img src={billYeutech} alt="Facture Yeutech" />
+									<figcaption>J'ai superviser l'équipe créative afin de concevoir les factures pour les clients de Yeutech.</figcaption>
+								</figure>
+								<figure>
+									<img src={invoiceYeutech} alt="Devis Yeutech" />
+									<figcaption>J'ai superviser l'équipe créative afin de concevoir les devis pour les clients de Yeutech.</figcaption>
+								</figure>
+								<figure>
+									<img src={letterYeutech} alt="Lettre Yeutech" />
+									<figcaption>J'ai superviser notre stagiaire designer afin de concevoir les templates de lettre à utiliser pour l'entreprise Yeutech.</figcaption>
+								</figure>
 							</MediaBoard>
 
-							<h3>Identité The Bubble Day</h3>
+							<h3 id="bs">Identité Bootstrap-styled</h3>
+							<p>Dans le cadre de la conception de ce framework par les développeurs de l'entreprise Yeutech, j'était chargé de créer l'identité visuelle.</p>
+							<ul>
+								<li>Création du logo et de l'identité visuel.</li>
+								<li>Création et intégration des contenus (textes et images) sur le site internet.</li>
+							</ul>
+							<p><small>Website: <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
+							<MediaBoard>
+								<figure>
+									<img src={titleBs} alt="Badge d'entête Bootstrap-styled." />
+									<figcaption>Badge d'entête Bootstrap-styled.</figcaption>
+								</figure>
+								<figure>
+									<img src={badgeBs} alt="Badge Bootstrap-styled." />
+									<figcaption>Badge Bootstrap-styled.</figcaption>
+								</figure>
+								<figure>
+									<img src={logoBs} alt="Logo Bootstrap-styled." />
+									<figcaption>Logo Bootstrap-styled.</figcaption>
+								</figure>
+							</MediaBoard>
+
+							<h3 id="tbd">Identité The Bubble Day</h3>
 							<p>Avec une équipe d'étudiant, j'ai participé à la création de l'identité visuel de la course solidaire The Bubble Day.</p>
 							<ul>
 								<li>Participation à la création du logo et de l'identité visuel.</li>
@@ -290,11 +330,11 @@ class Design extends Component {
 									<figcaption>Charte graphique web Yeutech.</figcaption>
 								</figure>
 							</MediaBoard>
-							<h3>Identité L'Invitation</h3>
-							<p>En Alternance dans une agence de communication, j'ai pu participer à la refonte de l'identité visuel de la marque L'Invitation:</p>
+							<h3 id="linvitation">Identité L'Invitation</h3>
+							<p>En Alternance dans l'agence de communication Symbol, j'ai pu participer à la refonte de l'identité visuel de sa marque cliente: L'Invitation:</p>
 							<ul>
 								<li>Participation à la création du logo et de l'identité visuel.</li>
-								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux, site internet...)</li>
+								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux).</li>
 							</ul>
 							<p><small>Website: <a href="http://www.cartelinvitation.net/" rel="noopener noreferrer" target="_blank">cartelinvitation.net</a></small></p>
 							<MediaBoard>
@@ -335,7 +375,7 @@ class Design extends Component {
 									<figcaption>Site internet L'Invitation.</figcaption>
 								</figure>
 							</MediaBoard>
-							<h3>Identité Abstraack</h3>
+							<h3 id="abstraack">Identité Abstraack</h3>
 							<p>Co-fondateur de l'agence évènementielle Abstraack, j'ai créé entièrement l'ensemble de l'identité visuel:</p>
 							<ul>
 								<li>Conception et création du logo et de l'identité visuel.</li>

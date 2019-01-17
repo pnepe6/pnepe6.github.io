@@ -24,11 +24,11 @@ class Art extends Component {
 		return (
 			<div>
 				<SectionTop>
-					<h1>ARTS GRAPHIQUES</h1>
+					<h1>ART GRAPHIQUE</h1>
 				</SectionTop>
 				<SectionIntro>
 					<p><strong>Dès l'âge de 11 ans j'ai commencé à suivre des cours de dessin.</strong></p>
-					<p>Je me passionne pour l'art en général, depuis les oeuvres européenes jusqu'aux illustrations asiatiques en passant par le grand Salvador Dali!</p>
+					<p>Je me passionne pour l'art en général, depuis les oeuvres européenes jusqu'aux illustrations asiatiques en passant par le surréalisme sublimé par le grand Salvador Dali!</p>
 				</SectionIntro>
 				<SectionMedia>
 					<h2>Découvrez mes peintures</h2>

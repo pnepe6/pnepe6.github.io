@@ -83,14 +83,14 @@ class Home extends Component {
 				</div>
 				<SectionActionCall>
 					<h2>Envie d'en savoir plus?</h2>
-					<p><strong>Passionné de référencement et specialisé en Marketing Digital,</strong> j'ai travaillé en Alternance dans une agence de communication où j'ai créé et géré mes premiers projets web (CMS, SEO, SMO).</p>
-					<p>Fort de 3 annnées passées au Vietnam dans une start-up spécialisée dans le développement de technologies open source, j'ai découvert la gestion de projet AGILE et appris le développement front-end (HTML, CSS, JavaScript, MySQL...).</p>
+					<p><strong>Passionné de référencement et spécialisé en Marketing Digital,</strong> j'ai travaillé en Alternance dans une agence de communication où j'ai créé et géré mes premiers projets web (CMS, SEO, SMO).</p>
+					<p>Fort de 3 années passées au Viêtnam dans une start-up spécialisée dans le développement de technologies open source, j'ai découvert la gestion de projet AGILE et appris le développement front-end (HTML, CSS, JavaScript, MySQL...).</p>
 					<p>Je mène mes projets avec un regard à la fois artistique et technique tout en intégrant les enjeux marketing et commerciaux.</p>
 					<Link to="/cv/">Consultez mon CV</Link>
 				</SectionActionCall>
 				<SectionContent>
 					<h2>A propos de moi</h2>
-					<p><strong>Riche en expériences culturelles j'ai eu la chance de découvrir de nouvelles façons d'agir et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
+					<p><strong>Riche en expériences culturelles, j'ai eu la chance de découvrir de nouvelles façons d'agir et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
 					<p>Fort d'un mental positif, je mets mon empathie au service de mes clients comme de mes collaborateurs.</p>
 					<p>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement.</p>
 					<img src={logoAgd} alt="logo Adrien Gadaud" />
