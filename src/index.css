@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, b, strong {
     font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, b, strong, p, a, small, li, form, textarea, input, select {
+h1, h2, h3, h4, h5, h6, b, span, strong, p, a, small, li, form, textarea, input, select {
 	font-family: 'Varela', sans-serif;
 }
 

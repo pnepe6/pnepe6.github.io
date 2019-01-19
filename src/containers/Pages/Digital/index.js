@@ -25,6 +25,7 @@ import Tabs from '../../../components/Tabs';
 import SectionIntro from '../../../components/SectionIntro';
 import MediaBoard from '../../../components/MediaBoard';
 import SectionMedia from '../../../components/SectionMedia';
+import Collapse from '../../../components/Collapse';
 
 class Digital extends Component {
 	state = {
@@ -86,16 +87,18 @@ class Digital extends Component {
 								<li>Définition des processus de mesure de l'audience et de la performance des actions engagées.</li>
 							</ul>
 							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={rsYeutech} alt="Page Facebook Yeutech." />
-									<figcaption>Page Facebook Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechGoogle} alt="Arrière plan des profils sociaux de Yeutech." />
-									<figcaption>Arrière plan des profils sociaux de Yeutech sur les réseaux en ligne.</figcaption>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={rsYeutech} alt="Page Facebook Yeutech." />
+										<figcaption>Page Facebook Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechGoogle} alt="Arrière plan des profils sociaux de Yeutech." />
+										<figcaption>Arrière plan des profils sociaux de Yeutech sur les réseaux en ligne.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 						<SectionMedia>
 							<h3 id="tbd">Stratégie Digitale The Bubble Day</h3>
@@ -117,21 +120,22 @@ class Digital extends Component {
 								<li>Définition des processus de mesure de l'audience et de la performance des actions engagées.</li>
 							</ul>
 							<p><small>Website : <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={identityTbdLogo} alt="Logo du site internet The Bubble Day." />
-									<figcaption>Logo du site internet The Bubble Day.</figcaption>
-								</figure>
-								<figure>
-									<img src={fbTbd} alt="Page Facebook The Bubble Day." />
-									<figcaption>Page Facebook The Bubble Day.</figcaption>
-								</figure>
-								<figure>
-									<img src={twitterTbd} alt="Page Twitter The Bubble Day." />
-									<figcaption>Page Twitter The Bubble Day.</figcaption>
-								</figure>
-							</MediaBoard>
-
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={identityTbdLogo} alt="Logo du site internet The Bubble Day." />
+										<figcaption>Logo du site internet The Bubble Day.</figcaption>
+									</figure>
+									<figure>
+										<img src={fbTbd} alt="Page Facebook The Bubble Day." />
+										<figcaption>Page Facebook The Bubble Day.</figcaption>
+									</figure>
+									<figure>
+										<img src={twitterTbd} alt="Page Twitter The Bubble Day." />
+										<figcaption>Page Twitter The Bubble Day.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 						<SectionMedia>
 							<h3 id="symbol">Stratégie Digitale Agence Symbol</h3>
@@ -152,40 +156,42 @@ class Digital extends Component {
 								<li>Création et diffusion de contenu pour l'agence Symbol et sa marque blanche Actu'Franchise.</li>
 							</ul>
 							<p><small>Website : <a href="http://www.symbol-com.fr/" rel="noopener noreferrer" target="_blank">www.symbol-com.fr</a></small></p>
-							<MediaBoard>
-							   	<figure>
-							   		<div>
-								   		<h4>Animation du groupe Linkedin Actu'Franchise</h4>
-							   		</div>
-									<img src={smoActuFranchise} alt="Social Media Actu Franchise" />
-									<figcaption>Création et animation du groupe Actu Franchise sur Linkedin dans le cadre d'une campagne d'Inbound Marketing.</figcaption>
-									<p><a href="https://www.linkedin.com/groups/4819095/" alt="Groupe Linkedin Actu'Franchise" target="_blank" rel="noopener noreferrer">Groupe Linkedin Actu'Franchise</a></p>
-								</figure>
-							   	<figure>
-							   		<div>
-								   		<h4>Animation de la page Linkedin de l'agence Symbol</h4>
-							   		</div>
-									<img src={symbolLinkedin} alt="Page Linkedin de l'agence Symbol" />
-									<figcaption>Création et animation de la page Linkedin de l'agence Symbol.</figcaption>
-									<p><a href="https://www.linkedin.com/company/agence-symbol/about/" alt="Groupe Linkedin agence Symbol" target="_blank" rel="noopener noreferrer">Page Linkedin agence Symbol</a></p>
-								</figure>
-							   	<figure>
-							   		<div>
-								   		<h4>Animation de la page Facebook de l'agence Symbol</h4>
-							   		</div>
-									<img src={symbolFacebook} alt="Page facebook de l'agence Symbol" />
-									<figcaption>Création et animation de la page Facebook de l'agence Symbol.</figcaption>
-									<p><a href="https://www.facebook.com/Agence.Symbol/" alt="Page Facebook agence Symbol" target="_blank" rel="noopener noreferrer">Page Facebook agence Symbol</a></p>
-								</figure>
-							   	<figure>
-							   		<div>
-								   		<h4>Animation de la page Twitter de l'agence Symbol</h4>
-							   		</div>
-									<img src={symbolTwitter} alt="Page Twitter de l'agence Symbol" />
-									<figcaption>Création et animation de la page Twitter de l'agence Symbol.</figcaption>
-									<p><a href="https://twitter.com/AgenceSymbol" alt="Page Twitter agence Symbol" target="_blank" rel="noopener noreferrer">Page Twitter agence Symbol</a></p>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+								   	<figure>
+								   		<div>
+									   		<h4>Animation du groupe Linkedin Actu'Franchise</h4>
+								   		</div>
+										<img src={smoActuFranchise} alt="Social Media Actu Franchise" />
+										<figcaption>Création et animation du groupe Actu Franchise sur Linkedin dans le cadre d'une campagne d'Inbound Marketing.</figcaption>
+										<p><a href="https://www.linkedin.com/groups/4819095/" alt="Groupe Linkedin Actu'Franchise" target="_blank" rel="noopener noreferrer">Groupe Linkedin Actu'Franchise</a></p>
+									</figure>
+								   	<figure>
+								   		<div>
+									   		<h4>Animation de la page Linkedin de l'agence Symbol</h4>
+								   		</div>
+										<img src={symbolLinkedin} alt="Page Linkedin de l'agence Symbol" />
+										<figcaption>Création et animation de la page Linkedin de l'agence Symbol.</figcaption>
+										<p><a href="https://www.linkedin.com/company/agence-symbol/about/" alt="Groupe Linkedin agence Symbol" target="_blank" rel="noopener noreferrer">Page Linkedin agence Symbol</a></p>
+									</figure>
+								   	<figure>
+								   		<div>
+									   		<h4>Animation de la page Facebook de l'agence Symbol</h4>
+								   		</div>
+										<img src={symbolFacebook} alt="Page facebook de l'agence Symbol" />
+										<figcaption>Création et animation de la page Facebook de l'agence Symbol.</figcaption>
+										<p><a href="https://www.facebook.com/Agence.Symbol/" alt="Page Facebook agence Symbol" target="_blank" rel="noopener noreferrer">Page Facebook agence Symbol</a></p>
+									</figure>
+								   	<figure>
+								   		<div>
+									   		<h4>Animation de la page Twitter de l'agence Symbol</h4>
+								   		</div>
+										<img src={symbolTwitter} alt="Page Twitter de l'agence Symbol" />
+										<figcaption>Création et animation de la page Twitter de l'agence Symbol.</figcaption>
+										<p><a href="https://twitter.com/AgenceSymbol" alt="Page Twitter agence Symbol" target="_blank" rel="noopener noreferrer">Page Twitter agence Symbol</a></p>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 						<SectionMedia>
 							<h3>Stratégie Digitale L'Invitation (Client agence Symbol)</h3>
@@ -195,24 +201,26 @@ class Digital extends Component {
 								<li>Création et animation de la page Facebook des franchisés.</li>
 							</ul>
 							<p><small>Website : <a href="http://www.symbol-com.fr/" rel="noopener noreferrer" target="_blank">www.symbol-com.fr</a></small></p>
-							<MediaBoard>
-							   	<figure>
-							   		<div>
-								   		<h4>Animation du réseau sur Facebook</h4>
-							   		</div>
-									<img src={seoInvitation} alt="Social Media L'Invitation" />
-									<figcaption>Animation des points de vente du réseau L'Inivitation.</figcaption>
-									<p><a href="https://www.facebook.com/LInvitation-780068835411087/?eid=ARAY2o6eA9jNpiuc9-we4GPSl2IJ6sjrMjYnTV1aAc7kBkmy8QfKALim_3HigBa1CfrKHgxyRgj4Yjrg" alt="Page Facebook de L'Invitation" target="_blank" rel="noopener noreferrer">Page Facebook L'Invitation</a></p>
-								</figure>
-							   	<figure>
-							   		<div>
-								   		<h4>Community management de la tête de réseau L'Invitation</h4>
-							   		</div>
-									<img src={smoInvitation} alt="Social Media L'Invitation" />
-									<figcaption>Management du réseau L'Invitation sur Facebook.</figcaption>
-									<p><a href="https://www.facebook.com/LInvitation-780068835411087/?eid=ARAY2o6eA9jNpiuc9-we4GPSl2IJ6sjrMjYnTV1aAc7kBkmy8QfKALim_3HigBa1CfrKHgxyRgj4Yjrg" alt="Page Facebook de L'Invitation" target="_blank" rel="noopener noreferrer">Page Facebook L'Invitation</a></p>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+								   	<figure>
+								   		<div>
+									   		<h4>Animation du réseau sur Facebook</h4>
+								   		</div>
+										<img src={seoInvitation} alt="Social Media L'Invitation" />
+										<figcaption>Animation des points de vente du réseau L'Inivitation.</figcaption>
+										<p><a href="https://www.facebook.com/LInvitation-780068835411087/?eid=ARAY2o6eA9jNpiuc9-we4GPSl2IJ6sjrMjYnTV1aAc7kBkmy8QfKALim_3HigBa1CfrKHgxyRgj4Yjrg" alt="Page Facebook de L'Invitation" target="_blank" rel="noopener noreferrer">Page Facebook L'Invitation</a></p>
+									</figure>
+								   	<figure>
+								   		<div>
+									   		<h4>Community management de la tête de réseau L'Invitation</h4>
+								   		</div>
+										<img src={smoInvitation} alt="Social Media L'Invitation" />
+										<figcaption>Management du réseau L'Invitation sur Facebook.</figcaption>
+										<p><a href="https://www.facebook.com/LInvitation-780068835411087/?eid=ARAY2o6eA9jNpiuc9-we4GPSl2IJ6sjrMjYnTV1aAc7kBkmy8QfKALim_3HigBa1CfrKHgxyRgj4Yjrg" alt="Page Facebook de L'Invitation" target="_blank" rel="noopener noreferrer">Page Facebook L'Invitation</a></p>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 						<SectionMedia>
 							<h3 id="admv">Stratégie Digitale AchatDansMaVille.com</h3>
@@ -229,21 +237,22 @@ class Digital extends Component {
 								<li>Définition et mise en place d'une stratégie de street marketing.</li>
 								<li>Relation presse.</li>
 							</ul>
-							<MediaBoard>
-								<figure>
-									<img src={admvSite} alt="Site internet AchatDansMaVille.com." />
-									<figcaption>Site internet AchatDansMaVille.com.</figcaption>
-								</figure>
-								<figure>
-									<img src={admvSite2} alt="Site internet AchatDansMaVille.com." />
-									<figcaption>Site internet AchatDansMaVille.com.</figcaption>
-								</figure>
-								<figure>
-									<img src={admvLogo} alt="Logo AchatDansMaVille.com." />
-									<figcaption>Logo AchatDansMaVille.com.</figcaption>
-								</figure>
-							</MediaBoard>
-
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={admvSite} alt="Site internet AchatDansMaVille.com." />
+										<figcaption>Site internet AchatDansMaVille.com.</figcaption>
+									</figure>
+									<figure>
+										<img src={admvSite2} alt="Site internet AchatDansMaVille.com." />
+										<figcaption>Site internet AchatDansMaVille.com.</figcaption>
+									</figure>
+									<figure>
+										<img src={admvLogo} alt="Logo AchatDansMaVille.com." />
+										<figcaption>Logo AchatDansMaVille.com.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 					</div>
 					<div id="SEO" className={`tabcontent ${tabs === "SEO" ? 'show' : ''}`}>

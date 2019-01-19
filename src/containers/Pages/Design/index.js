@@ -59,6 +59,7 @@ import Tabs from '../../../components/Tabs';
 import SectionIntro from '../../../components/SectionIntro';
 import MediaBoard from '../../../components/MediaBoard';
 import SectionMedia from '../../../components/SectionMedia';
+import Collapse from '../../../components/Collapse';
 
 class Design extends Component {
 	state = {
@@ -220,45 +221,48 @@ class Design extends Component {
 								<li>Élaboration des documents d'entreprise (cartes de visite, template de lettre, facture et devis, etc...)</li>
 							</ul>
 							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={logoYeutech} alt="Logo Yeutech" />
-									<figcaption>Yeutech, software factory. Saigon.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechVisitCard} alt="Cartes de visites Yeutech" />
-									<figcaption>Cartes de visites Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechBadge} alt="Badge Yeutech" />
-									<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechFavicon} alt="Favicon Yeutech" />
-									<figcaption>Favicon Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechGoogle} alt="Arrière plan réseaux sociaux" />
-									<figcaption>Arrière plan réseaux sociaux @Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechGuideline} alt="Charte graphique web Yeutech" />
-									<figcaption>Charte graphique web Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={billYeutech} alt="Facture Yeutech" />
-									<figcaption>J'ai superviser l'équipe créative afin de concevoir les factures pour les clients de Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={invoiceYeutech} alt="Devis Yeutech" />
-									<figcaption>J'ai superviser l'équipe créative afin de concevoir les devis pour les clients de Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={letterYeutech} alt="Lettre Yeutech" />
-									<figcaption>J'ai superviser notre stagiaire designer afin de concevoir les templates de lettre à utiliser pour l'entreprise Yeutech.</figcaption>
-								</figure>
-							</MediaBoard>
-
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={logoYeutech} alt="Logo Yeutech" />
+										<figcaption>Yeutech, software factory. Saigon.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechVisitCard} alt="Cartes de visites Yeutech" />
+										<figcaption>Cartes de visites Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechBadge} alt="Badge Yeutech" />
+										<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechFavicon} alt="Favicon Yeutech" />
+										<figcaption>Favicon Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechGoogle} alt="Arrière plan réseaux sociaux" />
+										<figcaption>Arrière plan réseaux sociaux @Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechGuideline} alt="Charte graphique web Yeutech" />
+										<figcaption>Charte graphique web Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={billYeutech} alt="Facture Yeutech" />
+										<figcaption>J'ai superviser l'équipe créative afin de concevoir les factures pour les clients de Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={invoiceYeutech} alt="Devis Yeutech" />
+										<figcaption>J'ai superviser l'équipe créative afin de concevoir les devis pour les clients de Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={letterYeutech} alt="Lettre Yeutech" />
+										<figcaption>J'ai superviser notre stagiaire designer afin de concevoir les templates de lettre à utiliser pour l'entreprise Yeutech.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="bs">Identité Bootstrap-styled</h3>
 							<p>Dans le cadre de la conception de ce framework par les développeurs de l'entreprise Yeutech, j'était chargé de créer l'identité visuelle.</p>
 							<ul>
@@ -266,21 +270,25 @@ class Design extends Component {
 								<li>Création et intégration des contenus (textes et images) sur le site internet.</li>
 							</ul>
 							<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={titleBs} alt="Badge d'entête Bootstrap-styled." />
-									<figcaption>Badge d'entête Bootstrap-styled.</figcaption>
-								</figure>
-								<figure>
-									<img src={badgeBs} alt="Badge Bootstrap-styled." />
-									<figcaption>Badge Bootstrap-styled.</figcaption>
-								</figure>
-								<figure>
-									<img src={logoBs} alt="Logo Bootstrap-styled." />
-									<figcaption>Logo Bootstrap-styled.</figcaption>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
 
+								<MediaBoard>
+									<figure>
+										<img src={titleBs} alt="Badge d'entête Bootstrap-styled." />
+										<figcaption>Badge d'entête Bootstrap-styled.</figcaption>
+									</figure>
+									<figure>
+										<img src={badgeBs} alt="Badge Bootstrap-styled." />
+										<figcaption>Badge Bootstrap-styled.</figcaption>
+									</figure>
+									<figure>
+										<img src={logoBs} alt="Logo Bootstrap-styled." />
+										<figcaption>Logo Bootstrap-styled.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="tbd">Identité The Bubble Day</h3>
 							<p>Avec une équipe d'étudiant, j'ai participé à la création de l'identité visuel de la course solidaire The Bubble Day.</p>
 							<ul>
@@ -288,48 +296,52 @@ class Design extends Component {
 								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux, site internet...)</li>
 							</ul>
 							<p><small>Website : <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={logoTbd} alt="Logo Abstraack" />
-									<figcaption>Yeutech, software factory. Saigon.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdLogo} alt="Cartes de visites Yeutech" />
-									<figcaption>Cartes de visites Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdSocial} alt="Arrière plan réseaux sociaux" />
-									<figcaption>Arrière plan réseaux sociaux @Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdPhoto} alt="Badge Yeutech" />
-									<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdPhoto1} alt="Favicon Yeutech" />
-									<figcaption>Favicon Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdSocial4} alt="Charte graphique web Yeutech" />
-									<figcaption>Charte graphique web Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdWeb1} alt="Charte graphique web Yeutech" />
-									<figcaption>Charte graphique web Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdSocial7} alt="Charte graphique web Yeutech" />
-									<figcaption>Charte graphique web Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdWeb2} alt="Charte graphique web Yeutech" />
-									<figcaption>Charte graphique web Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityTbdWeb} alt="Charte graphique web Yeutech" />
-									<figcaption>Charte graphique web Yeutech.</figcaption>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={logoTbd} alt="Logo Abstraack" />
+										<figcaption>Yeutech, software factory. Saigon.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdLogo} alt="Cartes de visites Yeutech" />
+										<figcaption>Cartes de visites Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdSocial} alt="Arrière plan réseaux sociaux" />
+										<figcaption>Arrière plan réseaux sociaux @Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdPhoto} alt="Badge Yeutech" />
+										<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdPhoto1} alt="Favicon Yeutech" />
+										<figcaption>Favicon Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdSocial4} alt="Charte graphique web Yeutech" />
+										<figcaption>Charte graphique web Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdWeb1} alt="Charte graphique web Yeutech" />
+										<figcaption>Charte graphique web Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdSocial7} alt="Charte graphique web Yeutech" />
+										<figcaption>Charte graphique web Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdWeb2} alt="Charte graphique web Yeutech" />
+										<figcaption>Charte graphique web Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityTbdWeb} alt="Charte graphique web Yeutech" />
+										<figcaption>Charte graphique web Yeutech.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="linvitation">Identité L'Invitation</h3>
 							<p>En Alternance dans l'agence de communication Symbol, j'ai pu participer à la refonte de l'identité visuel de sa marque cliente: L'Invitation:</p>
 							<ul>
@@ -337,44 +349,48 @@ class Design extends Component {
 								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux).</li>
 							</ul>
 							<p><small>Website : <a href="http://www.cartelinvitation.net/" rel="noopener noreferrer" target="_blank">cartelinvitation.net</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={identityLinvitationLogo1} alt="Logo L'Invitation" />
-									<figcaption>Logo L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationCard} alt="Carte de fidélité L'Invitation" />
-									<figcaption>Carte de fidélité L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationLogo} alt="Logo L'Invitation" />
-									<figcaption>Logo décliné de L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationPackage} alt="Coffret L'Invitation" />
-									<figcaption>Coffret L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationPoster} alt="Affiche L'Invitation" />
-									<figcaption>Affiche L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationPoster1} alt="Affiche L'Invitation" />
-									<figcaption>Affiche L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationPoster2} alt="Affiche L'Invitation" />
-									<figcaption>Affiche L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationPromotion} alt="Promotion L'Invitation" />
-									<figcaption>Promotion L'Invitation.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityLinvitationWeb} alt="Site internet L'Invitation" />
-									<figcaption>Site internet L'Invitation.</figcaption>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={identityLinvitationLogo1} alt="Logo L'Invitation" />
+										<figcaption>Logo L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationCard} alt="Carte de fidélité L'Invitation" />
+										<figcaption>Carte de fidélité L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationLogo} alt="Logo L'Invitation" />
+										<figcaption>Logo décliné de L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationPackage} alt="Coffret L'Invitation" />
+										<figcaption>Coffret L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationPoster} alt="Affiche L'Invitation" />
+										<figcaption>Affiche L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationPoster1} alt="Affiche L'Invitation" />
+										<figcaption>Affiche L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationPoster2} alt="Affiche L'Invitation" />
+										<figcaption>Affiche L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationPromotion} alt="Promotion L'Invitation" />
+										<figcaption>Promotion L'Invitation.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityLinvitationWeb} alt="Site internet L'Invitation" />
+										<figcaption>Site internet L'Invitation.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="abstraack">Identité Abstraack</h3>
 							<p>Co-fondateur de l'agence évènementielle Abstraack, j'ai créé entièrement l'ensemble de l'identité visuel:</p>
 							<ul>
@@ -382,28 +398,30 @@ class Design extends Component {
 								<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux...)</li>
 							</ul>
 							<p><small>Website : <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={identityAbstraackFlowerSocial} alt="Affiche Saigon Flower Power." />
-									<figcaption>Affiche sur les réseaux sociaux, Saigon Flower Power.</figcaption>
-								</figure>
-								<figure>
-									<img src={logoAbstraack} alt="Logo Abstraack" />
-									<figcaption>ABSTRAACK, agence évènementielle. Saigon.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityAbstraackFlower} alt="Flyers Saigon Flower Power" />
-									<figcaption>Flyers Saigon Flower Power.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityAbstraackFlower1} alt="Flyers Saigon Flower Power" />
-									<figcaption>Flyers Saigon Flower Power..</figcaption>
-								</figure>
-								<figure>
-									<img src={identityAbstraackFlowerPoster} alt="Affiche Saigon Flower Power" />
-									<figcaption>Affiche Saigon Flower Power.</figcaption>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={identityAbstraackFlowerSocial} alt="Affiche Saigon Flower Power." />
+										<figcaption>Affiche sur les réseaux sociaux, Saigon Flower Power.</figcaption>
+									</figure>
+									<figure>
+										<img src={logoAbstraack} alt="Logo Abstraack" />
+										<figcaption>ABSTRAACK, agence évènementielle. Saigon.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityAbstraackFlower} alt="Flyers Saigon Flower Power" />
+										<figcaption>Flyers Saigon Flower Power.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityAbstraackFlower1} alt="Flyers Saigon Flower Power" />
+										<figcaption>Flyers Saigon Flower Power..</figcaption>
+									</figure>
+									<figure>
+										<img src={identityAbstraackFlowerPoster} alt="Affiche Saigon Flower Power" />
+										<figcaption>Affiche Saigon Flower Power.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 					</div>
 				</Tabs>

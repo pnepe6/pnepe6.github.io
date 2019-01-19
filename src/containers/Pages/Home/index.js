@@ -44,7 +44,7 @@ class Home extends Component {
 					<div className="motion">
 						<MotionList />
 					</div>
-					<p>en région parisienne</p>
+					<p>disponible en région parisienne</p>
 				</div>
 				<div ref="progress-list" className="skills">
 					<h2>En quelques mots:</h2>

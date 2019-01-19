@@ -18,6 +18,7 @@ import SectionIntro from '../../../components/SectionIntro';
 import MediaBoard from '../../../components/MediaBoard';
 import SectionMedia from '../../../components/SectionMedia';
 import Tabs from '../../../components/Tabs';
+import Collapse from '../../../components/Collapse';
 
 class Web extends Component {
 	state = {
@@ -70,33 +71,36 @@ class Web extends Component {
 								<li>Javscript (dont React.js)</li>
 							</ul>						
 							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={siteYeutech} alt="Site internet Yeutech." />
-									<figcaption>Site internet Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={siteYeutechDoc} alt="Site internet des documentations Yeutech." />
-									<figcaption>Site internet des documentations Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={identityYeutechGuideline} alt="Guideline webdesign Yeutech." />
-									<figcaption>Charte graphique Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={wireframeMobileYeutech} alt="Maquette du site internet mobile Yeutech." />
-									<figcaption>Maquette du site internet mobile Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={wireframeTabletYeutech} alt="Maquette du site internet tablette Yeutech." />
-									<figcaption>Maquette du site internet tablette Yeutech.</figcaption>
-								</figure>
-								<figure>
-									<img src={wireframeDesktopYeutech} alt="Maquette du site internet desktop Yeutech." />
-									<figcaption>Maquette du site internet desktop Yeutech.</figcaption>
-								</figure>
-							</MediaBoard>
-
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={siteYeutech} alt="Site internet Yeutech." />
+										<figcaption>Site internet Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={siteYeutechDoc} alt="Site internet des documentations Yeutech." />
+										<figcaption>Site internet des documentations Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={identityYeutechGuideline} alt="Guideline webdesign Yeutech." />
+										<figcaption>Charte graphique Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={wireframeMobileYeutech} alt="Maquette du site internet mobile Yeutech." />
+										<figcaption>Maquette du site internet mobile Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={wireframeTabletYeutech} alt="Maquette du site internet tablette Yeutech." />
+										<figcaption>Maquette du site internet tablette Yeutech.</figcaption>
+									</figure>
+									<figure>
+										<img src={wireframeDesktopYeutech} alt="Maquette du site internet desktop Yeutech." />
+										<figcaption>Maquette du site internet desktop Yeutech.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>	
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="bs">Site internet Bootstrap-styled</h3>
 
 							<p>J'ai participé à la conception du site internet servant à présenter le framework javascript Bootstrap-styled conçut par les développeurs de l'entreprise Yeutech.</p>
@@ -107,21 +111,24 @@ class Web extends Component {
 								<li>Javscript (dont React.js)</li>
 							</ul>
 							<p><small>Website: <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={siteHomeBs} alt="Site internet Bootstrap-styled, page d'accueil." />
-									<figcaption>Site internet Bootstrap-styled, page d'accueil.</figcaption>
-								</figure>
-								<figure>
-									<img src={readmeBs} alt="Readme Bootstrap-styled." />
-									<figcaption>Readme Bootstrap-styled.</figcaption>
-								</figure>
-								<figure>
-									<img src={siteBs} alt="Site internet Bootstrap-styled." />
-									<figcaption>Site internet Bootstrap-styled, page de documentation.</figcaption>
-								</figure>
-							</MediaBoard>
-
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={siteHomeBs} alt="Site internet Bootstrap-styled, page d'accueil." />
+										<figcaption>Site internet Bootstrap-styled, page d'accueil.</figcaption>
+									</figure>
+									<figure>
+										<img src={readmeBs} alt="Readme Bootstrap-styled." />
+										<figcaption>Readme Bootstrap-styled.</figcaption>
+									</figure>
+									<figure>
+										<img src={siteBs} alt="Site internet Bootstrap-styled." />
+										<figcaption>Site internet Bootstrap-styled, page de documentation.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="tbd">Site internet The Bubble Day</h3>
 							<p>J'ai conçu à partir de Wordpress et ai administré le site internet de l'évènement The Bubble Day.</p>
 							<p><strong>Technologies utilisées:</strong></p>
@@ -131,17 +138,20 @@ class Web extends Component {
 								<li>CSS3</li>
 							</ul>
 							<p><small>Website: Site fermé</small></p>
-							<MediaBoard>
-								<figure>
-									<img src={identityTbdLogo} alt="Logo du site internet The Bubble Day." />
-									<figcaption>Logo du site internet The Bubble Day.</figcaption>
-								</figure>
-								<figure>
-									<img src={siteTbd} alt="Site internet The Bubble Day." />
-									<figcaption>Site internet The Bubble Day.</figcaption>
-								</figure>
-							</MediaBoard>
-
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={identityTbdLogo} alt="Logo du site internet The Bubble Day." />
+										<figcaption>Logo du site internet The Bubble Day.</figcaption>
+									</figure>
+									<figure>
+										<img src={siteTbd} alt="Site internet The Bubble Day." />
+										<figcaption>Site internet The Bubble Day.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
+						</SectionMedia>
+						<SectionMedia>
 							<h3 id="symbol">Site internet Agence Symbol</h3>
 							
 							<p>J'ai conçu à partir de Wordpress et ai administré le site internet de l'agence Symbol.</p>
@@ -152,12 +162,14 @@ class Web extends Component {
 								<li>CSS3</li>
 							</ul>
 							<p><small>Website: <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
-							<MediaBoard>
-								<figure>
-									<img src={siteSymbol} alt="Site internet de l'agence Symbol." />
-									<figcaption>Site internet de l'agence Symbol.</figcaption>
-								</figure>
-							</MediaBoard>
+							<Collapse clickable="Cliquez pour en savoir plus">
+								<MediaBoard>
+									<figure>
+										<img src={siteSymbol} alt="Site internet de l'agence Symbol." />
+										<figcaption>Site internet de l'agence Symbol.</figcaption>
+									</figure>
+								</MediaBoard>
+							</Collapse>
 						</SectionMedia>
 					</div>
 					<div id="PORTFOLIO" className={`tabcontent ${tabs === "PORTFOLIO" ? 'show' : ''}`}>

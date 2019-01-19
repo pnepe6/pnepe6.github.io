@@ -1,3 +1,5 @@
 .cv {
-	width: 100%;
+	width: 90%;
+    display: block;
+    margin: 100px auto;
 }
