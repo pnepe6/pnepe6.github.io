@@ -28,11 +28,5 @@
   "devDependencies": {
     "file-loader": "^3.0.1",
     "gh-pages": "^1.1.0"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
