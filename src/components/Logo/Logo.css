@@ -25,7 +25,8 @@
  	padding: 0 0 15px 0;
 }
 
-.logo-lg div small {
+.logo-lg div h1 {
  	font-size: 18px;
  	color: white;
+ 	font-weight: 400;
 }

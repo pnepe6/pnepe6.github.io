@@ -10,7 +10,7 @@ class Logo extends Component {
 				<div>
 					<p>ADRIEN</p>
 					<p>GADAUD</p>
-					<small>Chef de Projet Digital</small>
+					<h1><small>Chef de Projet Digital</small></h1>
 				</div>
 			</div>
 		);

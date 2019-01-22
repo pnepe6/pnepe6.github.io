@@ -85,7 +85,7 @@ class Home extends Component {
 					<h2>Envie d'en savoir plus?</h2>
 					<p><strong>Passionné de référencement et spécialisé en Marketing Digital,</strong> j'ai travaillé en Alternance dans une agence de communication où j'ai créé et géré mes premiers projets web (CMS, SEO, SMO).</p>
 					<p>Fort de 3 années passées au Viêtnam dans une start-up spécialisée dans le développement de technologies open source, j'ai découvert la gestion de projet AGILE et appris le développement front-end (HTML, CSS, JavaScript, MySQL...).</p>
-					<p>Je mène mes projets avec un regard à la fois artistique et technique tout en intégrant les enjeux marketing et commerciaux.</p>
+					<p>Je suis un chef de projet digital qui gère ses projets avec un regard à la fois artistique et technique tout en intégrant les enjeux marketing et commerciaux.</p>
 					<Link to="/cv/">Consultez mon CV</Link>
 				</SectionActionCall>
 				<SectionContent>
