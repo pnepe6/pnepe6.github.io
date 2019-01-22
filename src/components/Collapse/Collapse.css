@@ -1,9 +1,7 @@
 .collapse-container {
 	position: relative;
 }
-.collapse-content {
 
-}
 .collapse-hide {
 	animation-name: collapseOut;
 	animation-duration: 1s;
@@ -54,13 +52,13 @@
 	cursor: pointer;
 	border: 1px solid #265d63;
 	background-color: #FFF;
-	font-size: 20px;
+	font-size: 15px;
 	color: #34b8c8;
-	width: 400px;
+	width: 150px;
 	text-align: center;
 	padding: 20px;
 	border-radius: 45px;
-	margin: 100px 0 0 50px;
+	margin: 50px 0 0 10px;
 	line-height: 30px;
 	font-weight: bold;
 }
@@ -107,16 +105,13 @@
 	}
 	100%{
 	    display: none;
-	    width: 0px;
-	    height: 0px;
 		border: none;
 	}
 }
 @keyframes clickableIn {
 	0%{
 	    display: none;
-	    width: 0px;
-	    height: 0px;
+		border: none;
 	    transform: translateX(1000px);
 	}
 	50%{
@@ -208,4 +203,12 @@
   -ms-transform: translateY(-13px) rotate(90deg);
   -o-transform: translateY(-13px) rotate(90deg);
   transform: translateY(-13px) rotate(90deg);
+}
+
+@media screen and (min-width: 801px) {
+	.clickable {
+		font-size: 20px;
+		width: 400px;
+		margin: 100px 0 0 50px;
+	}
 }

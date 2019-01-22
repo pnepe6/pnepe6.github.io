@@ -89,7 +89,6 @@ class MotionList extends Component {
 			    <span ref="word" className="word wisteria">SMO</span>
 			    <span ref="word" className="word belize">Web</span>
 			    <span ref="word" className="word pomegranate">eMarketing</span>
-			    <span ref="word" className="word wisteria">Open Source</span>
 			  </p>
 			</div>
 		);
