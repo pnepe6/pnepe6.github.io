@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 // eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import MotionList from '../../../components/MotionList';
@@ -40,6 +41,9 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
+		        <Helmet>
+		            <base href="https://pnepe6.github.io/">
+		        </Helmet>
 				<div className="intro">
 					<div className="motion">
 						<MotionList />

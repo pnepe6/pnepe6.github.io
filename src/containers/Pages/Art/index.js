@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import paintClown from '../../../static/00_paint_agd-clown-fish.jpg';
 import paintComedia from '../../../static/00_paint_agd-comedia.jpg';
 import paintFF from '../../../static/00_paint_agd-final-fantasy.jpg';
@@ -23,6 +24,11 @@ class Art extends Component {
 	render() {
 		return (
 			<div>
+		        <Helmet>
+		            <base href="https://pnepe6.github.io/art">
+		            <title>Peintures Adrien Gadaud</title>
+        	  	    <meta name="description" content="Voici mon portfolio présentant mes dessins à l'aquerelle et mes peintures à huile." />
+		        </Helmet>
 				<SectionTop>
 					<h1>ART GRAPHIQUE</h1>
 				</SectionTop>
