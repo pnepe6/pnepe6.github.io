@@ -19,7 +19,7 @@ class App extends Component {
         	<meta name="description" content="Curriculum vitae d'Adrien Gadaud, Chef de projet Web et Chef de projet Digital en région parisienne." />
         </Helmet>
       	<Navigation />
-		<Footer />
+		    <Footer />
       </div>
     );
   }
