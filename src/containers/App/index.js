@@ -16,7 +16,7 @@ class App extends Component {
         <Helmet>
             <meta charSet="utf-8" />
             <title>Cv chef de projet digital</title>
-        	<meta name="description" content="Curriculum vitae d'Adrien Gadaud, Chef de projet Web et Chef de projet Digital en région parisienne." />
+        	  <meta name="description" content="Curriculum vitae d'Adrien Gadaud, Chef de projet Web et Chef de projet Digital en région parisienne." />
         </Helmet>
       	<Navigation />
 		    <Footer />

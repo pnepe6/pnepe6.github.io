@@ -26,6 +26,7 @@ class Art extends Component {
 			<div>
 		        <Helmet>
 		            <base href="https://pnepe6.github.io/art" />
+		            <link rel="canonical" href="https://pnepe6.github.io/art" />
 		            <title>Peintures Adrien Gadaud</title>
         	  	    <meta name="description" content="Voici mon portfolio présentant mes dessins à l'aquerelle et mes peintures à huile." />
 		        </Helmet>
