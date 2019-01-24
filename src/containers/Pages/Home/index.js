@@ -42,7 +42,7 @@ class Home extends Component {
 		return (
 			<div>
 		        <Helmet>
-		            <base href="https://pnepe6.github.io/">
+		            <base href="https://pnepe6.github.io/" />
 		        </Helmet>
 				<div className="intro">
 					<div className="motion">
