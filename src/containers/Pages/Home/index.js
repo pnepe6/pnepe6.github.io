@@ -42,7 +42,11 @@ class Home extends Component {
 		return (
 			<div>
 		        <Helmet>
+    				<meta charSet="utf-8" />
 		            <base href="https://pnepe6.github.io/" />
+    				<link rel="canonical" href="https://pnepe6.github.io/" />
+            		<title>Cv chef de projet digital</title>
+        	  		<meta name="description" content="Curriculum vitae d'Adrien Gadaud, Chef de projet Web et Chef de projet Digital en région parisienne." />
 		        </Helmet>
 				<div className="intro">
 					<div className="motion">
