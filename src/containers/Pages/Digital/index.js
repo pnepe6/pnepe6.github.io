@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import rsYeutech from '../../../static/yeutech_rs-fb.png';
 import fbTbd from '../../../static/rs-fb_tbd.png';
 import twitterTbd from '../../../static/rs-twitter_tbd.png';
@@ -41,6 +42,10 @@ class Digital extends Component {
 		const { tabs } = this.state;
 		return (
 			<div>
+		        <Helmet>
+            		<title>Digital Marketing</title>
+        	  		<meta name="description" content="Portfolio des mes expériences en digital marketing incluant les stratégies de Search Engine Optimization." />
+		        </Helmet>
 				<SectionTop>
 					<h1>DIGITAL MARKET­­­­ING</h1>
 				</SectionTop>

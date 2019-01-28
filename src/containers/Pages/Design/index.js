@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import logoAbstraack from '../../../static/01_design_agd-abstrack-logo.jpg';
 import logoComptoir from '../../../static/01_design_agd-comptoir-logo.jpg';
 import logoFbi from '../../../static/01_design_agd-fbi-logo.jpg';
@@ -76,6 +77,10 @@ class Design extends Component {
 		const { tabs } = this.state;
 		return (
 			<div>
+		        <Helmet>
+            		<title>Design graphique</title>
+        	  		<meta name="description" content="Portfolio des mes expériences en web Design et en création d'identité visuelle." />
+		        </Helmet>
 				<SectionTop>
 					<h1>DESIGN GRAPHIQUE</h1>					
 				</SectionTop>

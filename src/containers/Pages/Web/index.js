@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import siteYeutech from '../../../static/02_web_website-yeutech.png';
 import siteYeutechDoc from '../../../static/02_web_website-yeutech-doc.png';
 import identityYeutechGuideline from '../../../static/identity-yeutech-guideline.jpg';
@@ -34,6 +35,10 @@ class Web extends Component {
 		const { tabs } = this.state;
 		return (
 			<div>
+		        <Helmet>
+            		<title>Développement front-end</title>
+        	  		<meta name="description" content="Portfolio des mes expériences en développement front-end et gestion de projet web." />
+		        </Helmet>
 				<SectionTop>
 					<h1>DEVELOPPEMENT WEB</h1>
 				</SectionTop>

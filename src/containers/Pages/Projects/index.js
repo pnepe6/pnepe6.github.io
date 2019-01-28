@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 // eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -60,6 +61,10 @@ class Projects extends Component {
 		const { tabs } = this.state;
 		return (
 			<div>
+		        <Helmet>
+            		<title>Gestion de projet digital</title>
+        	  		<meta name="description" content="Portfolio des mes expériences en gestion de projet digital et gestion de projet évènementiel." />
+		        </Helmet>
 				<SectionTop>
 					<h1>GESTION DE PROJET</h1>
 				</SectionTop>
