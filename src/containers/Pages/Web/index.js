@@ -40,7 +40,7 @@ class Web extends Component {
         	  		<meta name="description" content="Portfolio des mes expériences en développement front-end et gestion de projet web." />
 		        </Helmet>
 				<SectionTop>
-					<h1>DEVELOPPEMENT WEB</h1>
+					<h1>DEVELOPPEMENT FRONT-END</h1>
 				</SectionTop>
 				<SectionIntro>
 					<p><strong>J'ai débuté mon apprentissage des langages HTML et CSS lors de mon enseignement secondaire.</strong></p>

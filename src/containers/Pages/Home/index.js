@@ -42,16 +42,8 @@ class Home extends Component {
 		return (
 			<div>
 		        <Helmet>
-<<<<<<< HEAD
-    				<meta charSet="utf-8" />
-		            <base href="https://pnepe6.github.io/" />
-    				<link rel="canonical" href="https://pnepe6.github.io/" />
-            		<title>Cv chef de projet digital</title>
-        	  		<meta name="description" content="Curriculum vitae d'Adrien Gadaud, Chef de projet Web et Chef de projet Digital en région parisienne." />
-=======
             		<title>Adrien Gadaud | Chef de projet Digital</title>
         	  		<meta name="description" content="Chef de projet digital et chef de projet web en région parisienne." />
->>>>>>> d373092... Fix seo and hmr.
 		        </Helmet>
 				<div className="intro">
 					<div className="motion">
