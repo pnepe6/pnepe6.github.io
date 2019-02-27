@@ -20,7 +20,10 @@ class Collapse extends Component {
 	render() {
 		const { isActive } = this.state;
 		return (
-			<div className="collapse-container">
+			<div
+				className="collapse-container"
+				className={isActive ? "collapse-container active" : "collapse-container"}
+			>
 				<div
 				  onClick={() => this.onChangeCollapse()}
 				  className={isActive ? "clickable unactive" : "clickable active"}

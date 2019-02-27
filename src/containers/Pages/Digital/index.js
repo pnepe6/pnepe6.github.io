@@ -278,7 +278,7 @@ class Digital extends Component {
 										<li>communication franchise</li>
 										<li>communication franchise et réseau</li>
 										<li>communication des franchises et réseaux</li>
-										<li>etc...</li>
+										<li>etc.</li>
 									</ul>
 									<p><a href="http://www.positeo.com/check-position/?q=communication+franchise&u=http%3A//www.symbol-com.fr/" alt="Test position SEO du site internet: www.symbol-com.fr" target="_blank" rel="noopener noreferrer">Test position SEO</a></p>
 								</figure>
@@ -292,11 +292,11 @@ class Digital extends Component {
 									<figcaption>Stratégie SEO et référencement naturel du site internet thebubbleday.fr présentant la course solidaire du même nom.</figcaption>
 									<figcaption><strong>Mots clés référencés:</strong></figcaption>
 									<ul>
-										<li>course solidaire Paris / Marseille / etc...</li>
+										<li>course solidaire Paris / Marseille / etc.</li>
 										<li>The Bubble Day</li>
-										<li>quoi faire à Paris / Marseille / etc...</li>
-										<li>sortir à Paris / Marseille / etc...</li>
-										<li>etc...</li>
+										<li>quoi faire à Paris / Marseille / etc.</li>
+										<li>sortir à Paris / Marseille / etc.</li>
+										<li>etc.</li>
 									</ul>
 									<p>site fermé</p>
 								</figure>
@@ -313,7 +313,7 @@ class Digital extends Component {
 										<li>actualité des réseaux sociaux</li>
 										<li>actu réseaux sociaux</li>
 										<li>blog social media</li>
-										<li>etc...</li>
+										<li>etc.</li>
 									</ul>
 									<p>site fermé</p>
 								</figure>
@@ -334,7 +334,7 @@ class Digital extends Component {
 										<li>achat or Boulogne Billancourt</li>
 										<li>vente argent Boulogne Billancourt</li>
 										<li>achat argent Boulogne Billancourt</li>
-										<li>etc...</li>
+										<li>etc.</li>
 									</ul>
 									<p>site fermé</p>
 								</figure>
@@ -351,7 +351,7 @@ class Digital extends Component {
 										<li>agence évènementielle sportive</li>
 										<li>agence Have A Dream</li>
 										<li>organisation évènements sportifs</li>
-										<li>etc...</li>
+										<li>etc.</li>
 									</ul>
 									<p>site fermé</p>
 								</figure>
@@ -369,7 +369,7 @@ class Digital extends Component {
 										<li>maisons individuelles en bois</li>
 										<li>annexes de jardins en bois</li>
 										<li>cabane de jardins</li>
-										<li>etc...</li>
+										<li>etc.</li>
 									</ul>
 									<p>site fermé</p>
 								</figure>
@@ -383,12 +383,12 @@ class Digital extends Component {
 									<figcaption>Stratégie SEO et référencement naturel du site internet axenergie.fr, réseau de chauffagistes indépendants.</figcaption>
 									<figcaption><strong>Mots clés référencés:</strong></figcaption>
 									<ul>
-										<li>Chauffagiste Paris / Marseille / etc...</li>
+										<li>Chauffagiste Paris / Marseille / etc.</li>
 										<li>Rénovation chauffage</li>
-										<li>Plombier Paris / Marseille / etc...</li>
+										<li>Plombier Paris / Marseille / etc.</li>
 										<li>Urgence plomberie</li>
 										<li>Urgence chaudière</li>
-										<li>etc...</li>
+										<li>etc.</li>
 									</ul>
 									<p>site fermé</p>
 								</figure>

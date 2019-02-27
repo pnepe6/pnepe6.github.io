@@ -69,8 +69,8 @@ class Projects extends Component {
 					<h1>GESTION DE PROJET</h1>
 				</SectionTop>
 				<SectionIntro>
-					<p><strong>Depuis ma formation en Alternance suivie de mes differents emplois, j'ai eu la chance de participer à de nombreux projets.</strong></p>
-					<p>Mes passions mon entraînées rapidement dans la gestion de projet web (eReputation, inbound marketing, stratégie SEO, etc...).</p>
+					<p><strong>Depuis ma formation en Alternance suivie de mes différents emplois, j'ai eu la chance de participer à de nombreux projets.</strong></p>
+					<p>Mes passions mon entraînées rapidement dans la gestion de projet web (eReputation, inbound marketing, stratégie SEO, etc.).</p>
 				</SectionIntro>
 				<Tabs>
 					<div className="tab">
@@ -99,19 +99,20 @@ class Projects extends Component {
 					*/}
 					</div>
 
-					<div id="EVENT" className={`tabcontent ${tabs === "EVENT" ? 'show' : ''}`}>
+					<div id="EVENT" className={`tabcontent ${tabs === "EVENT" ? 'show' : 'hide'}`}>
 						<SectionMedia>
 							<h2>Gestion de projet évènementiel</h2>
 							<h3>Abstraack</h3>
 							<p className="media-date">2017 - 2018</p>
 							<p>Co-fondateur de l'agence évènementielle Abstraack, j'ai eu la chance de manager une équipe extraordinaire:</p>
-							<ul>
-								<li>Management de l'équipe créative (identité visuelle des évènements, flyers, poster, etc...).</li>
-								<li>Management de l'équipe digital marketing (community management et inbound marketing).</li>
-								<li>Management de l'équipe de vente (prospection pour l'agence et ses clients).</li>
-							</ul>
-							<p><small>Website : <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<ul>
+									<li>Management de l'équipe créative (identité visuelle des évènements, flyers, poster, etc.).</li>
+									<li>Management de l'équipe digital marketing (community management et inbound marketing).</li>
+									<li>Management de l'équipe de vente (prospection pour l'agence et ses clients).</li>
+								</ul>
+								<p><small>Website : <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
 								<MediaBoard>
 									<figure>
 										<img src={logoAbstraack} alt="Logo Abstraack" />
@@ -140,23 +141,24 @@ class Projects extends Component {
 							<h3>Have A Dream</h3>
 							<p className="media-date">2013 - 2014</p>
 							<p>Projet étudiant afin d'organiser des projets évènementiels dans le cadre de ma formation en Alternance.</p>
-							<p>Au sein d'une équipe polyvalente de huit personnes, j'ai été chef de projet digital et ai managé deux étudiants chargé de la prospection et du community management.</p>
-							<p className="media-title">Ce que j'ai accompli:</p>
-							<ul>
-								<li>Management de l'équipe digital marketing (community management et inbound marketing).</li>
-								<li>Management de l'équipe de vente (prospection pour l'agence et ses clients).</li>
-								<li>Webmaster et développeur des sites internet de l'agence et de ses clients (Wordpress, HTML5, CSS).</li>
-								<li>Participation à l'équipe créative (création des logo pour l'agence et ses clients mais aussi conception des supports de communication digitaux).</li>
-							</ul>
-							<p><small>Website : Site fermé</small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<p>Au sein d'une équipe polyvalente de huit personnes, j'ai été chef de projet digital et ai managé deux étudiants chargé de la prospection et du community management.</p>
+								<p className="media-title">Ce que j'ai accompli :</p>
+								<ul>
+									<li>Management de l'équipe digital marketing (community management et inbound marketing).</li>
+									<li>Management de l'équipe de vente (prospection pour l'agence et ses clients).</li>
+									<li>Webmaster et développeur des sites internet de l'agence et de ses clients (Wordpress, HTML5, CSS).</li>
+									<li>Participation à l'équipe créative (création des logos pour l'agence et ses clients et conception des supports de communication digitaux).</li>
+								</ul>
+								<p><small>Website : Site fermé</small></p>
 								<MediaBoard>
 									<figure>
 										<img src={logoHad} alt="Agence Évènementielle Have A Dream" />
-										<figcaption><strong>Description:</strong></figcaption>
+										<figcaption><strong>Description :</strong></figcaption>
 										<figcaption>Agence Évènementielle, Have A Dream (Évènements Sportifs à Paris et en IDF).</figcaption>
 										<div>
-											<figcaption><strong>Travaux effectués:</strong></figcaption>
+											<figcaption><strong>Travaux effectués :</strong></figcaption>
 											<ul>
 												<li>Chef de projet digital</li>
 												<li>Développeur Wordpress et Webmaster</li>
@@ -165,10 +167,10 @@ class Projects extends Component {
 									</figure>
 								   	<figure>
 										<img src={logoCcg} alt="Évènement Sportif - Citizen Commitment Game" />
-										<figcaption><strong>Description:</strong></figcaption>
-										<figcaption>Évènement Sportif organisé par l'agence Have A Dream - Citizen Commitment Game (Team buiding organisé par la Société Génerale à Nantes).</figcaption>
+										<figcaption><strong>Description :</strong></figcaption>
+										<figcaption>Évènement Sportif organisé par l'agence Have A Dream - Citizen Commitment Game (Évènement sportif déstiné aux activités de team-buiding de la Société Générale).</figcaption>
 										<div>
-											<figcaption><strong>Travaux effectués:</strong></figcaption>
+											<figcaption><strong>Travaux effectués :</strong></figcaption>
 											<ul>
 												<li>Responsable des activités</li>
 												<li>Animateur bénévole</li>
@@ -177,10 +179,10 @@ class Projects extends Component {
 									</figure>
 								   	<figure>
 										<img src={logoTbd} alt="Évènement Sportif - The Bubble Day" />
-										<figcaption><strong>Description:</strong></figcaption>
+										<figcaption><strong>Description :</strong></figcaption>
 										<figcaption>Évènement Sportif organisé par l'agence Have A Dream - The Bubble Day (Course Solidaire à Paris - Marseille).</figcaption>
 										<div>
-											<figcaption><strong>Travaux effectués:</strong></figcaption>
+											<figcaption><strong>Travaux effectués :</strong></figcaption>
 											<ul>
 												<li>Chef de projet digital (site internet et community management)</li>
 												<li>Développeur Wordpress et Webmaster</li>
@@ -190,10 +192,10 @@ class Projects extends Component {
 									</figure>
 								   	<figure>
 										<img src={logoEcoTrail} alt="Évènement Sportif - EcoTrail" />
-										<figcaption><strong>Description:</strong></figcaption>
+										<figcaption><strong>Description :</strong></figcaption>
 										<figcaption>Évènement Sportif organisé par l'agence Have A Dream - EcoTrail (Marathon de Versailles à Paris).</figcaption>
 										<div>
-											<figcaption><strong>Travaux effectués:</strong></figcaption>
+											<figcaption><strong>Travaux effectués :</strong></figcaption>
 											<ul>
 												<li>Management de l'équipe de vente (prospection et sponsoring)</li>
 												<li>Animateur bénévole</li>
@@ -210,22 +212,23 @@ class Projects extends Component {
 							<h3>Yeutech</h3>
 							<p className="media-date">2016 - 2018</p>
 							<p>J'ai travaillé sur le lancement de la start-up informatique Yeutech au Viêtnam.</p>
-							<p>À la tête d'une équipe de deux talentueux designers et d'un développeur, j'ai eu la chance de travailler sur la création d'une marque de A à Z.</p>
-							<ul>
-								<li>Responsable marketing (définition du positionnement, mix marketing, études de marché, veille, etc...).</li>
-								<li>Direction Artistique pour l'élaboration de l'identité visuel et des documents d'entreprise.</li>
-								<li>Gestion de projet web pour la conception du site internet de l'entreprise.</li>
-								<li>Responsable de la communication avec la mise en place de la stratégie de communication online.</li>
-							</ul>
-							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<p>À la tête d'une équipe de deux talentueux designers et d'un développeur, j'ai eu la chance de travailler sur la création d'une marque de A à Z.</p>
+								<ul>
+									<li>Responsable marketing (définition du positionnement, mix marketing, études de marché, veille, etc.).</li>
+									<li>Direction Artistique pour l'élaboration de l'identité visuel et des documents d'entreprise.</li>
+									<li>Gestion de projet web pour la conception du site internet de l'entreprise.</li>
+									<li>Responsable de la communication avec la mise en place de la stratégie de communication online.</li>
+								</ul>
+								<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 								<MediaBoard>
 									<figure>
 										<div>
 											<h4>Gestion de projet web</h4>
 											<ul>
-												<li>Supervision de l'équipe créative pour définir les maquettes du site internet (mobile first, responsive, UX design, etc...).</li>
-												<li>Supervision du développement du site internet (spécification technique, développement HTML, CSS, JS, etc...).</li>
+												<li>Supervision de l'équipe créative pour définir les maquettes du site internet (mobile first, responsive, UX design, etc.).</li>
+												<li>Supervision du développement du site internet (spécification technique, développement HTML, CSS, JS, etc.).</li>
 											</ul>
 										</div>
 										<p><Link to="/web#yeutech">En savoir plus</Link></p>
@@ -248,8 +251,8 @@ class Projects extends Component {
 										<div>
 											<h4>Direction artistique</h4>
 											<ul>
-												<li>Supervision de la création de l'identité visuelle (logotype, police, couleur, etc...).</li>
-												<li>Supervision de la création des documents d'entreprise (cartes de visite, factures, devis, template de lettre, etc...)</li>
+												<li>Supervision de la création de l'identité visuelle (logotype, police, couleur, etc.).</li>
+												<li>Supervision de la création des documents d'entreprise (cartes de visite, factures, devis, template de lettre, etc.)</li>
 											</ul>
 										</div>
 										<p><Link to="/design#yeutech">En savoir plus</Link></p>
@@ -268,7 +271,7 @@ class Projects extends Component {
 										<div>
 											<h4>Responsable communication digitale</h4>
 											<ul>
-												<li>Définition de la stratégie de communication digitale (inbound marketing, référencement, réseaux sociaux, etc...).</li>
+												<li>Définition de la stratégie de communication digitale (inbound marketing, référencement, réseaux sociaux, etc.).</li>
 												<li>Élaboration et mise en place du community management (stratégie de publication et d'animation des réseaux sociaux).</li>
 											</ul>
 										</div>
@@ -280,7 +283,7 @@ class Projects extends Component {
 									</figure>
 									<figure>
 										<img src={identityYeutechGoogle} alt="Arrière plan des profils sociaux de Yeutech." />
-										<figcaption>Arrière plan des profils sociaux de Yeutech sur les réseaux en ligne.</figcaption>
+										<figcaption>Arrière plan des profils sociaux de Yeutech sur les réseaux en lignes.</figcaption>
 									</figure>
 								</MediaBoard>
 							</Collapse>
@@ -289,23 +292,24 @@ class Projects extends Component {
 							<h3>Bootstrap-styled</h3>
 							<p className="media-date">2016 - 2017</p>
 							<p>Au sein de l'entreprise Yeutech, j'ai eu la chance de participer à l'élaboration d'une technologie Open Source.</p>
-							<p>Conçut à partir de Bootstrap, React.js et Styled-Components, ce nouveau framework javascript permet de simplifier considérablement la conception web basée sur des thèmes réutilisables et modulaires.</p>
-							<p>J'ai également supervisé la conception du site internet de présentation ainsi que la documentation.</p>
-							<ul>
-								<li>Web designer (participation au travail créatif).</li>
-								<li>Développeur front-end junior (HTML5, CSS, Javscript dont React.js).</li>
-							</ul>
-
-							<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<p>Conçut à partir de Bootstrap, React.js et Styled-Components, ce nouveau framework javascript permet de simplifier considérablement la conception web basée sur des thèmes réutilisables et modulaires.</p>
+								<p>J'ai également supervisé la conception du site internet de présentation ainsi que la documentation.</p>
+								<ul>
+									<li>Web designer (participation au travail créatif).</li>
+									<li>Développeur front-end junior (HTML5, CSS, Javscript dont React.js).</li>
+								</ul>
+
+								<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
 								<MediaBoard>
 									<figure>
 										<div>
 											<h4>Web designer</h4>
 											<ul>
-												<li>Création de l'identité visuelle (logotype, police, couleur, etc...).</li>
+												<li>Création de l'identité visuelle (logotype, police, couleur, etc.).</li>
 												<li>Création des contenus à utiliser sur le web (contenus et images du site internet et des réseaux sociaux).</li>
-												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc...).</li>
+												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc.).</li>
 											</ul>
 										</div>				
 										<p><Link to="/design#bs">En savoir plus</Link></p>				
@@ -324,8 +328,8 @@ class Projects extends Component {
 										<div>
 											<h4>Développeur front-end junior</h4>
 											<ul>
-												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc...).</li>
-												<li>Développement du site internet (développement utilisant HTML5, CSS3, JS, etc...).</li>
+												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc.).</li>
+												<li>Développement du site internet (développement utilisant HTML5, CSS3, JS, etc.).</li>
 											</ul>
 										</div>							
 										<p><Link to="/web#bs">En savoir plus</Link></p>
@@ -344,22 +348,23 @@ class Projects extends Component {
 						<SectionMedia>
 							<h3>The Bubble Day</h3>
 							<p className="media-date">2014 - 2016</p>
-							<p>Après la première édition réalisée en 2014 avec l'agence étudiante Have A Dream, je suis ensuite devenue freelance sur les futures éditions (2015 - 2016).</p>
-							<p>J'étais le chef de projet digital et devais superviser les graphistes afin d'adapter efficacement les contenus (textes, photos, vidéos) sur le site internet et ses réseaux sociaux.</p>
-							<ul>
-								<li>Web designer (participation au travail créatif).</li>
-								<li>Webmaster et développeur du site internet de l'évènement.</li>
-								<li>Management de l'équipe créative et marketing.</li>
-							</ul>
-							<p><small>Website : Site fermé</small></p>
+							<p>Après la première édition réalisée en 2014 avec l'agence étudiante Have A Dream, je suis ensuite devenu freelance sur les futures éditions (2015 - 2016).</p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<p>J'étais le chef de projet digital et devais superviser les graphistes afin d'adapter efficacement les contenus (textes, photos, vidéos) sur le site internet et ses réseaux sociaux.</p>
+								<ul>
+									<li>Web designer (participation au travail créatif).</li>
+									<li>Webmaster et développeur du site internet de l'évènement.</li>
+									<li>Management de l'équipe créative et marketing.</li>
+								</ul>
+								<p><small>Website : Site fermé</small></p>
 								<MediaBoard>
 									<figure>
 										<div>
 											<h4>Webmaster et développeur Wordpress</h4>
 											<ul>
-												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc...).</li>
-												<li>Développement du site internet (développement CMS avec Wordpress utilisant également HTML, CSS, JS, etc...).</li>
+												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc.).</li>
+												<li>Développement du site internet (développement CMS avec Wordpress utilisant également HTML, CSS, JS, etc.).</li>
 											</ul>
 										</div>
 										<p><Link to="/web#tbd">En savoir plus</Link></p>
@@ -378,7 +383,7 @@ class Projects extends Component {
 										<div>
 											<h4>Web designer</h4>
 											<ul>
-												<li>Participation à la création de l'identité visuelle (logotype, police, couleur, etc...).</li>
+												<li>Participation à la création de l'identité visuelle (logotype, police, couleur, etc.).</li>
 												<li>Création des contenus à utiliser sur le web (contenus et images du site internet et des réseaux sociaux).</li>
 											</ul>
 										</div>
@@ -402,7 +407,7 @@ class Projects extends Component {
 										<div>
 											<h4>Responsable communication digitale</h4>
 											<ul>
-												<li>Définition de la stratégie de communication digitale (inbound marketing, référencement, réseaux sociaux, etc...).</li>
+												<li>Définition de la stratégie de communication digitale (inbound marketing, référencement, réseaux sociaux, etc.).</li>
 												<li>Élaboration et mise en place du community management (stratégie de publication et d'animation des réseaux sociaux).</li>
 											</ul>
 										</div>							
@@ -423,22 +428,23 @@ class Projects extends Component {
 							<h3>Agence Symbol</h3>
 							<p className="media-date">2011 - 2015</p>
 							<p>J'ai travaillé en Alternance dans une agence de communication spécialisée dans la communication des franchises et des réseaux.</p>
-							<p>J'étais le chef de projet digital et devais superviser les graphistes afin d'adapter efficacement les contenus (textes, photos, vidéos) sur le site internet et ses réseaux sociaux dont j'avais la charge.</p>
-							<ul>
-								<li>Chef de publicité</li>
-								<li>Webmaster et développeur du site internet de l'évènement.</li>
-								<li>Management du community manager.</li>
-								<li>Web designer (participation au travail créatif).</li>
-							</ul>
-							<p><small>Website : <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<p>J'étais le chef de projet digital et devais superviser les graphistes afin d'adapter efficacement les contenus (textes, photos, vidéos) sur le site internet et ses réseaux sociaux dont j'avais la charge.</p>
+								<ul>
+									<li>Chef de publicité</li>
+									<li>Webmaster et développeur du site internet de l'évènement.</li>
+									<li>Management du community manager.</li>
+									<li>Web designer (participation au travail créatif).</li>
+								</ul>
+								<p><small>Website : <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
 								<MediaBoard>
 									<figure>
 										<div>
 											<h4>Webmaster et développeur Wordpress</h4>
 											<ul>
-												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc...).</li>
-												<li>Développement du site internet (développement CMS avec Wordpress utilisant également HTML, CSS, JS, etc...).</li>
+												<li>Création des maquettes du site internet (mobile first, responsive, UX design, etc.).</li>
+												<li>Développement du site internet (développement CMS avec Wordpress utilisant également HTML, CSS, JS, etc.).</li>
 											</ul>
 										</div>
 										<p><Link to="/web#symbol">En savoir plus</Link></p>
@@ -453,7 +459,7 @@ class Projects extends Component {
 										<div>
 											<h4>Responsable communication digitale</h4>
 											<ul>
-												<li>Définition de la stratégie de communication digitale (inbound marketing, référencement, réseaux sociaux, etc...).</li>
+												<li>Définition de la stratégie de communication digitale (inbound marketing, référencement, réseaux sociaux, etc.).</li>
 												<li>Élaboration et mise en place du community management (stratégie de publication et d'animation des réseaux sociaux).</li>
 											</ul>
 										</div>
@@ -511,14 +517,15 @@ class Projects extends Component {
 						<SectionMedia>
 							<h3>AchatDansMaVille.com</h3>
 							<p className="media-date">2010 - 2011</p>
-							<p>J'ai travaillé en Alternance dans une start-up proposant des bons de reductions pour ses clients BtoC tout en prospectant de nouveaux clients BtoB afin de proposer toujours plus d'offres.</p>
-							<p>J'étais conseillé commercial et suis rapidement devenu l'assistant du chef de projet digital afin de superviser les graphistes pour adapter efficacement les contenus (textes, photos, vidéos) sur le blog et les réseaux sociaux dont je partageais la charge avec un chef de projet confirmé.</p>
-							<ul>
-								<li>Responsable commercial</li>
-								<li>Assistant chef de projet digital</li>
-							</ul>
-							<p><small>Website : Site fermé</small></p>
+							<p>J'ai travaillé en Alternance dans une start-up proposant des bons de réductions pour ses clients BtoC tout en prospectant de nouveaux clients BtoB afin de proposer toujours plus d'offres.</p>
 							<Collapse clickable="Cliquez pour en savoir plus">
+								<h4>Ce que j'ai accompli :</h4>
+								<p>J'étais conseillé commercial et suis rapidement devenu l'assistant du chef de projet digital afin de superviser les graphistes pour adapter efficacement les contenus (textes, photos, vidéos) sur le blog et les réseaux sociaux dont je partageais la charge avec un chef de projet confirmé.</p>
+								<ul>
+									<li>Responsable commercial</li>
+									<li>Assistant chef de projet digital</li>
+								</ul>
+								<p><small>Website : Site fermé</small></p>
 								<MediaBoard>
 									<figure>
 										<div>
