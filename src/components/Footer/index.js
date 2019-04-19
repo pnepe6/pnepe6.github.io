@@ -11,7 +11,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<div className="footer-ft">
-				<h3>Restons connecté, suivez moi sur:</h3>
+				<h3>Restons connectés, suivez moi sur:</h3>
 				<a href="https://plus.google.com/+adriengadaud" target="_blank" rel="noopener noreferrer"><img src={pictoGoogle} alt="picto-google+" /></a>
 				<a href="https://github.com/pnepe6" target="_blank" rel="noopener noreferrer"><img src={pictoGithub} alt="picto-github" /></a>
 				<a href="https://fr.linkedin.com/in/adriengadaud" target="_blank" rel="noopener noreferrer"><img src={pictoLinkedin} alt="picto-linkedin" /></a>
