@@ -69,13 +69,13 @@ class Web extends Component {
 							<h2>Conception de site internet</h2>
 							<h3 id="yeutech">Site internet Yeutech</h3>
 							<p>J'ai supervisé les designers afin d'établir les maquettes graphiques et les ressources graphique afin de concevoir le site internet de l'entreprise ainsi que le site internet des documentations de l'entreprise.</p>
-							<p><strong>Technologies utilisées:</strong></p>
+							<p><strong>Technologies utilisées :</strong></p>
 							<ul>
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>Javscript (dont React.js)</li>
 							</ul>						
-							<p><small>Website: <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
+							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
 								<MediaBoard>
 									<figure>
@@ -109,13 +109,13 @@ class Web extends Component {
 							<h3 id="bs">Site internet Bootstrap-styled</h3>
 
 							<p>J'ai participé à la conception du site internet servant à présenter le framework javascript Bootstrap-styled conçut par les développeurs de l'entreprise Yeutech.</p>
-							<p><strong>Technologies utilisées:</strong></p>
+							<p><strong>Technologies utilisées :</strong></p>
 							<ul>
 								<li>HTML5</li>
 								<li>CSS3</li>
 								<li>Javscript (dont React.js)</li>
 							</ul>
-							<p><small>Website: <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
+							<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
 								<MediaBoard>
 									<figure>
@@ -136,13 +136,13 @@ class Web extends Component {
 						<SectionMedia>
 							<h3 id="tbd">Site internet The Bubble Day</h3>
 							<p>J'ai conçu à partir de Wordpress et ai administré le site internet de l'évènement The Bubble Day.</p>
-							<p><strong>Technologies utilisées:</strong></p>
+							<p><strong>Technologies utilisées :</strong></p>
 							<ul>
 								<li>Wordpress</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
 							</ul>
-							<p><small>Website: Site fermé</small></p>
+							<p><small>Website : Site fermé</small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
 								<MediaBoard>
 									<figure>
@@ -160,13 +160,13 @@ class Web extends Component {
 							<h3 id="symbol">Site internet Agence Symbol</h3>
 							
 							<p>J'ai conçu à partir de Wordpress et ai administré le site internet de l'agence Symbol.</p>
-							<p><strong>Technologies utilisées:</strong></p>
+							<p><strong>Technologies utilisées :</strong></p>
 							<ul>
 								<li>Wordpress</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
 							</ul>
-							<p><small>Website: <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
+							<p><small>Website : <a href="http://www.symbol-com.fr/" alt="Site internet Agence Symbol" target="_blank" rel="noopener noreferrer">symbol-com.fr</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
 								<MediaBoard>
 									<figure>
@@ -194,7 +194,7 @@ class Web extends Component {
 										<figcaption>J'ai commencé en tant que responsable commercial, puis j'ai rapidement évoluer afin de concevoir et d'administrer le site internet de l'agence. Je me suis ainsi entrainé à dynamiser l'attractivité de l'agence sur internet à l'aide de stratégies SEO et SMO.</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>Wordpress</li>
 											<li>HTML5</li>
@@ -214,7 +214,7 @@ class Web extends Component {
 										<figcaption>Site internet de Yeutech, start-up proposant des services de création digitale sur mesure et spécialisée dans les technologies Open Source à Saigon (Vietnam).</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>HTML5</li>
 											<li>CSS3</li>
@@ -234,7 +234,7 @@ class Web extends Component {
 										<figcaption>Site internet de présentation du framework Open Source conçut à partir de Bootstrap, React.js et Styled-Components.</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>HTML5</li>
 											<li>CSS3</li>
@@ -254,7 +254,7 @@ class Web extends Component {
 										<figcaption>Site internet des documentations des technologies conçuent par Yeutech.</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>HTML5</li>
 											<li>CSS3</li>
@@ -274,7 +274,7 @@ class Web extends Component {
 										<figcaption>Site internet d'une bijouterie, vente et rachat d'or à Boulogne Billancourt.</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>Wordpress</li>
 											<li>HTML5</li>
@@ -294,7 +294,7 @@ class Web extends Component {
 										<figcaption>J'ai créé à partir de Worpress et administré le site internet de la course solidaire "The Bubble Day" qui a eu lieu à Paris, Marseille et bien d'autres villes entre 2014 et 2016.</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>Wordpress</li>
 											<li>HTML5</li>
@@ -314,7 +314,7 @@ class Web extends Component {
 										<figcaption>En collaboration avec un sous-traitant chargé du développement du site internet gammebaie.fr, j'ai participé à la préparation des images et des contenus.</figcaption>
 									</div>
 									<div>
-										<figcaption><strong>Technologies utilisées:</strong></figcaption>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
 										<ul>
 											<li>Wordpress</li>
 											<li>HTML5</li>

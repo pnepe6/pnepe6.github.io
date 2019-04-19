@@ -223,7 +223,7 @@ class Design extends Component {
 							<p>À la tête d'une équipe de deux talentueux designers j'ai eu la chance de travaillé sur la création d'une marque de A à Z.</p>
 							<ul>
 								<li>Direction Artistique pour l'élaboration de l'identité visuel.</li>
-								<li>Élaboration des documents d'entreprise (cartes de visite, template de lettre, facture et devis, etc...)</li>
+								<li>Élaboration des documents d'entreprise (cartes de visite, template de lettre, facture et devis, etc.)</li>
 							</ul>
 							<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
 							<Collapse clickable="Cliquez pour en savoir plus">
