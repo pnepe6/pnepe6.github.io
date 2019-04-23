@@ -70,7 +70,7 @@ class Projects extends Component {
 				</SectionTop>
 				<SectionIntro>
 					<p><strong>Depuis ma formation en Alternance suivie de mes différents emplois, j'ai eu la chance de participer à de nombreux projets.</strong></p>
-					<p>Mes passions mon entraînées rapidement dans la gestion de projet web (eReputation, inbound marketing, stratégie SEO, etc.).</p>
+					<p>Mes passions m'ont entraîné rapidement dans la gestion de projet web (eReputation, inbound marketing, stratégie SEO, etc.).</p>
 				</SectionIntro>
 				<Tabs>
 					<div className="tab">
