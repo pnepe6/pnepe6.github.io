@@ -12,16 +12,14 @@
 	letter-spacing: 6px;
 }
 .section-content p {
-	letter-spacing: .5px;
-	margin: 0 0 15px 0;
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 24px;
+	line-height: 35px;
 	color: #34B8C8;
-	text-align: left;
+	display: inline-block;
+	margin: 0 0 60px 0;
 }
 .section-content strong {
 	color: #34B8C8;
-	letter-spacing: 4px;
 }
 
 .section-content img {
@@ -40,11 +38,7 @@
 	.section-content img {
 		width: 60%;
 	}
-	.section-content strong {
-		letter-spacing: 5px;
-	}
 	.section-content p {
-		letter-spacing: 2px;
 		text-align: justify;
 	}
 }
@@ -60,12 +54,8 @@
 	}
 	.section-content p {
 		text-align: justify;
-		letter-spacing: 3px;
 		font-size: 22px;
 		line-height: 40px;
-	}
-	.section-content strong {
-		letter-spacing: 5px;
 	}
 	.section-content img {
 		width: 40%;

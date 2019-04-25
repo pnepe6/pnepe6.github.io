@@ -7,6 +7,8 @@ import ProgressList from '../../../components/ProgressList';
 import SectionActionCall from '../../../components/SectionActionCall';
 import SectionContent from '../../../components/SectionContent';
 import logoAgd from '../../../static/logo-agd-colored.svg';
+import ParallaxScene from '../../../components/ParallaxScene';
+
 import './Home.css';
 
 class Home extends Component {
@@ -45,11 +47,16 @@ class Home extends Component {
             		<title>Adrien Gadaud | Chef de projet Digital</title>
         	  		<meta name="description" content="Chef de projet digital et chef de projet web en région parisienne." />
 		        </Helmet>
-				<div className="intro">
-					<div className="motion">
-						<MotionList />
+		        <div className="section-slider">
+			        <div className="slider-motion">
+						<ParallaxScene />
 					</div>
-					<p>disponible en région parisienne</p>
+					<div className="intro">
+						<div className="motion">
+							<MotionList />
+							<p>disponible en région parisienne</p>
+						</div>
+					</div>
 				</div>
 				<div ref="progress-list" className="skills">
 					<h2>En quelques mots:</h2>
@@ -95,9 +102,9 @@ class Home extends Component {
 				</SectionActionCall>
 				<SectionContent>
 					<h2>A propos de moi</h2>
-					<p><strong>Riche en expériences culturelles, j'ai eu la chance de découvrir de nouvelles façons d'agir et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
+					<p><strong>Riche en expériences culturelles, j'ai eu la chance de découvrir de nouvelles façons de travailler et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
 					<p>Fort d'un mental positif, je mets mon empathie au service de mes clients comme de mes collaborateurs.</p>
-					<p>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement.</p>
+					<p>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement (marketing, communication, technique de vente, informatique et systeme d'information).</p>
 					<img src={logoAgd} alt="logo Adrien Gadaud" />
 				</SectionContent>
 			</div>

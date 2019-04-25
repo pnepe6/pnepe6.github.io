@@ -1,11 +1,12 @@
 {
-  "name": "react-gh-pages",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pnepe6-personal-page",
+  "version": "1.0.0",
   "homepage": "http://pnepe6.github.io",
+  "author": "Adrien Gadaud <pnepe6@gmail.com> (http://pnepe6.github.io)",
   "dependencies": {
     "ajv": "^6.6.2",
     "ajv-keywords": "^3.1.0",
+    "parallax-js": "^3.1.0",
     "prop-types": "^15.6.2",
     "react": "^16.3.2",
     "react-circular-progressbar": "^1.0.0",
