@@ -59,7 +59,7 @@ class Navigation extends Component {
               </div>
               <div
                 onClick={() => this.onClickMenu()}
-                onTouch={() => this.onClickMenu()}
+                onTouchEnd={() => this.onClickMenu()}
                 className={isMenuHidden ? 'hamburger' : 'hamburger is-active'}
                 id="hamburger-9"
               >
@@ -72,7 +72,7 @@ class Navigation extends Component {
                 <li>
                   <Link
                     onClick={() => this.onClickMenu()}
-                    onTouch={() => this.onClickMenu()}
+                    onTouchEnd={() => this.onClickMenu()}
                     to="/projects"
                   >
                     Gestion de Projet
@@ -84,7 +84,7 @@ class Navigation extends Component {
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
+                        onTouchEnd={() => this.onClickMenu()}
                         to="/web"
                       >
                         Developpement Web
@@ -93,7 +93,7 @@ class Navigation extends Component {
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
+                        onTouchEnd={() => this.onClickMenu()}
                         to="/digital-marketing"
                       >
                         Digital Marketing
@@ -107,7 +107,7 @@ class Navigation extends Component {
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
+                        onTouchEnd={() => this.onClickMenu()}
                         to="/design"
                       >
                         Design Graphique
@@ -116,7 +116,7 @@ class Navigation extends Component {
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
+                        onTouchEnd={() => this.onClickMenu()}
                         to="/art"
                       >
                         Art
@@ -130,7 +130,7 @@ class Navigation extends Component {
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
+                        onTouchEnd={() => this.onClickMenu()}
                         to="/cv"
                       >
                         Cv
@@ -139,7 +139,7 @@ class Navigation extends Component {
                     <li>
                       <Link
                         onClick={() => this.onClickMenu()}
-                        onTouch={() => this.onClickMenu()}
+                        onTouchEnd={() => this.onClickMenu()}
                         to="/contact"
                       >
                         Contact

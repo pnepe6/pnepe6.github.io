@@ -33,6 +33,7 @@
   float: left;
   transform: translateZ(25px);
   transform-origin: 50% 50% 25px;
+  z-index: 30;
 }
 
 .letter.out {
@@ -79,6 +80,7 @@
   }
   .motion-list-text > p {
     font-size: 60px;
+    z-index: 30;
   }
   .word {
     width: 400px;
@@ -87,5 +89,6 @@
     left: -7px;
     right: 0;
     opacity: 0;
+    z-index: 30;
   }
 }

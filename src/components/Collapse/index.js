@@ -21,7 +21,6 @@ class Collapse extends Component {
 		const { isActive } = this.state;
 		return (
 			<div
-				className="collapse-container"
 				className={isActive ? "collapse-container active" : "collapse-container"}
 			>
 				<div

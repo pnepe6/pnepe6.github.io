@@ -9,7 +9,6 @@
 .intro {
 	top: 45vh;
 	position: relative;
-    z-index: 10;
 }
 .intro > .motion > p {
 	position: relative;
@@ -20,7 +19,7 @@
 	text-align: center;
 	color: #FFF;
 	text-shadow: 1px 1px 2px #265d63;
-
+    z-index: 30;
 }
 
 .skills {
@@ -67,7 +66,7 @@
 @media only screen and (max-width: 825px) {
     .slider-motion {
         height: 95%;
-        z-index: 0;
+    	z-index: 0;
     }
 }
 
