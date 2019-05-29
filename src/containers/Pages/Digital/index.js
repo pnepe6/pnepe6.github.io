@@ -53,6 +53,141 @@ class Digital extends Component {
 					<p><strong>Une vraie passion depuis la mise en ligne de mon premier site internet que je me suis empressé de vouloir faire apparaître en première position des moteurs de recherches Google, Bing, Yahoo et maintenant Alexa d'Amazon!</strong></p>
 					<p>En plus de ma spécialisation en marketing digital suivi lors de mes études, j'ai très vite élargi mes compétences afin de pouvoir mettre en place de véritables stratégies digitales à la fois pour le référencement, l'animation des médias sociaux et la création d'e-Réputation.</p>
 				</SectionIntro>
+				<SectionMedia>
+					<h2>Search Engine Optimisation</h2>
+					<MediaBoard>
+						<figure>
+					   		<div>
+						   		<h4>Référencement Agence Symbol</h4>
+						   		<small>2012 à 2015</small>
+					   		</div>
+							<img src={logoSymbol} alt="Strategie SEO du site internet symbol-com.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Stratégie SEO et référencement naturel du site internet www.symbol-com.fr specialisé dans la communication des franchises et réseaux. Le site était en première position des recherches sur Google, Yahoo et Bing entre 2012 et 2015.</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>agence symbol</li>
+								<li>communication franchise</li>
+								<li>communication franchise et réseau</li>
+								<li>communication des franchises et réseaux</li>
+								<li>etc.</li>
+							</ul>
+							<p><a href="http://www.positeo.com/check-position/?q=communication+franchise&u=http%3A//www.symbol-com.fr/" alt="Test position SEO du site internet: www.symbol-com.fr" target="_blank" rel="noopener noreferrer">Test position SEO</a></p>
+						</figure>
+						<figure>
+					   		<div>
+						   		<h4>Référencement The Bubble Day</h4>
+						   		<small>2014 à 2016</small>
+					   		</div>
+							<img src={logoTbd} alt="Strategie SEO du site internet thebubbleday.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Stratégie SEO et référencement naturel du site internet thebubbleday.fr présentant la course solidaire du même nom.</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>course solidaire Paris / Marseille / etc.</li>
+								<li>The Bubble Day</li>
+								<li>quoi faire à Paris / Marseille / etc.</li>
+								<li>sortir à Paris / Marseille / etc.</li>
+								<li>etc.</li>
+							</ul>
+							<p>site fermé</p>
+						</figure>
+						<figure>
+					   		<div>
+						   		<h4>Référencement Social Buster</h4>
+						   		<small>2013</small>
+					   		</div>
+							<img src={logoSb} alt="Strategie SEO du site internet social-buster.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Stratégie SEO et référencement naturel du site internet social-buster.fr portant sur l'actualité des réseaux sociaux.</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>actualité des réseaux sociaux</li>
+								<li>actu réseaux sociaux</li>
+								<li>blog social media</li>
+								<li>etc.</li>
+							</ul>
+							<p>site fermé</p>
+						</figure>
+						<figure>
+					   		<div>
+						   		<h4>Référencement Comptoir des passages</h4>
+						   		<small>2013</small>
+					   		</div>
+							<img src={logoComptoir} alt="Référencement naturel du site internet comptoir-des-passages.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Référencement du site internet www.comptoir-des-passages.fr</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>bijouterie Boulogne Billancourt</li>
+								<li>bijouterie 92100</li>
+								<li>bijouterie paris</li>
+								<li>vente or Boulogne Billancourt</li>
+								<li>achat or Boulogne Billancourt</li>
+								<li>vente argent Boulogne Billancourt</li>
+								<li>achat argent Boulogne Billancourt</li>
+								<li>etc.</li>
+							</ul>
+							<p>site fermé</p>
+						</figure>
+						<figure>
+					   		<div>
+						   		<h4>Référencement Have A Dream</h4>
+						   		<small>2014 à 2015</small>
+					   		</div>
+							<img src={logoHad} alt="Strategie SEO du site internet haveadream.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Stratégie SEO et référencement naturel du site internet haveadream.fr de l'agence évènementielle éponyme.</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>agence évènementielle sportive</li>
+								<li>agence Have A Dream</li>
+								<li>organisation évènements sportifs</li>
+								<li>etc.</li>
+							</ul>
+							<p>site fermé</p>
+						</figure>
+						<figure>
+					   		<div>
+						   		<h4>Référencement Tickner</h4>
+						   		<small>2012</small>
+					   		</div>
+							<img src={logoTickner} alt="Strategie SEO du site internet tickner.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Stratégie SEO et référencement naturel du site internet tickner.fr, societé de construction bois.</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>construction bois</li>
+								<li>maisons individuelles en bois</li>
+								<li>annexes de jardins en bois</li>
+								<li>cabane de jardins</li>
+								<li>etc.</li>
+							</ul>
+							<p>site fermé</p>
+						</figure>
+						<figure>
+					   		<div>
+						   		<h4>Référencement Axenergie</h4>
+						   		<small>2012</small>
+					   		</div>
+							<img src={logoAxenergie} alt="Strategie SEO du site internet axenergie.fr" />
+							<figcaption><strong>Description:</strong></figcaption>
+							<figcaption>Stratégie SEO et référencement naturel du site internet axenergie.fr, réseau de chauffagistes indépendants.</figcaption>
+							<figcaption><strong>Mots clés référencés:</strong></figcaption>
+							<ul>
+								<li>Chauffagiste Paris / Marseille / etc.</li>
+								<li>Rénovation chauffage</li>
+								<li>Plombier Paris / Marseille / etc.</li>
+								<li>Urgence plomberie</li>
+								<li>Urgence chaudière</li>
+								<li>etc.</li>
+							</ul>
+							<p>site fermé</p>
+						</figure>
+						
+					</MediaBoard>
+				</SectionMedia>
+				{/*
 				<Tabs>
 					<div className="tab">
 					  <button
@@ -72,7 +207,7 @@ class Digital extends Component {
 					  </button>
 					  + SEA + SMO
 					</div>
-					<div id="SEM" className={`tabcontent ${tabs === "SEM" ? 'show' : ''}`}>
+					<div id="SEM" className={`tabcontent ${tabs === "SEM" ? 'show' : 'hide'}`}>
 						<SectionMedia>
 							<h2>Search Engine Marketing</h2>
 							<h3 id="yeutech">Stratégie Digitale Yeutech</h3>
@@ -260,7 +395,7 @@ class Digital extends Component {
 							</Collapse>
 						</SectionMedia>
 					</div>
-					<div id="SEO" className={`tabcontent ${tabs === "SEO" ? 'show' : ''}`}>
+					<div id="SEO" className={`tabcontent ${tabs === "SEO" ? 'show' : 'hide'}`}>
 						<SectionMedia>
 							<h2>Search Engine Optimisation</h2>
 							<MediaBoard>
@@ -397,6 +532,7 @@ class Digital extends Component {
 						</SectionMedia>
 					</div>
 				</Tabs>
+				*/}
 			</div>
 		);
 	};
