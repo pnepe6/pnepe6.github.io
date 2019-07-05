@@ -4,8 +4,11 @@
   "homepage": "http://pnepe6.github.io",
   "author": "Adrien Gadaud <pnepe6@gmail.com> (http://pnepe6.github.io)",
   "dependencies": {
+    "@bootstrap-styled/provider": "^1.4.2",
+    "@bootstrap-styled/v4": "^3.0.16",
     "ajv": "^6.6.2",
     "ajv-keywords": "^3.1.0",
+    "bootstrap-styled": "^2.4.13",
     "parallax-js": "^3.1.0",
     "prop-types": "^15.6.2",
     "react": "^16.3.2",
@@ -17,7 +20,8 @@
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.1",
     "react-scripts": "1.1.4",
-    "react-scrollchor": "^6.0.0"
+    "react-scrollchor": "^6.0.0",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
