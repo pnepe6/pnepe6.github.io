@@ -20,29 +20,6 @@
 		display: inline-block;
 		margin: 0 0 60px 0;
 	}
-	.action-call-content a {
-		line-height: 30px;
-		text-align: center;
-		font-size: 26px;
-		background-color: #FFF;
-		border: 1px solid #265d63;
-		border-radius: 50px;
-		padding: 25px 40px;
-		text-decoration: none;
-		color: #265d63;
-		display: block;
-		width: 50%;
-		margin: 50px auto 0 auto;
-		transition: color 500ms, background-color 1s;
-		z-index: 0;
-	}
-
-	.action-call-content a:hover {
-		position: relative;
-		background-color: #265d63;
-		color: #FFF;
-		transition: color 500ms, background-color 1s; 
-	}
 
 	.action-call-content {
 		padding: 20px 10%;
@@ -98,9 +75,6 @@
 		font-size: 27px;
 		line-height: 40px;
 	}
-	.action-call-content a {
-		width: 40%;
-	}
 
 	.action-call-content p {
 		padding: 0 200px 0 0;
@@ -126,9 +100,6 @@
 	.action-call-content p {
 		font-size: 30px !important;
 		line-height: 50px;
-	}
-	.action-call-content a {
-		width: 45%;
 	}
 
 	.action-call-content p {

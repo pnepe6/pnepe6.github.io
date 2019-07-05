@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
 // eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Page from '../../../components/Page';
+import { Button } from '@bootstrap-styled/v4';
 import MotionList from '../../../components/MotionList';
 import ProgressList from '../../../components/ProgressList';
 import SectionActionCall from '../../../components/SectionActionCall';
@@ -15,9 +17,9 @@ class Home extends Component {
 	state = {
 		isActive: false,
 	};
-
 	componentDidMount() {
 		window.addEventListener('scroll', () => this.handleScroll());
+		window.scrollTo(0, 0);
 	};
 
 	componentWillUnmount() {
@@ -42,7 +44,7 @@ class Home extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<Page>
 		        <Helmet>
             		<title>Adrien Gadaud | Chef de projet Digital</title>
         	  		<meta name="description" content="Chef de projet digital et chef de projet web en région parisienne." />
@@ -63,51 +65,64 @@ class Home extends Component {
 					<div>
 						<ProgressList
 							isActive={this.state.isActive}
-							percentage={50}
-							text="AGILE"
-							title="Gestion de projet"
-							content="Management Agile, recrutement..."
+							percentage={75}
+							text="IT"
+							title="Informatique & Multimédias"
+							break
+							content="Cloud Computing, AGILE, Développement (HTML, CSS, JS, MySQL...)..."
 						/>
 						<ProgressList
 							isActive={this.state.isActive}
-							percentage={70}
-							text="PAO"
-							title="Design Graphique"
-							content="UX, Mobile First, Responsive..."
+							percentage={95}
+							text="SALES"
+							title="Marketing & Communication"
+							content="Stratégies BtoB / BtoC, BPM, Techniques de vente..."
+						/>
+						<ProgressList
+							isActive={this.state.isActive}
+							percentage={80}
+							text="UX/UI"
+							title="Graphisme & Web Design"
+							content="Mobile First, Attractive & Responsive design, Wireframe..."
 						/>
 						<ProgressList
 							isActive={this.state.isActive}
 							percentage={90}
 							text="SEM"
-							title="Digital Marketing"
-							content="eReputation, SEO, Community management..."
+							title="Marketing Digital"
+							content="Stratégies SEO, SEA, SMO, GDD, Community Management..."
 						/>
-						<ProgressList
-							isActive={this.state.isActive}
-							percentage={60}
-							text="WEB"
-							title="Développement"
-							break
-							content="HTML, CSS, JS, MySQL..."
-						/>
-						<p>Mes compétences sont variées, toutes orientées vers le monde du digital.</p>
+						<p><strong>Mes compétences sont variées, toutes orientées vers le monde numérique.</strong></p> 
+						<h5
+							style={{ 
+								padding: "50px 20vw"
+							}}
+						>
+							Maîtrisant l'ensemble de la chaine de production numérique, j'apporte un regard technique et artistique en respectant les enjeux marketing et commerciaux.</h5>
 					</div>
 				</div>
-				<SectionActionCall>
+				<SectionActionCall
+					btn={{
+						content: "Consultez mon CV",
+						href: "/cv",
+					}}
+				>
 					<h2>Envie d'en savoir plus?</h2>
-					<p><strong>Passionné de référencement et spécialisé en Marketing Digital,</strong> j'ai travaillé en Alternance dans une agence de communication où j'ai créé et géré mes premiers projets web (CMS, SEO, SMO).</p>
-					<p>Fort de 3 années passées au Viêtnam dans une start-up spécialisée dans le développement de technologies open source, j'ai découvert la gestion de projet AGILE et appris le développement front-end (HTML, CSS, JavaScript, MySQL...).</p>
-					<p>Je suis un chef de projet digital qui gère ses projets avec un regard à la fois artistique et technique tout en intégrant les enjeux marketing et commerciaux.</p>
-					<Link to="/cv/">Consultez mon CV</Link>
+					<p><strong>Diplômé d'un Master Marketing et Communication spécialisé en Marketing Digital,</strong> j'ai commencé en tant que conseillé vendeur sur des marchés BtoC puis BtoB. </p>
+					<p>Devenu Chef de Publicité dans une agence de communication et responsable des recommandations clients, j'ai également créé et géré mes premiers projets web (CMS, SEO, SMO).</p>
+					<p>Commercial dans l'âme je suis passionné de référencement et d'informatique. Je maîtrise le <strong>développement front-end</strong> et les fondamentaux du <strong>Cloud Computing</strong>.</p>
+					<p>Fort de trois années passées au Viêtnam dans une start-up spécialisée dans le développement de <strong>technologies open source</strong>, j'ai découvert la gestion de projet <strong>AGILE</strong> et le travail en milieu anglophone.</p>
 				</SectionActionCall>
 				<SectionContent>
-					<h2>A propos de moi</h2>
-					<p><strong>Riche en expériences culturelles, j'ai eu la chance de découvrir de nouvelles façons de travailler et de penser en Asie, en Europe, et au Etats-Unis.</strong></p>
-					<p>Fort d'un mental positif, je mets mon empathie au service de mes clients comme de mes collaborateurs.</p>
-					<p>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement (marketing, communication, technique de vente, informatique et systeme d'information).</p>
+					<h2>À propos de moi</h2>
+					<p><strong>J'interviens en tant que Consultant Digital et Fonctionnel tout en maîtrisant la gestion et la direction artistique de projet web.</strong></p>
+					<p>Doté d'un fort relationnel et d'un mental positif, je mets mon <strong>expertise du numérique</strong> au service de mes clients comme de mes collaborateurs.</p>
+					<p>Riche en <strong>expériences culturelles</strong>, j'ai eu la chance de découvrir de nouvelles façons de travailler et de penser aux États-Unis, en Europe et en Asie.</p>
+					<p style={{ "font-style": "italic", color:"#9fbcc4", "font-size": "20px"}}>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement (marketing, communication, technique de vente, informatique et systèmes d'information).</p>
+
 					<img src={logoAgd} alt="logo Adrien Gadaud" />
 				</SectionContent>
-			</div>
+			</Page>
 		);
 	};
 };

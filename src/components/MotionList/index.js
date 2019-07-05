@@ -81,14 +81,18 @@ class MotionList extends Component {
 	render() {
 		return (
 			<div className="motion-list-text">
-			  <p className="motion-list-title">Chef de projet</p>
+			  <p className="motion-list-title">
+			  	<span style={{ display: "block"}}>Consultant :</span>
+			  </p>
 			  <p>
+			  	<span ref="word" className="word belize">eMarketing</span>
+			    <span ref="word" className="word pomegranate">Fonctionnel</span>
 			    <span ref="word" className="word wisteria">Digital</span>
-			    <span ref="word" className="word belize">SEM</span>
-			    <span ref="word" className="word pomegranate">SEO</span>
-			    <span ref="word" className="word wisteria">SMO</span>
-			    <span ref="word" className="word belize">Web</span>
-			    <span ref="word" className="word pomegranate">eMarketing</span>
+			    <span ref="word" className="word belize">Cloud</span>
+			    <span ref="word" className="word pomegranate">SEM</span>
+			    <span ref="word" className="word wisteria">SEO</span>
+			    <span ref="word" className="word belize">SMO</span>
+			    <span ref="word" className="word pomegranate">Web</span>
 			  </p>
 			</div>
 		);

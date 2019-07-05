@@ -11,7 +11,7 @@ class Logo extends Component {
 					<p>ADRIEN</p>
 					<p>GADAUD</p>
 					<h1>
-						<small>Consultant Digital et</small>
+						<small>Consultant Fonctionnel et</small>
 						<small>Chef de Projet polyvalent</small>
 					</h1>
 				</div>

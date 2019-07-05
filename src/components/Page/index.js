@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from "styled-components";
-import './SectionMedia.css';
 
 const fromLeft = keyframes`
   from {
@@ -12,22 +11,23 @@ const fromLeft = keyframes`
   }
 `;
 
-const MotionContent = styled.div`
+const MotionPage = styled.div`
 	height: 100%;
 	position: relative;
 	animation: ${fromLeft} 500ms ease-in;
 `;
 
-class SectionMedia extends Component {
+class Page extends Component {
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	};
 	render() {
 		return (
-			<MotionContent>
-				<div className="section-media">
-					{this.props.children}
-				</div>
-			</MotionContent>
+			<MotionPage>
+				{this.props.children}
+			</MotionPage>
 		);
 	};
 };
 
-export default SectionMedia;
+export default Page;
