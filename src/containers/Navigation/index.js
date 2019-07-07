@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Logo from '../../components/Logo';
-import Footer from '../../components/Footer';
 import Home from '../Pages/Home';
 import Art from '../Pages/Art';
 import Contact from '../Pages/Contact';
@@ -96,7 +95,7 @@ class Navigation extends Component {
                 <div className="menu-logo">
                   <Link
                     onClick={() => this.onClickLogo()}
-                    onTouchEnd={() => this.onClickLogo()}
+                    onTouchStart={() => this.onClickLogo()}
                     to="/"
                   >
                     <Logo />
@@ -104,7 +103,7 @@ class Navigation extends Component {
                 </div>
                 <div
                   onClick={() => this.onClickMenu()}
-                  onTouchEnd={() => this.onClickMenu()}
+                  onTouchStart={() => this.onClickMenu()}
                   className={isMenuHidden ? 'hamburger' : 'hamburger is-active'}
                   id="hamburger-9"
                 >
@@ -117,7 +116,7 @@ class Navigation extends Component {
                   <li>
                     <Link
                       onClick={() => this.onClickMenu()}
-                      onTouchEnd={() => this.onClickMenu()}
+                      onTouchStart={() => this.onClickMenu()}
                       to="/projects"
                     >
                       Gestion de Projet
@@ -129,7 +128,7 @@ class Navigation extends Component {
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
-                          onTouchEnd={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
                           to="/web"
                         >
                           Developpement Web
@@ -138,7 +137,7 @@ class Navigation extends Component {
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
-                          onTouchEnd={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
                           to="/digital-marketing"
                         >
                           Digital Marketing
@@ -152,7 +151,7 @@ class Navigation extends Component {
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
-                          onTouchEnd={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
                           to="/design"
                         >
                           Design Graphique
@@ -161,7 +160,7 @@ class Navigation extends Component {
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
-                          onTouchEnd={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
                           to="/art"
                         >
                           Art
@@ -175,16 +174,16 @@ class Navigation extends Component {
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
-                          onTouchEnd={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
                           to="/cv"
                         >
-                          Cv
+                          CV
                         </Link>
                       </li>
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
-                          onTouchEnd={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
                           to="/contact"
                         >
                           Contact
@@ -196,6 +195,8 @@ class Navigation extends Component {
                 </ul>
               </nav>
             </header>
+
+           
             <section className={isMenuHidden ? 'hide' : 'show'}>
               <Route path="/" exact component={Home} />
               <Route path="/cv/" component={Cv} />
@@ -206,6 +207,7 @@ class Navigation extends Component {
               <Route path="/projects/" component={Projects} />
               <Route path="/contact/" component={Contact} />
             </section>
+            
           </div>
         </Router>
       </div>
