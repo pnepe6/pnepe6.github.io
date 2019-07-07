@@ -78,21 +78,25 @@ class MotionList extends Component {
 	  return wordArray[wordArray.push(letters)];
 	}
 
+	wordSizer = (el) => {
+		console.log("el :", el);
+		console.log("el size :", el.target);
+	}
 	render() {
 		return (
 			<div className="motion-list-text">
 			  <p className="motion-list-title">
-			  	<span style={{ display: "block"}}>Consultant :</span>
+			  	<span style={{ display: "block"}}>Consultant</span>
 			  </p>
-			  <p>
+			  <p onClick={(el) => this.wordSizer(el)}>
 			  	<span ref="word" className="word belize">eMarketing</span>
-			    <span ref="word" className="word pomegranate">Fonctionnel</span>
-			    <span ref="word" className="word wisteria">Digital</span>
+			    <span ref="word" className="word belize">Fonctionnel</span>
+			    <span ref="word" className="word belize">Digital</span>
 			    <span ref="word" className="word belize">Cloud</span>
-			    <span ref="word" className="word pomegranate">SEM</span>
-			    <span ref="word" className="word wisteria">SEO</span>
+			    <span ref="word" className="word belize">SEM</span>
+			    <span ref="word" className="word belize">SEO</span>
 			    <span ref="word" className="word belize">SMO</span>
-			    <span ref="word" className="word pomegranate">Web</span>
+			    <span ref="word" className="word belize">Web</span>
 			  </p>
 			</div>
 		);

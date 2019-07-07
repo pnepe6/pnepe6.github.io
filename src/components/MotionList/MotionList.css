@@ -15,14 +15,14 @@
 }
 
 .motion-list-title {
-  text-shadow: 1px 1px 2px #265d63; 
+  text-shadow: 1px 1px 2px #265d63;
 }
 
 .word {
   width: 200px;
   position: absolute;
   margin: auto;
-  left: -2px;
+  left: 20px;
   right: 0;
   opacity: 0;
 }
@@ -51,23 +51,19 @@
 }
 
 .wisteria {
-  color: #8e44ad;
+  color: #42f5c2;
 }
 
 .belize {
-  color: #2980b9;
+  color: #42f5e9;
 }
 
 .pomegranate {
-  color: #c0392b;
+  color: #42cbf5;
 }
 
 .green {
-  color: #16a085;
-}
-
-.midnight {
-  color: #2c3e50;
+  color: #42f5b9;
 }
 
 
@@ -86,7 +82,7 @@
     width: 400px;
     position: absolute;
     margin: auto;
-    left: -7px;
+    left: 35px;
     right: 0;
     opacity: 0;
     z-index: 30;

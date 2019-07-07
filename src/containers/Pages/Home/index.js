@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 // eslint-disable-next-line no-unused-vars
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Page from '../../../components/Page';
-import { Button } from '@bootstrap-styled/v4';
 import MotionList from '../../../components/MotionList';
 import ProgressList from '../../../components/ProgressList';
 import SectionActionCall from '../../../components/SectionActionCall';
@@ -13,29 +12,72 @@ import ParallaxScene from '../../../components/ParallaxScene';
 
 import './Home.css';
 
+const TOP_VALUE_MOBILE = {
+	start: 0,
+	end: 500,
+};
+const BOTTOM_VALUE_MOBILE = {
+	start: 650,
+	end: 1600,
+};
+
+const TOP_VALUE_DESKTOP = {
+	start: 0,
+	end: -400,
+};
+const BOTTOM_VALUE_DESKTOP = {
+	start: 650,
+	end: 1600,
+};
+
 class Home extends Component {
 	state = {
 		isActive: false,
+		isMobileViewport: true,
+		topVal: {},
+		bottomVal: {},
 	};
 	componentDidMount() {
 		window.addEventListener('scroll', () => this.handleScroll());
 		window.scrollTo(0, 0);
+		this.setState({
+			isMobileViewport: document.documentElement.clientWidth < 979,
+		}, this.defineActiveValue());
 	};
 
 	componentWillUnmount() {
 		window.removeEventListener('scroll', () => this.handleScroll());
 	};
 
+	defineActiveValue = () => {
+	    var heightToShow = 1;
+
+	    if (this.state.isMobileViewport) {
+	    	this.setState({
+				topVal: TOP_VALUE_MOBILE,
+				bottomVal: BOTTOM_VALUE_MOBILE,
+	    	})
+	    } else {
+	    	this.setState({
+				topVal: TOP_VALUE_DESKTOP,
+				bottomVal: BOTTOM_VALUE_DESKTOP,
+	    	})
+	    }
+	};
   	handleScroll = () => {
+  		const { topVal, bottomVal } = this.state;
+
   		if(this.refs["progress-list"]) {
   		  	let topValue = this.refs["progress-list"].getBoundingClientRect().top;
 	  		let bottomValue = this.refs["progress-list"].getBoundingClientRect().bottom;
-	  		if(!this.state.isActive && (topValue <= 0 || topValue <= -400 )) {
+	  		console.log("topValue", topValue)
+	  		console.log("bottomValue", bottomValue)
+	  		if(!this.state.isActive && (topValue <= topVal.start || topValue <= topVal.end )) {
 				this.setState({
 				   	isActive: true,
 			  	});
 	  		};
-	  		if(this.state.isActive && (bottomValue <= 650 || bottomValue >= 1600)) {
+	  		if(this.state.isActive && (bottomValue <= bottomVal.start || bottomValue >= bottomVal.end)) {
 				this.setState({
 				   	isActive: false,
 			  	});
@@ -118,7 +160,7 @@ class Home extends Component {
 					<p><strong>J'interviens en tant que Consultant Digital et Fonctionnel tout en maîtrisant la gestion et la direction artistique de projet web.</strong></p>
 					<p>Doté d'un fort relationnel et d'un mental positif, je mets mon <strong>expertise du numérique</strong> au service de mes clients comme de mes collaborateurs.</p>
 					<p>Riche en <strong>expériences culturelles</strong>, j'ai eu la chance de découvrir de nouvelles façons de travailler et de penser aux États-Unis, en Europe et en Asie.</p>
-					<p style={{ "font-style": "italic", color:"#9fbcc4", "font-size": "20px"}}>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement (marketing, communication, technique de vente, informatique et systèmes d'information).</p>
+					<p style={{ fontStyle: "italic", color:"#9fbcc4", fontSize: "20px"}}>Curieux et passionné par ce que j'entreprends, je reste en constant apprentissage sur les sujets qui m'intéressent, autant personnellement que professionnellement (marketing, communication, technique de vente, informatique et systèmes d'information).</p>
 
 					<img src={logoAgd} alt="logo Adrien Gadaud" />
 				</SectionContent>
