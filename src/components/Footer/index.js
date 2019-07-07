@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-	Container,
 	Row,
 	Col,
 	Button,
@@ -9,7 +8,6 @@ import {
 	ModalBody,
 	ModalFooter,
 } from '@bootstrap-styled/v4';
-import pictoGoogle from '../../static/picto-social-media-g+.png';
 import pictoGithub from '../../static/picto-social-media-github.png';
 import pictoLinkedin from '../../static/picto-social-media-ln.png';
 import pictoTwitter from '../../static/picto-social-media-twitter.png';
@@ -21,8 +19,13 @@ import './Footer.css';
 class Footer extends Component {
 	state = {
 		isModalOpen: false,
+		isMobileViewport: true,
 	};
-
+	componentDidMount() {
+		this.setState({
+			isMobileViewport: document.documentElement.clientWidth < 979,
+		});
+	};
 	handleModalChange = () => {
 		this.setState({ isModalOpen: !this.state.isModalOpen })
 		if(!this.state.isModalOpen) {
@@ -33,6 +36,50 @@ class Footer extends Component {
 	};
 
 	render() {
+		const FooterMobile = <Row>
+			<Col xs={12}>
+					<p>Made with <span className="red">♥</span> between Paris and Saigon!</p>
+			</Col>
+			<Col xs={12}>
+				<a href="https://bootstrap-styled.github.io/bootstrap-styled/" alt="bootstrap-styled official git page." target="_blank" rel="noopener noreferrer">
+					<img className="footer-el-middle" width={200} src={badgeBs} alt="badge bootstrap-styled" />
+				</a>
+			</Col>
+			<Col xs={12}>
+				<p
+					className="footer-el-middle"
+					onClick={() => this.handleModalChange()}
+					style={{ cursor: "pointer" }}
+				>
+					<small>Crédits</small>
+				</p>
+			</Col>
+			<Col xs={12}>
+					<small>© Adrien Gadaud</small>
+			</Col>
+		</Row>;
+
+		const FooterDesktop = <Row>
+			<Col lg={3}>
+				<p
+					className="footer-el-middle"
+					onClick={() => this.handleModalChange()}
+					style={{ cursor: "pointer" }}
+				>
+					<small>Crédits</small>
+				</p>
+			</Col>
+			<Col lg={6}>
+					<p>Made with <span className="red">♥</span> between Paris and Saigon!</p>
+					<small>© Adrien Gadaud</small>
+			</Col>
+			<Col lg={3}>
+				<a href="https://bootstrap-styled.github.io/bootstrap-styled/" alt="bootstrap-styled official git page." target="_blank" rel="noopener noreferrer">
+					<img className="footer-el-middle" width={200} src={badgeBs} alt="badge bootstrap-styled" />
+				</a>
+			</Col>
+		</Row>;
+
 		return (
 			<div className="footer-ft">
 				<h3>Restons connectés, suivez-moi sur:</h3>
@@ -41,26 +88,7 @@ class Footer extends Component {
 				<a href="https://twitter.com/pnepe6" target="_blank" rel="noopener noreferrer"><img src={pictoTwitter} alt="picto-twitter" /></a>
 				
 				<div className="footer-bt">
-					<Row>
-						<Col lg={3} xs={12}>
-							<p
-								className="footer-el-middle"
-								onClick={() => this.handleModalChange()}
-								style={{ cursor: "pointer" }}
-							>
-								<small>Crédits</small>
-							</p>
-						</Col>
-						<Col lg={6} xs={12}>
-								<p>Made with <span className="red">♥</span> between Paris and Saigon!</p>
-								<small>© Adrien Gadaud</small>
-						</Col>
-						<Col lg={3} xs={12}>
-							<a href="https://bootstrap-styled.github.io/bootstrap-styled/" alt="bootstrap-styled official git page." target="_blank" rel="noopener noreferrer">
-								<img className="footer-el-middle" width={200} src={badgeBs} />
-							</a>
-						</Col>
-					</Row>
+					{this.state.isMobileViewport ? FooterMobile : FooterDesktop}
 				</div>
 				<Modal size="lg" isOpen={this.state.isModalOpen}>
     				<ModalHeader toggle={() => this.handleModalChange()}>Crédits</ModalHeader>
