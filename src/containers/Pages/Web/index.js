@@ -61,20 +61,20 @@ class Web extends Component {
 					<Row>
 						<Col>
 							<p><strong>Plateformes</strong></p>
-							<img style={{ "vertical-align": "top"}} width={100} src={badgeGit} />
-							<img width={120} src={badgeMs} />
+							<img style={{ "vertical-align": "top"}} width={100} src={badgeGit} alt="badge git" />
+							<img width={120} src={badgeMs} alt="badge Microsoft Azure Fondamentals" />
 						</Col>
 						<Col>
 							<p><strong>Languages</strong></p>
 							<Row>
 								<Col>
-									<img width={100} src={badgeHtml} />
+									<img width={100} src={badgeHtml} alt="badge html5" />
 								</Col>
 								<Col>
-									<img width={70} src={badgeCss} />
+									<img width={70} src={badgeCss} alt="badge css3" />
 								</Col>
 								<Col>
-									<img width={70} src={badgeJs} />
+									<img width={70} src={badgeJs} alt="badge js" />
 								</Col>
 							</Row>
 						</Col>
@@ -82,10 +82,10 @@ class Web extends Component {
 							<p><strong>Environnements</strong></p>
 							<Row>
 								<Col>
-									<img width={100} src={badgeNode} />
+									<img width={100} src={badgeNode} alt="badge node.js" />
 								</Col>
 								<Col>
-									<img width={100} src={badgeReact} />
+									<img width={100} src={badgeReact} alt="badge react.js" />
 								</Col>
 							</Row>
 						</Col>
