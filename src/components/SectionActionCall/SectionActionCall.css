@@ -37,19 +37,19 @@
 
 @media screen and (max-width: 400px) {
 	.action-call span:after {
-		border-left: 95.9vw solid #34B8C8;
+		border-left: 95vw solid #34B8C8;
 	}
 }
 
 @media screen and (min-width: 401px) and (max-width: 800px) {
 	.action-call span:after {
-		border-left: 97.6vw solid #34B8C8;
+		border-left: 96vw solid #34B8C8;
 	}
 }
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
 	.action-call span:after {
-		border-left: 98.8vw solid #34B8C8;
+		border-left: 98vw solid #34B8C8;
 	}
 	.action-call-content h2 {
 		padding: 0 0 0 100px;
@@ -61,7 +61,7 @@
 		padding: 8% 20%;
 	}
 	.action-call span:after {
-		border-left: 98.7vw solid #34B8C8;
+		border-left: 98vw solid #34B8C8;
 		border-bottom: 10vw solid transparent;
 	}
 	.action-call-content h2 {
@@ -87,7 +87,7 @@
 		padding: 8% 30%;
 	}
 	.action-call span:after {
-		border-left: 99.3vw solid #34B8C8;
+		border-left: 98vw solid #34B8C8;
 		border-bottom: 7vw solid transparent;
 	}
 	.action-call-content h2 {

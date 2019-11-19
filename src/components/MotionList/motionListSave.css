@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+.motion-list-text {
+  position: relative;
+  text-align: center;
+}
+
+.motion-list-text > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  vertical-align: top;
+  margin: 0;
+  color: #FFF;
+}
+
+.motion-list-title {
+  text-shadow: 1px 1px 2px #265d63;
+}
+
+.word {
+  width: 200px;
+  position: absolute;
+  margin: auto;
+  left: 20px;
+  right: 0;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+  z-index: 30;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #42f5c2;
+}
+
+.belize {
+  color: #42f5e9;
+}
+
+.pomegranate {
+  color: #42cbf5;
+}
+
+.green {
+  color: #42f5b9;
+}
+
+
+@media screen and (min-width: 501px) {
+  .progress-container {
+    width: 100px;
+    display: inline-block;
+    margin: 30px 35px;
+    vertical-align: top;
+  }
+  .motion-list-text > p {
+    font-size: 60px;
+    z-index: 30;
+  }
+  .word {
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    left: 35px;
+    right: 0;
+    opacity: 0;
+    z-index: 30;
+  }
+}

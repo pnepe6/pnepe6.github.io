@@ -1,3 +1,12 @@
+.infographie-home {
+    position: absolute;
+    bottom: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.infographie-home > img {
+	width: 95vh;
+}
 .section-slider {
     z-index: 0;
     width: 100%;

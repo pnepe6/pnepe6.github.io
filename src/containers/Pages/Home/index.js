@@ -8,6 +8,7 @@ import ProgressList from '../../../components/ProgressList';
 import SectionActionCall from '../../../components/SectionActionCall';
 import SectionContent from '../../../components/SectionContent';
 import logoAgd from '../../../static/logo-agd-colored.svg';
+import infographieAgd from '../../../static/infographie-agd.png';
 import ParallaxScene from '../../../components/ParallaxScene';
 
 import './Home.css';
@@ -95,44 +96,49 @@ class Home extends Component {
 			        <div className="slider-motion">
 						<ParallaxScene />
 					</div>
+					<div className="infographie-home">
+						<img src={infographieAgd} />
+					</div>
+					{/*
 					<div className="intro">
 						<div className="motion">
 							<MotionList />
 							<p>disponible en région parisienne</p>
 						</div>
 					</div>
+				    */}
 				</div>
 				<div ref="progress-list" className="skills">
 					<h2>En quelques mots:</h2>
 					<div>
 						<ProgressList
 							isActive={this.state.isActive}
-							percentage={75}
-							text="IT"
-							title="Informatique & Multimédias"
-							break
-							content="Cloud Computing, AGILE, Développement (HTML, CSS, JS, MySQL...)..."
-						/>
-						<ProgressList
-							isActive={this.state.isActive}
 							percentage={95}
 							text="SALES"
-							title="Marketing & Communication"
-							content="Stratégies BtoB / BtoC, BPM, Techniques de vente..."
+							title="Avant-Vente & Relation Cient"
+							content="Prospection, Analyse des Besoins, Cahier des Charges..."
 						/>
 						<ProgressList
 							isActive={this.state.isActive}
-							percentage={80}
+							percentage={85}
+							text="SEM"
+							title="Communication & Marketing Digital"
+							content="Stratégies SEO, SEA, SMO, GDD, Community Management..."
+						/>
+						<ProgressList
+							isActive={this.state.isActive}
+							percentage={50}
 							text="UX/UI"
 							title="Graphisme & Web Design"
 							content="Mobile First, Attractive & Responsive design, Wireframe..."
 						/>
 						<ProgressList
 							isActive={this.state.isActive}
-							percentage={90}
-							text="SEM"
-							title="Marketing Digital"
-							content="Stratégies SEO, SEA, SMO, GDD, Community Management..."
+							percentage={40}
+							text="IT"
+							title="Informatique & Multimédia"
+							break
+							content="Développement Front, Hardware, Cloud Computing..."
 						/>
 						<p><strong>Mes compétences sont variées, toutes orientées vers le monde numérique.</strong></p> 
 						<h5
