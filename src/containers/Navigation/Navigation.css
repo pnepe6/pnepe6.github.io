@@ -306,3 +306,15 @@ section.show {
 section.hide {
 	visibility: visible;
 }
+
+
+.menu-link-main {
+	line-height: 25px !important;
+	cursor: pointer !important;
+	border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+	padding-bottom: 0px;
+}
+
+.menu-link-main:hover {
+	border-bottom: 10px solid rgba(255, 255, 255, 1);
+}

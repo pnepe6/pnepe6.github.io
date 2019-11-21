@@ -8,8 +8,10 @@ import ProgressList from '../../../components/ProgressList';
 import SectionActionCall from '../../../components/SectionActionCall';
 import SectionContent from '../../../components/SectionContent';
 import logoAgd from '../../../static/logo-agd-colored.svg';
-import infographieAgd from '../../../static/infographie-agd.png';
+import infographieAgd from '../../../static/infographie-agd_lg.png';
+import infographieAgdSM from '../../../static/infographie-agd_sm.png';
 import ParallaxScene from '../../../components/ParallaxScene';
+import Gallery from '../../../components/Gallery';
 
 import './Home.css';
 
@@ -97,7 +99,8 @@ class Home extends Component {
 						<ParallaxScene />
 					</div>
 					<div className="infographie-home">
-						<img src={infographieAgd} />
+						<img className="info-img-lg" src={infographieAgd} />
+						<img className="info-img-sm" src={infographieAgdSM} />
 					</div>
 					{/*
 					<div className="intro">
@@ -109,7 +112,7 @@ class Home extends Component {
 				    */}
 				</div>
 				<div ref="progress-list" className="skills">
-					<h2>En quelques mots:</h2>
+					<h2>Mes compétences sont variées, toutes orientées vers le monde numérique :</h2>
 					<div>
 						<ProgressList
 							isActive={this.state.isActive}
@@ -140,6 +143,7 @@ class Home extends Component {
 							break
 							content="Développement Front, Hardware, Cloud Computing..."
 						/>
+						{/*
 						<p><strong>Mes compétences sont variées, toutes orientées vers le monde numérique.</strong></p> 
 						<h5
 							style={{ 
@@ -147,7 +151,11 @@ class Home extends Component {
 							}}
 						>
 							Maîtrisant l'ensemble de la chaine de production numérique, j'apporte un regard technique et artistique en respectant les enjeux marketing et commerciaux.</h5>
+					    */}
 					</div>
+				</div>
+				<div>
+					<Gallery />
 				</div>
 				<SectionActionCall
 					btn={{

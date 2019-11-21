@@ -113,27 +113,9 @@ class Navigation extends Component {
                 </div>
 
                 <ul className={isMenuHidden ? 'hide' : 'show'}>
-                  <li>
-                    <Link
-                      onClick={() => this.onClickMenu()}
-                      onTouchStart={() => this.onClickMenu()}
-                      to="/projects"
-                    >
-                      Gestion de Projet
-                    </Link>
-                  </li>
                   <li className="menu-sub">
-                    <p>Digital</p>
+                    <p className="menu-link-main">Digital</p>
                     <ul className="menu-sub-content">
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/web"
-                        >
-                          Developpement Web
-                        </Link>
-                      </li>
                       <li>
                         <Link
                           onClick={() => this.onClickMenu()}
@@ -143,10 +125,19 @@ class Navigation extends Component {
                           Digital Marketing
                         </Link>
                       </li>
+                      <li>
+                        <Link
+                          onClick={() => this.onClickMenu()}
+                          onTouchStart={() => this.onClickMenu()}
+                          to="/web"
+                        >
+                          Developpement Web
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="menu-sub">
-                    <p>Graphisme</p>
+                    <p className="menu-link-main">Graphisme</p>
                     <ul className="menu-sub-content">
                       <li>
                         <Link
@@ -168,8 +159,18 @@ class Navigation extends Component {
                       </li>
                     </ul>
                   </li>
+                  <li>
+                    <Link
+                      className="menu-link-main"
+                      onClick={() => this.onClickMenu()}
+                      onTouchStart={() => this.onClickMenu()}
+                      to="/projects"
+                    >
+                      Gestion de Projet
+                    </Link>
+                  </li>
                   <li className="menu-sub">
-                    <p>À propos</p>
+                    <p className="menu-link-main">À propos</p>
                     <ul className="menu-sub-content">
                       <li>
                         <Link
