@@ -86,6 +86,7 @@ class Navigation extends Component {
 
   render() {
     const { isMenuHidden, isMenuSticky } = this.state;
+    console.log("### isMenuSticky-NAV", this.state.isMenuSticky)
     return (
       <div>
         <Router>
@@ -98,7 +99,7 @@ class Navigation extends Component {
                     onTouchStart={() => this.onClickLogo()}
                     to="/"
                   >
-                    <Logo />
+                    <Logo isSticky={isMenuSticky} />
                   </Link>
                 </div>
                 <div

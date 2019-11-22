@@ -73,8 +73,6 @@ class Home extends Component {
   		if(this.refs["progress-list"]) {
   		  	let topValue = this.refs["progress-list"].getBoundingClientRect().top;
 	  		let bottomValue = this.refs["progress-list"].getBoundingClientRect().bottom;
-	  		console.log("topValue", topValue)
-	  		console.log("bottomValue", bottomValue)
 	  		if(!this.state.isActive && (topValue <= topVal.start || topValue <= topVal.end )) {
 				this.setState({
 				   	isActive: true,
