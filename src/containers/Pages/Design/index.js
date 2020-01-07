@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
+import Page from '../../../components/Page';
 import logoAbstraack from '../../../static/01_design_agd-abstrack-logo.jpg';
 import logoComptoir from '../../../static/01_design_agd-comptoir-logo.jpg';
 import logoFbi from '../../../static/01_design_agd-fbi-logo.jpg';
@@ -66,6 +67,9 @@ class Design extends Component {
 	state = {
 		tabs: 'IDENTITY',
 	}
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	};
 	onTabClick = (tab) => {
 		let tabItem = tab;
 		this.setState({
@@ -76,7 +80,7 @@ class Design extends Component {
 	render() {
 		const { tabs } = this.state;
 		return (
-			<div>
+			<Page>
 		        <Helmet>
             		<title>Design graphique</title>
         	  		<meta name="description" content="Portfolio des mes expériences en web Design et en création d'identité visuelle." />
@@ -88,218 +92,6 @@ class Design extends Component {
 					<p><strong>J'ai découvert le monde du design graphique dans une agence de communication en 2011.</strong></p>
 					<p>J'y ai travaillé en Alternance pendant 5 années en tant que commercial puis chef de publicité et j'ai suivi des formations afin de maîtriser la suite logicielle Adobe dédiée au Design graphique : Photoshop, InDesign et Illustrator.</p>
 				</SectionIntro>
-				<SectionMedia>
-					<h2>Réalisation d'identitées visuelles</h2>
-					<h3 id="yeutech">Identité Yeutech</h3>
-					<p>À la tête d'une équipe de deux talentueux designers j'ai eu la chance de travaillé sur la création d'une marque de A à Z.</p>
-					<ul>
-						<li>Direction Artistique pour l'élaboration de l'identité visuel.</li>
-						<li>Élaboration des documents d'entreprise (cartes de visite, template de lettre, facture et devis, etc.)</li>
-					</ul>
-					<p><small>Website : <a href="https://github.com/yeutech-lab" rel="noopener noreferrer" target="_blank">yeutech-lab.com</a></small></p>
-					<Collapse clickable="Cliquez pour en savoir plus">
-						<MediaBoard>
-							<figure>
-								<img src={logoYeutech} alt="Logo Yeutech" />
-								<figcaption>Yeutech, software factory. Saigon.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityYeutechVisitCard} alt="Cartes de visites Yeutech" />
-								<figcaption>Cartes de visites Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityYeutechBadge} alt="Badge Yeutech" />
-								<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityYeutechFavicon} alt="Favicon Yeutech" />
-								<figcaption>Favicon Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityYeutechGoogle} alt="Arrière plan réseaux sociaux" />
-								<figcaption>Arrière plan réseaux sociaux @Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityYeutechGuideline} alt="Charte graphique web Yeutech" />
-								<figcaption>Charte graphique web Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={billYeutech} alt="Facture Yeutech" />
-								<figcaption>J'ai superviser l'équipe créative afin de concevoir les factures pour les clients de Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={invoiceYeutech} alt="Devis Yeutech" />
-								<figcaption>J'ai superviser l'équipe créative afin de concevoir les devis pour les clients de Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={letterYeutech} alt="Lettre Yeutech" />
-								<figcaption>J'ai superviser notre stagiaire designer afin de concevoir les templates de lettre à utiliser pour l'entreprise Yeutech.</figcaption>
-							</figure>
-						</MediaBoard>
-					</Collapse>
-				</SectionMedia>
-				<SectionMedia>
-					<h3 id="bs">Identité Bootstrap-styled</h3>
-					<p>Dans le cadre de la conception de ce framework par les développeurs de l'entreprise Yeutech, j'était chargé de créer l'identité visuelle.</p>
-					<ul>
-						<li>Création du logo et de l'identité visuel.</li>
-						<li>Création et intégration des contenus (textes et images) sur le site internet.</li>
-					</ul>
-					<p><small>Website : <a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">bootstrap-styled</a></small></p>
-					<Collapse clickable="Cliquez pour en savoir plus">
-
-						<MediaBoard>
-							<figure>
-								<img src={titleBs} alt="Badge d'entête Bootstrap-styled." />
-								<figcaption>Badge d'entête Bootstrap-styled.</figcaption>
-							</figure>
-							<figure>
-								<img src={badgeBs} alt="Badge Bootstrap-styled." />
-								<figcaption>Badge Bootstrap-styled.</figcaption>
-							</figure>
-							<figure>
-								<img src={logoBs} alt="Logo Bootstrap-styled." />
-								<figcaption>Logo Bootstrap-styled.</figcaption>
-							</figure>
-						</MediaBoard>
-					</Collapse>
-				</SectionMedia>
-				<SectionMedia>
-					<h3 id="tbd">Identité The Bubble Day</h3>
-					<p>Avec une équipe d'étudiant, j'ai participé à la création de l'identité visuel de la course solidaire The Bubble Day.</p>
-					<ul>
-						<li>Participation à la création du logo et de l'identité visuel.</li>
-						<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux, site internet...)</li>
-					</ul>
-					<p><small>Website : <a href="https://fr-fr.facebook.com/thebubbleday/" rel="noopener noreferrer" target="_blank">thebubbleday.com</a></small></p>
-					<Collapse clickable="Cliquez pour en savoir plus">
-						<MediaBoard>
-							<figure>
-								<img src={logoTbd} alt="Logo Abstraack" />
-								<figcaption>Yeutech, software factory. Saigon.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdLogo} alt="Cartes de visites Yeutech" />
-								<figcaption>Cartes de visites Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdSocial} alt="Arrière plan réseaux sociaux" />
-								<figcaption>Arrière plan réseaux sociaux @Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdPhoto} alt="Badge Yeutech" />
-								<figcaption>Badge promotionnel pour les projets liés à Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdPhoto1} alt="Favicon Yeutech" />
-								<figcaption>Favicon Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdSocial4} alt="Charte graphique web Yeutech" />
-								<figcaption>Charte graphique web Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdWeb1} alt="Charte graphique web Yeutech" />
-								<figcaption>Charte graphique web Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdSocial7} alt="Charte graphique web Yeutech" />
-								<figcaption>Charte graphique web Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdWeb2} alt="Charte graphique web Yeutech" />
-								<figcaption>Charte graphique web Yeutech.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityTbdWeb} alt="Charte graphique web Yeutech" />
-								<figcaption>Charte graphique web Yeutech.</figcaption>
-							</figure>
-						</MediaBoard>
-					</Collapse>
-				</SectionMedia>
-				<SectionMedia>
-					<h3 id="linvitation">Identité L'Invitation</h3>
-					<p>En Alternance dans l'agence de communication Symbol, j'ai pu participer à la refonte de l'identité visuel de sa marque cliente: L'Invitation:</p>
-					<ul>
-						<li>Participation à la création du logo et de l'identité visuel.</li>
-						<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux).</li>
-					</ul>
-					<p><small>Website : <a href="http://www.cartelinvitation.net/" rel="noopener noreferrer" target="_blank">cartelinvitation.net</a></small></p>
-					<Collapse clickable="Cliquez pour en savoir plus">
-						<MediaBoard>
-							<figure>
-								<img src={identityLinvitationLogo1} alt="Logo L'Invitation" />
-								<figcaption>Logo L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationCard} alt="Carte de fidélité L'Invitation" />
-								<figcaption>Carte de fidélité L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationLogo} alt="Logo L'Invitation" />
-								<figcaption>Logo décliné de L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationPackage} alt="Coffret L'Invitation" />
-								<figcaption>Coffret L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationPoster} alt="Affiche L'Invitation" />
-								<figcaption>Affiche L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationPoster1} alt="Affiche L'Invitation" />
-								<figcaption>Affiche L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationPoster2} alt="Affiche L'Invitation" />
-								<figcaption>Affiche L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationPromotion} alt="Promotion L'Invitation" />
-								<figcaption>Promotion L'Invitation.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityLinvitationWeb} alt="Site internet L'Invitation" />
-								<figcaption>Site internet L'Invitation.</figcaption>
-							</figure>
-						</MediaBoard>
-					</Collapse>
-				</SectionMedia>
-				<SectionMedia>
-					<h3 id="abstraack">Identité Abstraack</h3>
-					<p>Co-fondateur de l'agence évènementielle Abstraack, j'ai créé entièrement l'ensemble de l'identité visuel:</p>
-					<ul>
-						<li>Conception et création du logo et de l'identité visuel.</li>
-						<li>Création et intégration des visuels sur les supports de communication en ligne (réseaux sociaux...)</li>
-					</ul>
-					<p><small>Website : <a href="https://www.facebook.com/abstraack/" rel="noopener noreferrer" target="_blank">facebook.com/abstraack</a></small></p>
-					<Collapse clickable="Cliquez pour en savoir plus">
-						<MediaBoard>
-							<figure>
-								<img src={identityAbstraackFlowerSocial} alt="Affiche Saigon Flower Power." />
-								<figcaption>Affiche sur les réseaux sociaux, Saigon Flower Power.</figcaption>
-							</figure>
-							<figure>
-								<img src={logoAbstraack} alt="Logo Abstraack" />
-								<figcaption>ABSTRAACK, agence évènementielle. Saigon.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityAbstraackFlower} alt="Flyers Saigon Flower Power" />
-								<figcaption>Flyers Saigon Flower Power.</figcaption>
-							</figure>
-							<figure>
-								<img src={identityAbstraackFlower1} alt="Flyers Saigon Flower Power" />
-								<figcaption>Flyers Saigon Flower Power..</figcaption>
-							</figure>
-							<figure>
-								<img src={identityAbstraackFlowerPoster} alt="Affiche Saigon Flower Power" />
-								<figcaption>Affiche Saigon Flower Power.</figcaption>
-							</figure>
-						</MediaBoard>
-					</Collapse>
-				</SectionMedia>
-				{/*
 				<Tabs>
 					<div className="tab">
 					  <button
@@ -324,7 +116,7 @@ class Design extends Component {
 					  	PRINT
 					  </button>
 					</div>
-					<div id="LOGO" className={`tabcontent ${tabs === "LOGO" ? 'show' : ''}`}>
+					<div id="LOGO" className={`tabcontent ${tabs === "LOGO" ? 'show' : 'hide'}`}>
 						<SectionMedia>
 							<h2>CREATION DE LOGO</h2>
 							<h3>Black & White</h3>
@@ -388,7 +180,7 @@ class Design extends Component {
 							</MediaBoard>
 						</SectionMedia>
 					</div>
-					<div id="PRINT" className={`tabcontent ${tabs === "PRINT" ? 'show' : ''}`}>
+					<div id="PRINT" className={`tabcontent ${tabs === "PRINT" ? 'show' : 'hide'}`}>
 						<SectionMedia>
 							<h2>Réalisation d'outils promotionnels</h2>
 							<h3>PAO</h3>
@@ -428,7 +220,7 @@ class Design extends Component {
 							</MediaBoard>
 						</SectionMedia>
 					</div>
-					<div id="IDENTITY" className={`tabcontent ${tabs === "IDENTITY" ? 'show' : ''}`}>
+					<div id="IDENTITY" className={`tabcontent ${tabs === "IDENTITY" ? 'show' : 'hide'}`}>
 						<SectionMedia>
 							<h2>Réalisation d'identitées visuelles</h2>
 							<h3 id="yeutech">Identité Yeutech</h3>
@@ -642,8 +434,7 @@ class Design extends Component {
 						</SectionMedia>
 					</div>
 				</Tabs>
-				*/}
-			</div>
+			</Page>
 		);
 	};
 };

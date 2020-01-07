@@ -2,49 +2,99 @@
 	width: 100%;
 	background-color: #dedee2;
 	text-align: center;
+	bottom: 0;
+	display: block;
+	position: relative;
 }
 
-.footer-ft h3 {
+.footer-ft > h3 {
 	color: #2d3638;
 	padding: 100px 10% 50px 10%;
 	line-height: 60px;
 	text-align: center;
-	font-size: 35px;
 	color: #2D3638;
 	letter-spacing: 6px;
 }
 
-.footer-ft img {
-	width: 70px;
+.footer-ft > a > img {
+	width: 100px;
 	margin: 30px;
 	opacity: 0.7;
 	transition: transform .5s ease-out, opacity .5s ease-out;
+	list-style-type: circle !important;
 }
 
-.footer-ft img:hover {
+.footer-ft > a > img:hover {
 	opacity: 1;
-	transform: scale(2);
+	transform: scale(1.2);
 	transition: transform .5s ease-in, opacity .5s ease-in;
 }
 
 .footer-bt {
 	margin: 100px 0 0 0;
-	width: 100%;
 	background-color: #2d3638;
 	text-align: center;
 	padding: 30px 0;
 	cursor: default;
 }
+.footer-bt > div {
+	margin-right: 0 !important;
+}
 
-.footer-bt p {
+.footer-bt > div > div > p {
 	margin: 20px 0 15px 0;
 	color: white;
 }
 
-.footer-bt small {
+
+.footer-bt > div > div >  small {
 	color: grey;
+}
+
+p.footer-el-middle, img.footer-el-middle {
+	padding: 20px 0 0 0 !important;
 }
 
 .red {
 	color: red;
+}
+
+.modal a {
+	text-decoration: none;
+	color: #23B0A4;
+}
+
+.modal-header {
+	height: 100px;
+	margin: 0 0 40px 0;
+	padding: 0 25px 40px 25px !important;
+}
+
+.modal-header > h4 {
+	font-size: 250%;
+}
+
+.modal-body {
+	padding: 25px 25px !important;
+}
+
+.modal-body > p {
+	text-align: justify;
+}
+
+.modal-body > div > div > ul > li {
+	list-style-type: circle !important;
+}
+
+@media screen and (max-width: 401px) {
+	.footer-ft > h3 {
+		font-size: 25px;
+	}
+}
+
+
+@media screen and (min-width: 402px) {
+	.footer-ft > h3 {
+		font-size: 35px;
+	}
 }

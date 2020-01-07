@@ -39,7 +39,7 @@ const defaultProps = {
   sceneConfig: {
     name: 'default',
     style: {
-      position: 'absolute',
+      position: 'relative',
       background: 'linear-gradient(135deg, #265d63 0%, #34B8C8 50%, #c4f8ff 100%)',
     },
   },

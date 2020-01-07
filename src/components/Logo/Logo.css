@@ -14,21 +14,68 @@
  	margin: 30px 0 0 60px;
 }
 
-.logo-lg div p:first-child {
- 	font-size: 30px;
+.logo-firstname {
+	font-size: 30px;
+	font-weight: 400;
  	color: #34b8c8 !important;
+ 	margin: -7px 0 0 0;
 }
 
-.logo-lg div p:nth-child(2) {
- 	font-size: 30px;
+.logo-lastname {
+	font-size: 30px;
+	font-weight: 400;
  	color: white;
- 	padding: 0 0 4px 0;
+ 	padding: 0 0 0 0;
+ 	margin: -17px 0 0 0;
 }
 
-.logo-lg div h1 > small {
- 	font-size: 16px;
+.logo-title {
+	font-size: 16px;
+ 	color: white;
+ 	font-weight: 400;
+ 	display: block;
+ 	margin: -5px 0 0 0;
+ 	padding: 0 0 3px 0;
+}
+
+.logo-subtitle {
+	font-size: 12px;
  	color: white;
  	font-weight: 400;
  	display: block;
  	padding: 0 0 3px 0;
+ 	opacity: 0.8;
+}
+
+.logo-firstname-sticky {
+	font-size: 30px;
+	font-weight: 400;
+ 	color: #34b8c8 !important;
+ 	margin: -30px 0 0 0;
+}
+
+@media screen and (max-width: 500px) {
+	.logo-lg div {
+	 	margin: 30px 0 0 55px;
+	}
+	.logo-firstname {
+		font-size: 25px;
+	 	margin: -4px 0 0 0;
+	}
+
+	.logo-lastname {
+		font-size: 25px;
+	 	margin: -10px 0 0 0;
+	}
+
+	.logo-title {
+		font-size: 13px;
+	 	margin: 5px 0 0 0;
+	 	padding: 0 0 3px 0;
+	}
+
+	.logo-subtitle {
+		font-size: 11px;
+	 	padding: 0 0 3px 0;
+	}
 }

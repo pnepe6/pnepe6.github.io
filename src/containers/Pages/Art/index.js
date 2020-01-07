@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
+import Page from '../../../components/Page';
 import paintClown from '../../../static/00_paint_agd-clown-fish.jpg';
 import paintComedia from '../../../static/00_paint_agd-comedia.jpg';
 import paintFF from '../../../static/00_paint_agd-final-fantasy.jpg';
@@ -23,7 +24,7 @@ import SectionMedia from '../../../components/SectionMedia';
 class Art extends Component {
 	render() {
 		return (
-			<div>
+			<Page>
 		        <Helmet>
     				<meta charSet="utf-8" />
 		            <title>Peintures Adrien Gadaud</title>
@@ -108,7 +109,7 @@ class Art extends Component {
 						</figure>
 					</MediaBoard>
 				</SectionMedia>
-			</div>
+			</Page>
 		);
 	};
 };

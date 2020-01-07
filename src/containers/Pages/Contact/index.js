@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import SectionTop from '../../../components/SectionTop';
 import './Contact.css';
+import Page from '../../../components/Page';
 
 class Contact extends Component {
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	};
 	render() {
 		return (
-			<div className="contact-ct">
+			<Page className="contact-ct">
 				<SectionTop>
-					<h1>Contactez moi</h1>
+					<h1>Contactez-moi</h1>
 				</SectionTop>
 				<div className="ct-intro">
 					<p><strong>Je suis disponible pour un CDI et en recherche active d'une équipe dynamique et pourquoi pas bilingue !</strong></p>
@@ -34,7 +38,7 @@ class Contact extends Component {
 					    <input type="submit" value="Submit" />
 					</form>
 				</div>
-			</div>
+			</Page>
 		);
 	};
 };

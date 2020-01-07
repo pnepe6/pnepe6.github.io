@@ -169,7 +169,6 @@
 }
 .collapse-show {
     transform: scale(1, 1);
-    display: inline-block;
     height: 100%;
     transition: transform 1s ease;
 }

@@ -1,20 +1,24 @@
-.progress-container {
-	width: 100px;
-	display: inline-block;
-	margin: 30px 20px;
-	vertical-align: top;
-}
-
-.progress-container h3 {
-  padding: 20px 0 10px 0;
-  display: flex;
-}
-.progress-container small {
-  color: #2D3638;
-  font-size: 13px;
-}
 .long-progress-title {
   hyphens: auto;
+}
+
+@media screen and (max-width: 400px) {
+  .progress-container {
+    width: 130px;
+    display: inline-block;
+    margin: 30px 20px;
+    vertical-align: top;
+  }
+
+  .progress-container h3 {
+    font-size: 15px;
+    padding: 20px 0 10px 0;
+    display: flex;
+  }
+  .progress-container small {
+    color: #2D3638;
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 401px) and (max-width: 500px) {
   .progress-container {
@@ -34,7 +38,7 @@
 }
 @media screen and (min-width: 800px) {
   .progress-container {
-    width: 200px;
+    width: 250px;
     display: inline-block;
     margin: 30px 60px;
     vertical-align: top;
