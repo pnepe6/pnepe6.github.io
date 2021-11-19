@@ -3,12 +3,30 @@ nav {
 }
 
 @media screen and (max-width: 900px) {
+
+	nav > ul > li a {
+	padding: 10px 30px;
+	border: 1px solid #34B8C8;
+	opacity: 0.8;
+	background-color: #FFF;
+	line-height: 60px !important;
+	cursor: pointer !important;
+	outline:none;
+	border: none;
+	text-decoration: none;
+	font-size: 17px;
+	color: #265d63;
+	font-weight: 400;
+
+}
+
 	/* NAV ACTION (SHOW/HIDE) */
 	nav {
 		width: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
+		background: #136270;
 	}
 	nav > div {
 		display: inline-block;
@@ -49,21 +67,6 @@ nav {
 
 	/* NAV STYLE */
 
-	nav > ul > li {
-		padding: 5vh 0 5vh 0;
-		border: 1px solid #34B8C8;
-		opacity: 0.5;
-		transition: opacity 1s;
-		background-color: #FFF;
-	}
-
-	nav > ul > li:hover,
-	nav > ul > li:focus,
-	nav > ul > li:active {
-		opacity: 0.7;
-		transition: opacity 1s;
-	}
-
 	/* nav link - fonts */
 	nav > ul > li {
 		text-align: center;
@@ -76,30 +79,6 @@ nav {
 		cursor: default;
 	}
 
-	nav > ul > li a {
-   	 	outline:none;
-  		border: none;
-		text-decoration: none;
-		font-size: 17px;
-		color: #265d63;
-		font-weight: 400;
-		transition: font-weight 0.4s ease-out;
-	}
-
-	nav > ul > li a:hover,
-	nav > ul > li a:focus
-	 {
-		font-weight: 900;
-		transition: font-weight 0.4s ease-out;
-	}
-
-	nav > ul > li.menu-sub {
-		padding: 10px 0;
-	}
-
-	nav > ul > li > ul > li {
-		padding: 0 0 2vh 0;
-	}
 
 	/* BURGER BTN */
 	.hamburger .line {
@@ -121,6 +100,7 @@ nav {
 	/* NINE */
 
 	#hamburger-9{
+	  cursor: pointer;
 	  position: absolute;
 	  right: 30px;
 	  top: 30px;
@@ -194,9 +174,17 @@ nav {
 
 	nav > ul {
 		float: right;
-		padding: 0 4vw 0 0;
+		padding: 30px 4vw 0 0;
 	}
-
+	.menu-link-main {
+	    line-height: 25px!important;
+	    cursor: pointer!important;
+	    border-bottom: 5px solid hsla(0,0%,100%,.2);
+	    padding-bottom: 0;
+	}
+	.menu-link-main:hover {
+    	border-bottom: 10px solid #fff;
+	}
 	nav > ul > li {
 		font-size: 22px;
 		margin: 0 2vw 0 0;
@@ -305,16 +293,4 @@ section.show {
 
 section.hide {
 	visibility: visible;
-}
-
-
-.menu-link-main {
-	line-height: 25px !important;
-	cursor: pointer !important;
-	border-bottom: 5px solid rgba(255, 255, 255, 0.2);
-	padding-bottom: 0px;
-}
-
-.menu-link-main:hover {
-	border-bottom: 10px solid rgba(255, 255, 255, 1);
 }

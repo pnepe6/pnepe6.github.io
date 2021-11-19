@@ -1,0 +1,26 @@
+.notfound  {
+   width: 100%;
+   text-align: 	center;
+   background-color: #244e59;
+   margin: 0 0 100px 0;
+}
+.notfound > img {
+   padding: 30vh 0 10vh 0;
+   width: 50%;
+   position: relative;
+}
+.notfound > img:after {
+   content: "404 ap. JC";
+   position: absolute;
+   top: 0;
+   font-size: 40px;
+   font-weight: 700;
+   width: 50%;
+}
+.notfound > a {
+   display: block;
+   padding: 0 0 10px 0;
+   text-decoration: none;
+   font-size: 30px;
+   color: #FFF;
+}

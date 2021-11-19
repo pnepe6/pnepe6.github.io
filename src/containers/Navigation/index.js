@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Logo from '../../components/Logo';
 import Home from '../Pages/Home';
-import Art from '../Pages/Art';
 import Contact from '../Pages/Contact';
 import Cv from '../Pages/Cv';
 import Design from '../Pages/Design';
 import Digital from '../Pages/Digital';
 import Projects from '../Pages/Projects';
-import Web from '../Pages/Web';
+import NotFoundPage from '../Pages/NotFound';
 import './Navigation.css';
 
 const bodyOverflowDelay = 1000; //1 second
@@ -49,11 +48,6 @@ class Navigation extends Component {
     // findDOMNode(this.refs.navRef) and subtract that.
     
     var heightToShow = 1;
-
-    // if (window.pageYOffset > heightToShow) {
-    //   this.setState({ isMenuSticky: true });
-    // }
- 
     if (window.pageYOffset < heightToShow) {
       this.setState({
         isMenuSticky: false,
@@ -86,17 +80,17 @@ class Navigation extends Component {
 
   render() {
     const { isMenuHidden, isMenuSticky } = this.state;
-    console.log("### isMenuSticky-NAV", this.state.isMenuSticky)
+    const classMenuHidden = isMenuHidden ? 'hide' : 'show';
+    const classMenuSticky = isMenuSticky ? 'fixed-menu' : 'top-menu';
     return (
       <div>
         <Router>
           <div>
             <header>
-              <nav className={`${isMenuHidden ? 'hide' : 'show'} ${isMenuSticky ? 'fixed-menu' : 'top-menu'}`}>
+              <nav className={classMenuHidden, classMenuSticky}>
                 <div className="menu-logo">
                   <Link
                     onClick={() => this.onClickLogo()}
-                    onTouchStart={() => this.onClickLogo()}
                     to="/"
                   >
                     <Logo isSticky={isMenuSticky} />
@@ -104,7 +98,6 @@ class Navigation extends Component {
                 </div>
                 <div
                   onClick={() => this.onClickMenu()}
-                  onTouchStart={() => this.onClickMenu()}
                   className={isMenuHidden ? 'hamburger' : 'hamburger is-active'}
                   id="hamburger-9"
                 >
@@ -112,103 +105,68 @@ class Navigation extends Component {
                   <span className="line"></span>
                   <span className="line"></span>
                 </div>
-
                 <ul className={isMenuHidden ? 'hide' : 'show'}>
-                  <li className="menu-sub">
-                    <p className="menu-link-main">Digital</p>
-                    <ul className="menu-sub-content">
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/digital-marketing"
-                        >
-                          Digital Marketing
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/web"
-                        >
-                          Developpement Web
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="menu-sub">
-                    <p className="menu-link-main">Graphisme</p>
-                    <ul className="menu-sub-content">
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/design"
-                        >
-                          Design Graphique
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/art"
-                        >
-                          Art
-                        </Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <Link
+                      className="menu-link-main"
+                      onClick={() => this.onClickMenu()}
+                      to="/digital-marketing"
+                    >
+                      Digital
+                    </Link>
                   </li>
                   <li>
                     <Link
                       className="menu-link-main"
                       onClick={() => this.onClickMenu()}
-                      onTouchStart={() => this.onClickMenu()}
-                      to="/projects"
+                      to="/design"
+                    >
+                      Design
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="menu-link-main"
+                      onClick={() => this.onClickMenu()}
+                      to="/chef-de-projet-digital"
                     >
                       Gestion de Projet
                     </Link>
                   </li>
-                  <li className="menu-sub">
-                    <p className="menu-link-main">À propos</p>
-                    <ul className="menu-sub-content">
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/cv"
-                        >
-                          CV
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={() => this.onClickMenu()}
-                          onTouchStart={() => this.onClickMenu()}
-                          to="/contact"
-                        >
-                          Contact
-                        </Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <Link
+                      className="menu-link-main"
+                      onClick={() => this.onClickMenu()}
+                      to="/cv"
+                    >
+                      CV
+                    </Link>
                   </li>
-                  
+                  <li>
+                    <Link
+                      className="menu-link-main"
+                      onClick={() => this.onClickMenu()}
+                      to="/contact"
+                    >
+                      Contact
+                    </Link>
+                  </li>
                 </ul>
               </nav>
             </header>
-
-           
             <section className={isMenuHidden ? 'hide' : 'show'}>
-              <Route path="/" exact component={Home} />
-              <Route path="/cv/" component={Cv} />
-              <Route path="/design/" component={Design} />
-              <Route path="/art/" component={Art} />
-              <Route path="/digital-marketing/" component={Digital} />
-              <Route path="/web/" component={Web} />
-              <Route path="/projects/" component={Projects} />
-              <Route path="/contact/" component={Contact} />
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/cv/" component={Cv} />
+                <Route path="/design/" component={Design} />
+                <Route path="/digital-marketing/" component={Digital} />
+                <Route path="/chef-de-projet-digital/" component={Projects} />
+                <Route path="/contact/" component={Contact} />
+                <Route path="/404/" component={NotFoundPage} />
+                <Route component={NotFoundPage} />
+              </Switch>
             </section>
+
             
           </div>
         </Router>

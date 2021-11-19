@@ -15,7 +15,7 @@ class Logo extends Component {
 				<p className="logo-firstname">ADRIEN</p>
 				<p className="logo-lastname">GADAUD</p>
 				<h1 className="logo-title">Consultant Digital 360°</h1>
-				<p className="logo-subtitle">Web Marketing & E-Communication</p>
+				<p className="logo-subtitle">Digital Marketing & Data management</p>
 			</div>
 		</div>);
 

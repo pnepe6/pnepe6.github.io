@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Parallax from 'parallax-js/dist/parallax.min';
-
+import pic from '../../static/cosmic-night.jpg';
 
 const defaultProps = {
   layerList: [
@@ -41,6 +41,7 @@ const defaultProps = {
     style: {
       position: 'relative',
       background: 'linear-gradient(135deg, #265d63 0%, #34B8C8 50%, #c4f8ff 100%)',
+      // background: 'url('+pic+')',
     },
   },
   layerConfig: {

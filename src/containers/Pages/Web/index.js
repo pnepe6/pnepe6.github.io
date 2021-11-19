@@ -109,6 +109,153 @@ class Web extends Component {
 					  </button>
 					</div>
 					<div id="PROJET" className={`tabcontent ${tabs === "PROJET" ? 'show' : 'hide'}`}>
+					    <SectionMedia>
+							<h2>Découvrez toutes mes réalisations</h2>
+							<h3>Site internet CMS ou "from scratch"</h3>
+							<MediaBoard>
+								<figure>
+							   		<div>
+										<h4>Symbol - Agence de Communication</h4>
+										<small>Webmaster de 2012 à 2015</small>
+							   		</div>
+									<img src={siteSymbol} alt="Site internet symbol.fr" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>J'étais alternant dans l'Agence Symbol, spécialisée dans la communication des franchises et des réseaux.</figcaption>
+										<figcaption>J'ai commencé en tant que responsable commercial, puis j'ai rapidement évoluer afin de concevoir et d'administrer le site internet de l'agence. Je me suis ainsi entrainé à dynamiser l'attractivité de l'agence sur internet à l'aide de stratégies SEO et SMO.</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>Wordpress</li>
+											<li>HTML5</li>
+											<li>CSS3</li>
+										</ul>
+									</div>							
+									<p><a href="http://www.symbol-com.fr/" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">www.symbol-com.fr</a></p>
+								</figure>
+							   	<figure>
+							   		<div>
+								   		<h4>Yeutech - Software Factory</h4>
+										<small>Projet mené en 2018</small>
+							   		</div>
+									<img src={siteYeutech} alt="Site internet yeutech.vn" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>Site internet de Yeutech, start-up proposant des services de création digitale sur mesure et spécialisée dans les technologies Open Source à Saigon (Vietnam).</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>Javascript (React.js)</li>
+										</ul>
+									</div>
+									<p><a href="https://github.com/yeutech-lab" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">www.yeutech.vn</a></p>
+								</figure>
+							   	<figure>
+							   		<div>
+										<h4>Bootstrap-styled - Framework Open Source</h4>
+										<small>Projet mené entre 2016 et 2017</small>
+							   		</div>
+									<img src={siteBs} alt="Site internet bootstrap-styled.com" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>Site internet de présentation du framework Open Source conçut à partir de Bootstrap, React.js et Styled-Components.</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>Javascript (React.js)</li>
+										</ul>
+									</div>								
+									<p><a href="https://github.com/bootstrap-styled" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">www.bootstrap-styled.com</a></p>
+								</figure>
+							   	<figure>
+							   		<div>
+										<h4>Documentation - Technologies Yeutech</h4>
+										<small>Projet mené en 2018</small>
+							   		</div>
+									<img src={siteYeutechDoc} alt="Site internet des documentations de technologies conçuent par Yeutech" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>Site internet des documentations des technologies conçuent par Yeutech.</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>Javascript (React.js)</li>
+										</ul>
+									</div>								
+									<p><a href="https://yeutech-lab.github.io/documentation/" alt="Site internet Yeutech" target="_blank" rel="noopener noreferrer">www.yeutech-lab.github.io/documentation</a></p>
+								</figure>
+							  	<figure>
+							   		<div>
+										<h4>Comptoir des passages - Commerce</h4>
+										<small>Projet mené en 2013</small>
+							   		</div>
+									<img src={siteComptoir} alt="Site comptoir-des-passages.fr" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>Site internet d'une bijouterie, vente et rachat d'or à Boulogne Billancourt.</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>Wordpress</li>
+											<li>HTML5</li>
+											<li>CSS3</li>
+										</ul>
+									</div>								
+									<p>Site fermé.</p>
+								</figure>
+							  	<figure>
+							   		<div>
+										<h4>The Bubble Day - Course Solidaire</h4>
+										<small>Webmaster de 2014 à 2016</small>
+							   		</div>
+									<img src={siteTbd} alt="Site thebubbleday.fr" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>J'ai créé à partir de Worpress et administré le site internet de la course solidaire "The Bubble Day" qui a eu lieu à Paris, Marseille et bien d'autres villes entre 2014 et 2016.</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>Wordpress</li>
+											<li>HTML5</li>
+											<li>CSS3</li>
+										</ul>
+									</div>								
+									<p>Site fermé.</p>
+								</figure>
+							  	<figure>
+							   		<div>
+										<h4>Gamme Baie - Réseau de Franchise</h4>
+										<small>Projet mené en 2014.</small>
+							   		</div>
+									<img src={paoGammeBaie} alt="Site gammebaie.fr" />
+							   		<div>
+										<figcaption><strong>Description du projet:</strong></figcaption>
+										<figcaption>En collaboration avec un sous-traitant chargé du développement du site internet gammebaie.fr, j'ai participé à la préparation des images et des contenus.</figcaption>
+									</div>
+									<div>
+										<figcaption><strong>Technologies utilisées :</strong></figcaption>
+										<ul>
+											<li>Wordpress</li>
+											<li>HTML5</li>
+											<li>CSS3</li>
+										</ul>
+									</div>								
+									<p><a href="http://www.gammebaie.com" alt="Site internet Gamme baie" target="_blank" rel="noopener noreferrer">www.gammebaie.com</a></p>
+								</figure>
+							</MediaBoard>
+						</SectionMedia>
 						<SectionMedia>
 							<h2>Conception de site internet</h2>
 							<h3 id="yeutech">Site internet Yeutech</h3>
@@ -220,6 +367,7 @@ class Web extends Component {
 								</MediaBoard>
 							</Collapse>
 						</SectionMedia>
+
 					</div>
 					<div id="PORTFOLIO" className={`tabcontent ${tabs === "PORTFOLIO" ? 'show' : 'hide'}`}>
 						<SectionMedia>
@@ -369,6 +517,7 @@ class Web extends Component {
 								</figure>
 							</MediaBoard>
 						</SectionMedia>
+						
 					</div>
 				</Tabs>
 			</Page>

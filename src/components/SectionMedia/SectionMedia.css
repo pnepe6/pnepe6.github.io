@@ -1,5 +1,6 @@
 .section-media {
-	padding: 15vh 5vw;
+	padding: 15vh 5vw 0px 5vw;
+	position: relative;
 }
 
 .section-media h2 {
@@ -8,16 +9,15 @@
 	line-height: 50px;
 	color: #34b8c8;
 	text-transform: uppercase;
-	padding: 150px 0 150px 0;
+	padding: 150px 0 0px 0;
 	hyphens: auto;
 }
 .media-date {
 	font-size: 14px !important;
 	letter-spacing: -1.8px;
-	float: right;
-	display: inline-block;
-	text-align: right;
-	margin: 25px 0 0 0;
+	position: absolute;
+	top: -15px;
+	right: 100px;
 }
 .media-title {
 	margin: 40px 0 0 0 !important;
@@ -28,7 +28,12 @@
 	font-size: 21px;
 	line-height: 50px !important;
 	color: #2d3638;
-	margin: 0 0 40px 0;
+	margin: 100px 0 40px 0;
+}
+.section-media h4 {
+	font-size: 30px;
+	color: #2d3638;
+	margin: 0px 0 20px 0;
 }
 .section-media p {
 	margin: 25px 0;
@@ -54,7 +59,7 @@
 }
 @media screen and (min-width: 401px) and (max-width: 800px) {
 	.section-media {
-		padding: 0 10vw 15vh 10vw;
+		padding: 0 10vw 0px 10vw;
 	}
 	.section-media p {
 		font-size: 20px;
@@ -80,7 +85,7 @@
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
 	.section-media {
-		padding: 0 15vw 16vh 15vw;
+		padding: 0 15vw 0px 15vw;
 	}
 	.section-media p {
 		font-size: 20px;
@@ -106,7 +111,7 @@
 
 @media screen and (min-width: 1025px) {
 	.section-media {
-		padding: 0 15vh 17vw 15vw;
+		padding: 0 15vh 0px 15vw;
 	}
 	.section-media p {
 		font-size: 20px;
@@ -114,7 +119,7 @@
 	}
 
 	.section-media h2 {
-		margin: 10vh 0 20vh 10vw;
+		margin: 10vh 0 0 10vw;
 		font-size: 60px;
 		line-height: 70px;
 		hyphens: none;
